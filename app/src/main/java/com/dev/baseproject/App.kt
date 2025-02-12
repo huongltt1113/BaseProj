@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.content.res.Configuration
-import androidx.lifecycle.MutableLiveData
 import com.dev.baseproject.local.LocalStorage
 import com.dev.baseproject.local.MobileIdInfo
 import com.dev.baseproject.remote.RemoteConfig
@@ -31,8 +30,6 @@ class App : Application() {
     @Inject
     @MobileIdInfo
     lateinit var androidId: String
-    var isInitMobileAdsComplete = false
-    var onHasConfig = MutableLiveData<Boolean>()
 
     @SuppressLint("HardwareIds")
     override fun onCreate() {
