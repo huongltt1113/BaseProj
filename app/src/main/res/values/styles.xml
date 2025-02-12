@@ -34,90 +34,6 @@
         <item name="android:navigationBarColor">@color/black</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
-
-    <style name="DownloadStatusTabLayout">
-        <item name="android:textSize">@dimen/text_small</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">12sp</item>
-        <item name="fontFamily">@font/poppinsregular</item>
-    </style>
-
-    <style name="AppButton">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">@dimen/common_10dp</item>
-        <item name="android:padding">@dimen/common_10dp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/common_16dp</item>
-    </style>
-
-    <style name="DialogAnimation">
-        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
-        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
-    </style>
-
-    <style name="DialogAnimationLeftRight">
-        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
-        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
-    </style>
-
-    <style name="DialogFeedbackAnimation">
-        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
-        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
-    </style>
-
-    <style name="AppText">
-        <item name="fontFamily">@font/poppinsregular</item>
-    </style>
-
-    <style name="AppTextBlack">
-        <item name="fontFamily">@font/poppinsregular</item>
-        <item name="android:textColor">#38383D</item>
-    </style>
-
-    <style name="CheckboxStyleDialogFeedback" parent="Widget.AppCompat.CompoundButton.CheckBox">
-        <item name="android:textSize">16sp</item>
-        <item name="android:insetLeft">0dp</item>
-        <!--        <item name="android:fontFamily">@font/roboto</item>-->
-        <item name="buttonTint">#131313</item>
-        <item name="android:contentInsetStart">0dp</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-
-    <style name="CustomRadioTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
-        <item name="android:colorControlNormal">@color/md_gray_350</item>
-        <item name="android:colorControlActivated">@color/md_blue_400</item>
-    </style>
-
-    <style name="AppTextGray">
-        <item name="fontFamily">@font/poppinsregular</item>
-        <item name="android:textColor">#64646D</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="AppTextWhite">
-        <item name="fontFamily">@font/poppinsregular</item>
-        <item name="android:textColor">@color/white</item>
-    </style>
-
-    <style name="AppTextBold">
-        <item name="fontFamily">@font/poppinsmedium</item>
-        <item name="android:textColor">#38383D</item>
-    </style>
-
-    <style name="AppBarTitle">
-        <item name="fontFamily">@font/poppinsmedium</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
     <style name="ButtonConfirmStyle">
         <item name="fontFamily">@font/poppinsmedium</item>
         <item name="android:textColor">@color/white</item>
@@ -160,62 +76,9 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="TextSettingStyle">
-        <item name="android:textColor">@color/colorTxtSettingCommon</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="TextHomeTitleItemStyle">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="TextHomeDescItemStyle">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorTxtHomeItemDescription</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="style_star_native_ad" parent="@android:style/Widget.RatingBar">
-        <item name="colorAccent">@color/md_amber_500</item>
-    </style>
-
-    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="textAllCaps">false</item>
-        <item name="android:textAllCaps">false</item>
-    </style>
-
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-    </style>
-
-    <color name="main_bg_ripple">#65717C</color>
-
-    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
-
-    <style name="CustomAlertDialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:backgroundDimEnabled">true</item>
-    </style>
-
-    <style name="MyTabTextAppearance">
-        <item name="android:textSize">@dimen/common_13dp</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">@font/poppinsmedium</item>
-    </style>
-
-    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-<!--        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
-<!--        <item name="android:windowCloseOnTouchOutside">false</item>-->
     </style>
 
     <style name="ButtonNextStyle">
@@ -225,16 +88,6 @@
         <item name="android:fontFamily">@font/poppinsmedium</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/text_size_16sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
-    </style>
-
-    <style name="ButtonWelcomeBackStyle">
-        <item name="android:background">@drawable/bg_button_with_shadow</item>
-        <item name="android:fontFamily">@font/poppinsmedium</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
@@ -250,53 +103,6 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">@dimen/common_10dp</item>
         <item name="android:fontFamily">@font/poppinsregular</item>
-    </style>
-
-    <style name="CancelButtonStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/common_54dp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">@drawable/bg_button_cancel</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">@dimen/common_10dp</item>
-        <item name="android:fontFamily">@font/poppinsregular</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-
-    <style name="ButtonSaveStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/common_54dp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">@drawable/bg_button_normal</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">@dimen/common_10dp</item>
-        <item name="android:fontFamily">@font/poppinsregular</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-
-    <style name="foodRatingBar" parent="Widget.AppCompat.RatingBar">
-        <item name="android:progressDrawable">@drawable/drawable_rating_star</item>
-    </style>
-
-    <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
-    </style>
-
-    <style name="ThemeOverlay.App.Switch" parent="">
-        <item name="colorSurfaceVariant">@color/grey_100</item>
-        <item name="colorPrimary">@color/mint</item>
-        <item name="colorOutline">@color/white</item>
-    </style>
-
-    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar" >
-        <item name="android:editTextColor">@color/number_picker_text_color</item>
-        <item name="colorControlNormal">@color/mint</item>
-        <item name="android:textSize">36sp</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
