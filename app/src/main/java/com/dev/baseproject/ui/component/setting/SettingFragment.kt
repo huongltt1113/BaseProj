@@ -29,13 +29,13 @@ class SettingFragment : BaseViewModelFragmentBinding<FragmentSettingBinding, Set
     override fun getContentViewId() = R.layout.fragment_setting
 
     override fun initializeViews() {
-        if (localStorage.flashSpeed== 1200) {
-            dataBinding.radiodefault.setChecked(true)
+        if (localStorage.flashSpeed == 1200) {
+            dataBinding.radiodefault.isChecked = true
         } else {
             if (localStorage.flashSpeed !== 600) {
-                dataBinding.radiosos.setChecked(true)
+                dataBinding.radiosos.isChecked = true
             } else {
-                dataBinding.radiodisco.setChecked(true)
+                dataBinding.radiodisco.isChecked = true
             }
         }
     }
@@ -45,25 +45,25 @@ class SettingFragment : BaseViewModelFragmentBinding<FragmentSettingBinding, Set
             findNavControllerSafety()?.navigateUp()
         }
         dataBinding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
-            if(localStorage.isFirstRadioSettingClick){
+            if (localStorage.isFirstRadioSettingClick) {
                 AppConfig.logEventTracking(SETTING_RADIO_CLICK_FIRST)
                 localStorage.isFirstRadioSettingClick = false
-            }else{
+            } else {
                 AppConfig.logEventTracking(SETTING_RADIO_CLICK_AGAIN)
             }
             localStorage.flashSpeed = 1200
-                when (checkedId) {
-                    R.id.radiodefault -> localStorage.flashSpeed = 1200
-                    R.id.radiodisco ->   localStorage.flashSpeed = 600
-                    R.id.radiosos ->     localStorage.flashSpeed = 300
-                }
+            when (checkedId) {
+                R.id.radiodefault -> localStorage.flashSpeed = 1200
+                R.id.radiodisco -> localStorage.flashSpeed = 600
+                R.id.radiosos -> localStorage.flashSpeed = 300
             }
+        }
         dataBinding.rlfeedback.setOnClickListener {
             if (!AppConfig.isDoubleClick()) {
-                if(localStorage.isFirstFeedbackSettingClick){
+                if (localStorage.isFirstFeedbackSettingClick) {
                     AppConfig.logEventTracking(SETTING_FEEDBACK_FIRST)
                     localStorage.isFirstFeedbackSettingClick = false
-                }else{
+                } else {
                     AppConfig.logEventTracking(SETTING_FEEDBACK_AGAIN)
                 }
                 AppConfig.sendMail(
@@ -75,29 +75,29 @@ class SettingFragment : BaseViewModelFragmentBinding<FragmentSettingBinding, Set
         }
         dataBinding.rlrate.setOnClickListener {
             if (!AppConfig.isDoubleClick()) {
-                if(localStorage.isFirstRateUsSettingClick){
+                if (localStorage.isFirstRateUsSettingClick) {
                     AppConfig.logEventTracking(SETTING_RATEUS_FIRST)
                     localStorage.isFirstRateUsSettingClick = false
-                }else{
+                } else {
                     AppConfig.logEventTracking(SETTING_RATEUS_AGAIN)
                 }
                 rateUs()
             }
         }
         dataBinding.rlprivacypol.setOnClickListener {
-            if(localStorage.isFirstPrivacySettingClick){
+            if (localStorage.isFirstPrivacySettingClick) {
                 AppConfig.logEventTracking(SETTING_PRIVACY_FIRST)
                 localStorage.isFirstPrivacySettingClick = false
-            }else{
+            } else {
                 AppConfig.logEventTracking(SETTING_PRIVACY_AGAIN)
             }
             openPrivacyPolicyLink()
         }
         dataBinding.rllang.setOnClickListener {
-            if(localStorage.isFirstLanguageSetting){
+            if (localStorage.isFirstLanguageSetting) {
                 AppConfig.logEventTracking(SETTING_LANGUAGE_FIRST)
                 localStorage.isFirstLanguageSetting = false
-            }else{
+            } else {
                 AppConfig.logEventTracking(SETTING_LANGUAGE_AGAIN)
             }
             try {
@@ -108,6 +108,7 @@ class SettingFragment : BaseViewModelFragmentBinding<FragmentSettingBinding, Set
             }
         }
     }
+
     private fun rateUs() {
         val packageName: String = requireContext().packageName
         val intent = Intent("android.intent.action.VIEW")
@@ -120,7 +121,11 @@ class SettingFragment : BaseViewModelFragmentBinding<FragmentSettingBinding, Set
             try {
                 startActivity(intent2)
             } catch (unused2: Exception) {
-                Toast.makeText(requireContext(), "No App to Perform Above Action", Toast.LENGTH_SHORT).show()
+                Toast.makeText(
+                    requireContext(),
+                    "No App to Perform Above Action",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         }
     }

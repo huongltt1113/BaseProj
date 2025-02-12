@@ -6,12 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.google.firebase.crashlytics.ktx.crashlytics
-import com.google.firebase.ktx.Firebase
 import com.dev.baseproject.databinding.BottomSheetWarningBinding
 import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.Logger
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.firebase.crashlytics.ktx.crashlytics
+import com.google.firebase.ktx.Firebase
 
 class WarningBottomSheet : BottomSheetDialogFragment() {
     private lateinit var dataBinding: BottomSheetWarningBinding

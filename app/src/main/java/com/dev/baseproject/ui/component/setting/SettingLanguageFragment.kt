@@ -54,13 +54,8 @@ class SettingLanguageFragment :
         dataBinding.scvLanguage.viewTreeObserver.addOnGlobalLayoutListener(object :
             ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
-                // Cuộn đến vị trí mong muốn
                 scrollPosition?.let { dataBinding.scvLanguage.smoothScrollTo(0, it) }
 
-                // Hoặc cuộn mượt
-                // scrollView.smoothScrollTo(0, scrollPosition)
-
-                // Xóa listener để không cuộn lại lần nữa
                 dataBinding.scvLanguage.viewTreeObserver.removeOnGlobalLayoutListener(this)
             }
         })

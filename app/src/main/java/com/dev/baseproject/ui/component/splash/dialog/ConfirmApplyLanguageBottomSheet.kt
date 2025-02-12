@@ -12,7 +12,8 @@ import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.Logger
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-class ConfirmApplyLanguageBottomSheet : BottomSheetDialogFragment() {
+class
+ConfirmApplyLanguageBottomSheet : BottomSheetDialogFragment() {
     private lateinit var dataBinding: BottomSheetConfirmApplyLanguageBinding
     var clickConfirmYes: (() -> Unit)? = null
     var clickConfirmNo: (() -> Unit)? = null

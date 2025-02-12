@@ -6,7 +6,7 @@ import com.dev.baseproject.local.LocalData
 import java.util.Locale
 
 class LocaleHelper {
-    fun updateResources(context: Context): Context{
+    fun updateResources(context: Context): Context {
         val resources = context.resources
         val config = Configuration(resources.configuration)
         val localeCode = LocalData(context, "sharedPreferences").langCode

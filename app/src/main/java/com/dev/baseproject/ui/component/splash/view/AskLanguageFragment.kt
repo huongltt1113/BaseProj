@@ -5,14 +5,14 @@ import android.view.View
 import android.widget.RadioGroup
 import com.dev.baseproject.App
 import com.dev.baseproject.R
-import com.google.firebase.crashlytics.ktx.crashlytics
-import com.google.firebase.ktx.Firebase
 import com.dev.baseproject.databinding.FragmentAskLanguageBinding
 import com.dev.baseproject.ui.base.BaseFragmentBinding
 import com.dev.baseproject.ui.component.splash.dialog.WarningBottomSheet
 import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.Constants
 import com.dev.baseproject.utils.Logger
+import com.google.firebase.crashlytics.ktx.crashlytics
+import com.google.firebase.ktx.Firebase
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 
@@ -42,72 +42,85 @@ class AskLanguageFragment : BaseFragmentBinding<FragmentAskLanguageBinding>() {
 
     override fun registerListeners() {
         dataBinding.radioGroup.setOnCheckedChangeListener { radioGroup: RadioGroup, checkedId: Int ->
-            when(checkedId){
+            when (checkedId) {
                 R.id.rbt_english -> {
                     isChooseLanguage = true
                     langCode = LangCode.ENGLISH.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_japan -> {
                     isChooseLanguage = true
                     langCode = LangCode.JAPAN.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_korean -> {
                     isChooseLanguage = true
                     langCode = LangCode.KOREAN.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_hindi -> {
                     isChooseLanguage = true
                     langCode = LangCode.HINDI.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_china -> {
                     isChooseLanguage = true
                     langCode = LangCode.CHINA.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_vietnam -> {
                     isChooseLanguage = true
                     langCode = LangCode.VIETNAM.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_portuguase -> {
                     isChooseLanguage = true
                     langCode = LangCode.PORTUGUESE.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_spanish -> {
                     isChooseLanguage = true
                     langCode = LangCode.SPANISH.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_german -> {
                     isChooseLanguage = true
                     langCode = LangCode.GERMAN.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_russian -> {
                     isChooseLanguage = true
                     langCode = LangCode.RUSSIAN.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_ukraian -> {
                     isChooseLanguage = true
                     langCode = LangCode.UKRAIAN.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_abric -> {
                     isChooseLanguage = true
                     langCode = LangCode.ABRIC.value
                     goToLanguage2()
                 }
+
                 R.id.rbt_turkey -> {
                     isChooseLanguage = true
                     langCode = LangCode.TURKEY.value
                     goToLanguage2()
                 }
+
                 else -> Unit
             }
         }
@@ -118,39 +131,51 @@ class AskLanguageFragment : BaseFragmentBinding<FragmentAskLanguageBinding>() {
                     LangCode.ENGLISH.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_ENLISH)
                     }
+
                     LangCode.JAPAN.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_JAPAN)
                     }
+
                     LangCode.KOREAN.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_KOREA)
                     }
+
                     LangCode.HINDI.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_HINDI)
                     }
+
                     LangCode.CHINA.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_CHINA)
                     }
+
                     LangCode.VIETNAM.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_VIETNAM)
                     }
+
                     LangCode.PORTUGUESE.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_PORTUGUESE)
                     }
+
                     LangCode.SPANISH.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_SPANISH)
                     }
+
                     LangCode.GERMAN.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_GERMAN)
                     }
+
                     LangCode.RUSSIAN.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_RUSSIAN)
                     }
+
                     LangCode.UKRAIAN.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_UKRAIAN)
                     }
+
                     LangCode.ABRIC.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_ABRIC)
                     }
+
                     LangCode.TURKEY.value -> {
                         AppConfig.logEventTracking(Constants.BUNDLE_ANALYTICS_LANGUAGE_TURKEY)
                     }
@@ -160,13 +185,14 @@ class AskLanguageFragment : BaseFragmentBinding<FragmentAskLanguageBinding>() {
             }
         }
     }
-    private fun goToLanguage2(){
+
+    private fun goToLanguage2() {
         val bundle = Bundle().apply {
             putString(KEY_LANGUAGE, langCode)
             putInt(SCROLL_POSITION, dataBinding.scvLanguage.scrollY)
         }
         try {
-            findNavControllerSafety()?.navigate(R.id.atcAskLanguageToAskLanguage2,bundle)
+            findNavControllerSafety()?.navigate(R.id.atcAskLanguageToAskLanguage2, bundle)
         } catch (e: Throwable) {
             Logger.e(e.message)
             Firebase.crashlytics.recordException(e)
@@ -267,28 +293,19 @@ class AskLanguageFragment : BaseFragmentBinding<FragmentAskLanguageBinding>() {
         warningBottomSheet = WarningBottomSheet()
         if (activity?.isFinishing == false) {
             activity?.supportFragmentManager?.let {
-                warningBottomSheet?.show(it,
-                    WarningBottomSheet.TAG)
+                warningBottomSheet?.show(
+                    it, WarningBottomSheet.TAG
+                )
             }
         }
     }
 
 
     enum class LangCode(val value: String) {
-        NONE(""),
-        ENGLISH("en"),
-        JAPAN("ja"),
-        KOREAN("ko"),
-        HINDI("hi"),
-        CHINA("zh"),
-        VIETNAM("vi"),
-        SPANISH("es"),
-        PORTUGUESE("pt"),
-        GERMAN("de"),
-        RUSSIAN("ru"),
-        UKRAIAN("uk"),
-        ABRIC("ar"),
-        TURKEY("tr")
+        NONE(""), ENGLISH("en"), JAPAN("ja"), KOREAN("ko"), HINDI("hi"), CHINA("zh"), VIETNAM("vi"), SPANISH(
+            "es"
+        ),
+        PORTUGUESE("pt"), GERMAN("de"), RUSSIAN("ru"), UKRAIAN("uk"), ABRIC("ar"), TURKEY("tr")
     }
 
     companion object {

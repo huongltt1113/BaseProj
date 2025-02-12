@@ -12,7 +12,6 @@ import com.dev.baseproject.utils.Logger
 import com.google.firebase.crashlytics.ktx.crashlytics
 import com.google.firebase.ktx.Firebase
 import dagger.hilt.android.AndroidEntryPoint
-import java.util.concurrent.atomic.AtomicBoolean
 
 @AndroidEntryPoint
 class SplashFragment : BaseFragmentBinding<FragmentSplashBinding>() {

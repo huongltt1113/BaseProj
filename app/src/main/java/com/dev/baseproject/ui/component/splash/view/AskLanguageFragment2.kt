@@ -30,14 +30,15 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
 
     override fun initializeViews() {
         arguments?.let {
-            langCode = it.getString(KEY_LANGUAGE,"")
-            scrollPosition = it.getInt(SCROLL_POSITION,0)
+            langCode = it.getString(KEY_LANGUAGE, "")
+            scrollPosition = it.getInt(SCROLL_POSITION, 0)
             isChooseLanguage = true
         }
-        if(localStorage.languageScrollPosition != 0){
+        if (localStorage.languageScrollPosition != 0) {
             scrollPosition = localStorage.languageScrollPosition
         }
-        dataBinding.scvLanguage.viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
+        dataBinding.scvLanguage.viewTreeObserver.addOnGlobalLayoutListener(object :
+            ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
                 // Cuộn đến vị trí mong muốn
                 scrollPosition?.let { dataBinding.scvLanguage.smoothScrollTo(0, it) }
@@ -55,7 +56,7 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
 
     override fun registerListeners() {
         dataBinding.radioGroup.setOnCheckedChangeListener { radioGroup: RadioGroup, checkedId: Int ->
-            if ( lastCheckedId != checkedId) {
+            if (lastCheckedId != checkedId) {
                 isChooseLanguage = true
                 langCode = getLangCodeFromId(checkedId)
                 updateRadioButtonUI(checkedId)
@@ -64,7 +65,8 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
 
         dataBinding.txtNext.setOnClickListener {
             if (isChooseLanguage == true) {
-                val needRecreate = if((langCode == "ar" && localStorage.langCode != "ar") || (langCode != "ar" && localStorage.langCode == "ar")) true else false
+                val needRecreate =
+                    (langCode == "ar" && localStorage.langCode != "ar") || (langCode != "ar" && localStorage.langCode == "ar")
                 localStorage.langCode = langCode
                 localStorage.voiceLocal = langCode
                 updateLanguageLocale(needRecreate)
@@ -84,11 +86,11 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
             Locale.setDefault(locale)
             val config = Configuration()
             config.locale = locale
-            resources?.updateConfiguration(config, resources?.displayMetrics)
-            if(needRecreate){
+            resources?.updateConfiguration(config, resources.displayMetrics)
+            if (needRecreate) {
                 try {
                     requireActivity().recreate()
-                } catch (e : Exception){
+                } catch (e: Exception) {
                     Logger.e(e.message)
                 }
             }
@@ -178,8 +180,7 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
         if (activity?.isFinishing == false) {
             activity?.supportFragmentManager?.let {
                 warningBottomSheet?.show(
-                    it,
-                    WarningBottomSheet.TAG
+                    it, WarningBottomSheet.TAG
                 )
             }
         }
@@ -288,25 +289,11 @@ class AskLanguageFragment2 : BaseFragmentBinding<FragmentAskLanguageBinding>() {
         }
     }
 
-    override fun onBackPressed(): Boolean {
-        return super.onBackPressed()
-    }
-
     enum class LangCode(val value: String) {
-        NONE(""),
-        ENGLISH("en"),
-        JAPAN("ja"),
-        KOREAN("ko"),
-        HINDI("hi"),
-        CHINA("zh"),
-        VIETNAM("vi"),
-        SPANISH("es"),
-        PORTUGUESE("pt"),
-        GERMAN("de"),
-        RUSSIAN("ru"),
-        UKRAIAN("uk"),
-        ABRIC("ar"),
-        TURKEY("tr")
+        NONE(""), ENGLISH("en"), JAPAN("ja"), KOREAN("ko"), HINDI("hi"), CHINA("zh"), VIETNAM("vi"), SPANISH(
+            "es"
+        ),
+        PORTUGUESE("pt"), GERMAN("de"), RUSSIAN("ru"), UKRAIAN("uk"), ABRIC("ar"), TURKEY("tr")
     }
 
 }

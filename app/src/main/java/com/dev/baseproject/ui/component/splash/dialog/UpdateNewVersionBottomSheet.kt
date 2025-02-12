@@ -10,11 +10,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.dev.baseproject.databinding.BottomSheetUpdateNewVersionBinding
 import com.dev.baseproject.remote.RemoteConfig
 import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.Logger
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.dev.baseproject.databinding.BottomSheetUpdateNewVersionBinding
 import java.util.Locale
 
 class UpdateNewVersionBottomSheet : BottomSheetDialogFragment() {
@@ -69,7 +69,7 @@ class UpdateNewVersionBottomSheet : BottomSheetDialogFragment() {
         clickConfirmCancel?.invoke()
     }
 
-    fun updateLanguage(context : Context?, language: String) {
+    fun updateLanguage(context: Context?, language: String) {
         try {
             if (language.isNotBlank()) {
                 val resources: Resources? = context?.resources
@@ -77,9 +77,9 @@ class UpdateNewVersionBottomSheet : BottomSheetDialogFragment() {
                 Locale.setDefault(locale)
                 val config = Configuration()
                 config.locale = locale
-                resources?.updateConfiguration(config, resources?.displayMetrics)
+                resources?.updateConfiguration(config, resources.displayMetrics)
             }
-        } catch (ex : Exception) {
+        } catch (ex: Exception) {
 
         }
     }
