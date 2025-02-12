@@ -27,8 +27,4 @@ open class BaseViewModel : ViewModel() {
         super.onCleared()
     }
 
-    fun showToast(any: Any) {
-        _toastLiveData.postValue(any)
-    }
-
 }

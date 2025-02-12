@@ -8,10 +8,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.dev.baseproject.R
 import com.dev.baseproject.utils.Logger
-import java.util.*
+import java.util.ArrayDeque
 import kotlin.reflect.KClass
 
-class NavigationControllerImp constructor(private val fragmentManager: FragmentManager) :
+class NavigationControllerImp(private val fragmentManager: FragmentManager) :
     NavigationController {
 
     private val listTagFragments = ArrayDeque<String>()
@@ -55,7 +55,7 @@ class NavigationControllerImp constructor(private val fragmentManager: FragmentM
         var fragment: Fragment? = null
         if (clazz != null) {
             val n = clazz.java.name
-            fragment = fragmentManager.fragments.lastOrNull() { it.javaClass.name == n }
+            fragment = fragmentManager.fragments.lastOrNull { it.javaClass.name == n }
         }
         if (fragment == null) {
             fragment = fragmentManager.findFragmentByTag(tag ?: peek) ?: return false
@@ -92,7 +92,7 @@ class NavigationControllerImp constructor(private val fragmentManager: FragmentM
         var fg = fragment
         if (fg == null && clazz != null) {
             val n = clazz.java.name
-            fg = fragmentManager.fragments.lastOrNull() { it.javaClass.name == n }
+            fg = fragmentManager.fragments.lastOrNull { it.javaClass.name == n }
         }
         if (fg == null) {
             fg = fragmentManager.findFragmentByTag(tag ?: peek) ?: return false
@@ -231,7 +231,7 @@ class NavigationControllerImp constructor(private val fragmentManager: FragmentM
 
     override fun removeFragment(clazz: KClass<out Fragment>) {
         val n = clazz.java.name
-        val fragment = fragmentManager.fragments.firstOrNull() { it.javaClass.name == n } ?: return
+        val fragment = fragmentManager.fragments.firstOrNull { it.javaClass.name == n } ?: return
         removeFragment(fragment)
     }
 

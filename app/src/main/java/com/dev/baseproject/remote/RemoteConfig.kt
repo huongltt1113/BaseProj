@@ -1,8 +1,6 @@
 package com.dev.baseproject.remote
 
 import com.dev.baseproject.data.CommonInfo
-import com.dev.baseproject.utils.ConfigAppUtils
-import java.util.*
 
 class RemoteConfig {
     companion object {
@@ -13,37 +11,8 @@ class RemoteConfig {
         const val EAST_ASIA_REGION = ",tw,jp,kr,hk,cn,"
         const val WEST_ASIAN = ",in,"
 
-        val langCountryCode = listOf(
-            *"ar_SA,az_AZ,bg_BG,cs_CZ,da_DK,de_DE,el_GR,es_ES,fa_IR,fi_FI,fr_FR,hr_HR,hu_HU,in_ID,it_IT,iw_IL,ja_JP,ko_KR,lt_LT,lv_LV,mr_IN,ms_MY,nl_NL,pl_PL,pt_BR,ro_RO,ru_RU,sk_SK,sr_RS,sv_SE,th_TH,tr_TR,uk_UA,vi_VN,zh_TW,cn_TW,hk_TW".split(
-                ",".toRegex()
-            ).toTypedArray()
-        )
-
-        var countryName = "VN"
-        val DEFAULT_LANG = "OT"
-        val language: String
-            get() = Locale.getDefault().language + "_" + countryName
-        var languageCode = ""
         var ANDROID_ID = "08A3885D9463AE365B56C859AF40041A"
 
-        var DEFAULT_ENDPOINT: String = ""
-        var urlServerHosting = ConfigAppUtils.URL_HOSTING + ConfigAppUtils.APP_ID + "gz_data.json"
-
         var commonInfo = CommonInfo()
-
-        fun getRegion(): String {
-            return when {
-                EU_SERVER_REGION.contains(countryName, ignoreCase = true) -> RegionCode.EU.name
-                ASIA_SERVER_REGION.contains(countryName, ignoreCase = true) -> RegionCode.AS.name
-                EAST_ASIA_REGION.contains(countryName, ignoreCase = true) -> RegionCode.EA.name
-                WEST_ASIAN.contains(countryName, ignoreCase = true) -> RegionCode.WA.name
-                else -> RegionCode.US.name
-            }
-        }
     }
-
-    internal enum class RegionCode {
-        US,EU, AS, EA, WA
-    }
-
 }

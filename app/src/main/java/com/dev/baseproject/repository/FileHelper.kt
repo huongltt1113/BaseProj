@@ -9,7 +9,7 @@ import java.io.InputStream
 
 interface FileHelper {
     fun getStringFromStream(_is: InputStream?): String
-    fun checkPermission(context: Context):Boolean
+    fun checkPermission(context: Context): Boolean
     fun shareFile(context: Context, filePath: String)
     fun sharePdfFile(activity: Activity, uri: Uri)
     fun getFileType(path: String): String
@@ -20,11 +20,13 @@ interface FileHelper {
     fun downloadFile(
         url: String, context: Context, filename: String
     ): Flow<FileHelperImpl.DownloadState>?
+
     fun getRealPath(context: Context, fileUri: Uri): String?
     fun getRealPathFromURI_API19(context: Context, uri: Uri): String?
     fun getDataColumn(
         context: Context, uri: Uri, selection: String?, selectionArgs: Array<String>?
     ): String?
+
     fun getFilePath(context: Context, uri: Uri): String?
     fun isExternalStorageDocument(uri: Uri): Boolean
     fun isDownloadsDocument(uri: Uri): Boolean

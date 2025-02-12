@@ -19,6 +19,7 @@ abstract class BaseActivityBinding<T : ViewDataBinding, V : BaseViewModel> : Bas
 
     open lateinit var dataBinding: T
     open lateinit var viewModel: V
+
     @Inject
     lateinit var localStorage: LocalStorage
 
@@ -26,17 +27,14 @@ abstract class BaseActivityBinding<T : ViewDataBinding, V : BaseViewModel> : Bas
         super.onCreate(savedInstanceState)
         try {
             if (Build.VERSION.SDK_INT >= 26) {
-                window.decorView.layoutDirection = if (AppConfig.isRTL())
-                    View.LAYOUT_DIRECTION_RTL
-                else
-                    View.LAYOUT_DIRECTION_LTR
+                window.decorView.layoutDirection = if (AppConfig.isRTL()) View.LAYOUT_DIRECTION_RTL
+                else View.LAYOUT_DIRECTION_LTR
             }
-//            dataBinding = DataBindingUtil.bind(view)!!
-            dataBinding = DataBindingUtil.bind(view) ?: throw IllegalStateException("DataBinding failed to bind view")
+            dataBinding = DataBindingUtil.bind(view)
+                ?: throw IllegalStateException("DataBinding failed to bind view")
 
             dataBinding.lifecycleOwner = this
-            @Suppress("UNCHECKED_CAST")
-            val clazz: Class<V> =
+            @Suppress("UNCHECKED_CAST") val clazz: Class<V> =
                 (this.javaClass.genericSuperclass as ParameterizedType).actualTypeArguments[1] as Class<V>
             viewModel = ViewModelProvider(this).get(clazz)
         } catch (e: Exception) {
@@ -58,8 +56,7 @@ abstract class BaseActivityBinding<T : ViewDataBinding, V : BaseViewModel> : Bas
     }
 
     override fun onDestroy() {
-        if (this::dataBinding.isInitialized)
-            dataBinding.unbind()
+        if (this::dataBinding.isInitialized) dataBinding.unbind()
         super.onDestroy()
     }
 
@@ -74,14 +71,6 @@ abstract class BaseActivityBinding<T : ViewDataBinding, V : BaseViewModel> : Bas
         }
         super.onResume()
     }
-//    override fun attachBaseContext(newBase: Context?) {
-//        super.attachBaseContext(LocaleHelper().updateResources(newBase!!))
-//    }
-//
-//    override fun onConfigurationChanged(newConfig: Configuration) {
-//        super.onConfigurationChanged(newConfig)
-//        applyOverrideConfiguration(newConfig)
-//    }
 
     protected val isInitialized get() = this::dataBinding.isInitialized && this::viewModel.isInitialized
 

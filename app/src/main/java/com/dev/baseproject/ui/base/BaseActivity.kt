@@ -17,15 +17,16 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import com.dev.baseproject.R
+import com.dev.baseproject.data.AppDatabase
 import com.dev.baseproject.utils.Logger
 import com.google.gson.internal.Primitives
-import com.dev.baseproject.data.AppDatabase
 import javax.inject.Inject
 import kotlin.reflect.KClass
 
 abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback {
 
     protected lateinit var view: View
+
     @Inject
     lateinit var database: AppDatabase
 
@@ -39,8 +40,6 @@ abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback 
         mNavigation = NavigationControllerImp(supportFragmentManager)
         mNavigation.callback = this
         super.onCreate(savedInstanceState)
-//        view = layoutInflater.inflate(getContentViewId(), null)
-//        setContentView(view)
         val binding = DataBindingUtil.setContentView<ViewDataBinding>(this, getContentViewId())
         view = binding.root
         init(view)
@@ -57,8 +56,7 @@ abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback 
     var isTransparentStatusBar: Boolean
         set(value) {
             window.statusBarColor = if (value) Color.TRANSPARENT else ContextCompat.getColor(
-                this,
-                R.color.colorSecondary
+                this, R.color.colorSecondary
             )
         }
         get() = window.statusBarColor == Color.TRANSPARENT
@@ -88,19 +86,6 @@ abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback 
             last = mNavigation.peek
         }
         mNavigation.popFragment(tag = first, animate = animate)
-    }
-
-    override fun finish() {
-//  overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
-        super.finish()
-    }
-
-    override fun onResume() {
-        super.onResume()
-    }
-
-    override fun onPause() {
-        super.onPause()
     }
 
     override fun onBackPressed() {
@@ -135,10 +120,6 @@ abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback 
     open fun shouldOverrideBackPressed(): Boolean {
         return true
     }
-//
-//    open fun onBackPressedFragment() : Boolean {
-//        return true
-//    }
 
     override fun onDestroy() {
         mHandler.removeCallbacksAndMessages(null)
@@ -231,8 +212,7 @@ abstract class BaseActivity : BaseView, AppCompatActivity(), NavigationCallback 
             inputMethodManager.showSoftInput(v, InputMethodManager.SHOW_IMPLICIT)
         } else {
             inputMethodManager.toggleSoftInput(
-                InputMethodManager.SHOW_FORCED,
-                InputMethodManager.HIDE_IMPLICIT_ONLY
+                InputMethodManager.SHOW_FORCED, InputMethodManager.HIDE_IMPLICIT_ONLY
             )
         }
     }

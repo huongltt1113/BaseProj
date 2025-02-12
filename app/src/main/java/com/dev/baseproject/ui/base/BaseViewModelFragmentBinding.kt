@@ -19,8 +19,7 @@ abstract class BaseViewModelFragmentBinding<T : ViewDataBinding, V : BaseViewMod
         try {
             dataBinding = DataBindingUtil.bind(view)!!
             dataBinding.lifecycleOwner = this
-            @Suppress("UNCHECKED_CAST")
-            val clazz: Class<V> =
+            @Suppress("UNCHECKED_CAST") val clazz: Class<V> =
                 (this.javaClass.genericSuperclass as ParameterizedType).actualTypeArguments[1] as Class<V>
             viewModel = ViewModelProvider(this).get(clazz)
         } catch (e: Exception) {
