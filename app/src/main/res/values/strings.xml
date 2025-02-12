@@ -27,11 +27,6 @@
     <string name="rate_us">Rate Us</string>
     <string name="sos_mode">SOS mode</string>
     <string name="text_next"><![CDATA[Next]]></string>
-    <string name="advertiser">Advertiser</string>
-    <string name="headline">Headline</string>
-    <string name="ad">Ad</string>
-    <string name="register_account">Register Account</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Clap to Find Phone]]></string>
     <string name="text_intro1_msg"><![CDATA[Easily find phone with flashlight, vibration mode and ringtone]]></string>
     <string name="text_intro2_title"><![CDATA[Flashlight turns on in the dark]]></string>

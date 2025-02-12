@@ -73,9 +73,5 @@
             app:layout_constraintTop_toBottomOf="@+id/lytContent"
             android:layout_marginHorizontal="@dimen/common_20dp"/>
 
-        <include
-            android:id="@+id/nativeIntro"
-            layout="@layout/native_ad_unified_small"
-            android:visibility="gone"/>
     </LinearLayout>
 </layout>

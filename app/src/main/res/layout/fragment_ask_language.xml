@@ -539,10 +539,5 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </ScrollView>
-
-        <include
-            android:id="@+id/nativeAskLanguge"
-            layout="@layout/native_ad_unified"
-            android:visibility="gone"/>
     </LinearLayout>
 </layout>
