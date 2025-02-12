@@ -393,11 +393,6 @@
             android:visibility="gone"
             android:layout_alignParentBottom="true">
 
-            <include
-                android:id="@+id/reguler_banner_ad"
-                layout="@layout/ads_layout_banner"
-                android:visibility="visible" />
-
         </RelativeLayout>
 
     </RelativeLayout>
