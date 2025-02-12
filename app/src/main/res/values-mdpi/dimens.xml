@@ -4,8 +4,6 @@
     <!-- 25dp -> 18dp -->
     <!-- 16dp -> 12dp -->
     <!-- 12dp -> 9dp -->
-    <dimen name="text_small">7.5sp</dimen>
-    <dimen name="text_size_12sp">9dp</dimen>
     <dimen name="text_size_13sp">9.75sp</dimen>
     <dimen name="text_size_14sp">10.5sp</dimen>
     <dimen name="text_size_16sp">12dp</dimen>
@@ -13,7 +11,6 @@
     <dimen name="common_1dp">0.75dp</dimen>
     <dimen name="common_2dp">1.5dp</dimen>
     <dimen name="common_3dp">2.25dp</dimen>
-    <dimen name="common_4dp">3dp</dimen>
     <dimen name="common_5dp">3.75dp</dimen>
     <dimen name="common_6dp">4.5dp</dimen>
     <dimen name="common_8dp">6dp</dimen>
@@ -26,14 +23,9 @@
     <dimen name="common_24dp">18dp</dimen>
     <dimen name="common_26dp">19.5dp</dimen>
     <dimen name="common_32dp">24dp</dimen>
-    <dimen name="common_36dp">27dp</dimen>
     <dimen name="common_40dp">30dp</dimen>
-    <dimen name="common_45dp">33.75dp</dimen>
-    <dimen name="common_48dp">36dp</dimen>
     <dimen name="common_54dp">40.5dp</dimen>
     <dimen name="common_60dp">45dp</dimen>
     <dimen name="common_70dp">52.5dp</dimen>
-    <dimen name="common_120dp">90dp</dimen>
-    <dimen name="text_size_8sp">6sp</dimen>
     <dimen name="min_banner_height">50dp</dimen>
 </resources>

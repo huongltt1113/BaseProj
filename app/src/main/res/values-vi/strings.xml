@@ -27,11 +27,6 @@
     <string name="rate_us">Đánh giá ứng dụng</string>
     <string name="sos_mode">Chế độ SOS</string>
     <string name="text_next">Tiếp theo</string>
-    <string name="advertiser">Nhà quảng cáo</string>
-    <string name="headline">Tiêu đề</string>
-    <string name="ad">Quảng cáo</string>
-    <string name="register_account">Đăng ký tài khoản</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Vỗ tay để tìm điện thoại]]></string>
     <string name="text_intro1_msg"><![CDATA[Dễ dàng tìm điện thoại với đèn pin, chế độ rung và nhạc chuông]]></string>
     <string name="text_intro2_title"><![CDATA[Đèn pin bật trong bóng tối]]></string>

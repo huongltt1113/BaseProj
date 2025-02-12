@@ -27,11 +27,6 @@
     <string name="rate_us">평가하기</string>
     <string name="sos_mode">SOS 모드</string>
     <string name="text_next"><![CDATA[다음]]></string>
-    <string name="advertiser">광고주</string>
-    <string name="headline">헤드라인</string>
-    <string name="ad">광고</string>
-    <string name="register_account">계정 등록</string>
-    <string name="facebook">페이스북</string>
     <string name="text_intro1_title"><![CDATA[박수로 휴대폰 찾기]]></string>
     <string name="text_intro1_msg"><![CDATA[손전등, 진동 모드 및 벨소리로 휴대폰을 쉽게 찾으세요]]></string>
     <string name="text_intro2_title"><![CDATA[어두운 곳에서 손전등이 켜집니다]]></string>

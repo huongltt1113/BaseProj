@@ -27,11 +27,6 @@
     <string name="rate_us">Califícanos</string>
     <string name="sos_mode">Modo SOS</string>
     <string name="text_next"><![CDATA[Siguiente]]></string>
-    <string name="advertiser">Anunciante</string>
-    <string name="headline">Titular</string>
-    <string name="ad">Anuncio</string>
-    <string name="register_account">Registrar cuenta</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Aplaudir para encontrar el teléfono]]></string>
     <string name="text_intro1_msg"><![CDATA[Encuentre fácilmente su teléfono con linterna, modo de vibración y tono de llamada]]></string>
     <string name="text_intro2_title"><![CDATA[La linterna se enciende en la oscuridad]]></string>

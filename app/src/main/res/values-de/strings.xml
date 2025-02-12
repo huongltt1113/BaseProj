@@ -27,11 +27,6 @@
     <string name="rate_us">Bewerten Sie uns</string>
     <string name="sos_mode">SOS-Modus</string>
     <string name="text_next"><![CDATA[Weiter]]></string>
-    <string name="advertiser">Werbetreibender</string>
-    <string name="headline">Überschrift</string>
-    <string name="ad">Anzeige</string>
-    <string name="register_account">Konto registrieren</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Klatschen, um das Telefon zu finden]]></string>
     <string name="text_intro1_msg"><![CDATA[Finden Sie Ihr Telefon einfach mit Taschenlampe, Vibrationsmodus und Klingelton]]></string>
     <string name="text_intro2_title"><![CDATA[Taschenlampe leuchtet im Dunkeln]]></string>

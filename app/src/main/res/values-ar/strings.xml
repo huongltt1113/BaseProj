@@ -27,11 +27,6 @@
     <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
     <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
     <string name="text_next"><![CDATA[التالي]]></string>
-    <string name="advertiser">المعلن</string>
-    <string name="headline">العنوان</string>
-    <string name="ad">إعلان</string>
-    <string name="register_account">تسجيل حساب</string>
-    <string name="facebook">فيسبوك</string>
     <string name="text_intro1_title"><![CDATA[صفق للعثور على الهاتف]]></string>
     <string name="text_intro1_msg"><![CDATA[اعثر على هاتفك بسهولة باستخدام المصباح، ووضع الاهتزاز، ونغمة الرنين]]></string>
     <string name="text_intro2_title"><![CDATA[المصباح يضيء في الظلام]]></string>

@@ -27,11 +27,6 @@
     <string name="rate_us">हमें रेट करें</string>
     <string name="sos_mode">एसओएस मोड</string>
     <string name="text_next"><![CDATA[अगला]]></string>
-    <string name="advertiser">विज्ञापनदाता</string>
-    <string name="headline">शीर्षक</string>
-    <string name="ad">विज्ञापन</string>
-    <string name="register_account">खाता पंजीकरण करें</string>
-    <string name="facebook">फेसबुक</string>
     <string name="text_intro1_title"><![CDATA[क्लैप करके फोन खोजें]]></string>
     <string name="text_intro1_msg"><![CDATA[फ्लैशलाइट, वाइब्रेशन मोड और रिंगटोन के साथ आसानी से फोन ढूंढें]]></string>
     <string name="text_intro2_title"><![CDATA[अंधेरे में फ्लैशलाइट चालू हो जाती है]]></string>

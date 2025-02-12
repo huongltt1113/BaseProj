@@ -27,11 +27,6 @@
     <string name="rate_us">Bizi Oyla</string>
     <string name="sos_mode">SOS Modu</string>
     <string name="text_next">Sonraki</string>
-    <string name="advertiser">Reklam Veren</string>
-    <string name="headline">Başlık</string>
-    <string name="ad">Reklam</string>
-    <string name="register_account">Hesap Kaydı</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Alkışla Telefonu Bul]]></string>
     <string name="text_intro1_msg"><![CDATA[Fener, titreşim modu ve zil sesi ile telefonunuzu kolayca bulun]]></string>
     <string name="text_intro2_title"><![CDATA[Fener karanlıkta yanar]]></string>

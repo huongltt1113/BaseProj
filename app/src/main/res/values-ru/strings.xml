@@ -27,11 +27,6 @@
     <string name="rate_us">Оцените нас</string>
     <string name="sos_mode">Режим SOS</string>
     <string name="text_next">Далее</string>
-    <string name="advertiser">Рекламодатель</string>
-    <string name="headline">Заголовок</string>
-    <string name="ad">Реклама</string>
-    <string name="register_account">Зарегистрировать аккаунт</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[Хлопните, чтобы найти телефон]]></string>
     <string name="text_intro1_msg"><![CDATA[Легко найдите телефон с помощью фонарика, режима вибрации и мелодии звонка]]></string>
     <string name="text_intro2_title"><![CDATA[Фонарь включается в темноте]]></string>

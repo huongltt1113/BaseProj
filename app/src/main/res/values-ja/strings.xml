@@ -27,11 +27,6 @@
     <string name="rate_us">評価してください</string>
     <string name="sos_mode">SOSモード</string>
     <string name="text_next"><![CDATA[次へ]]></string>
-    <string name="advertiser">広告主</string>
-    <string name="headline">見出し</string>
-    <string name="ad">広告</string>
-    <string name="register_account">アカウント登録</string>
-    <string name="facebook">フェイスブック</string>
     <string name="text_intro1_title"><![CDATA[拍手で電話を見つける]]></string>
     <string name="text_intro1_msg"><![CDATA[懐中電灯、バイブレーションモード、着信音で簡単に電話を見つける]]></string>
     <string name="text_intro2_title"><![CDATA[暗闇で懐中電灯が点灯]]></string>

@@ -27,11 +27,6 @@
     <string name="rate_us">评价我们</string>
     <string name="sos_mode">SOS 模式</string>
     <string name="text_next">下一步</string>
-    <string name="advertiser">广告商</string>
-    <string name="headline">标题</string>
-    <string name="ad">广告</string>
-    <string name="register_account">注册账号</string>
-    <string name="facebook">Facebook</string>
     <string name="text_intro1_title"><![CDATA[拍手寻找手机]]></string>
     <string name="text_intro1_msg"><![CDATA[使用手电筒、振动模式和铃声轻松找到手机]]></string>
     <string name="text_intro2_title"><![CDATA[手电筒在黑暗中打开]]></string>
