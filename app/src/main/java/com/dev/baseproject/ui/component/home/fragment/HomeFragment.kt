@@ -3,14 +3,12 @@ package com.dev.baseproject.ui.component.home.fragment
 import com.dev.baseproject.R
 import com.dev.baseproject.databinding.FragmentHomeBinding
 import com.dev.baseproject.ui.base.BaseViewModelFragmentBinding
-import com.dev.baseproject.ui.component.home.dialogs.FullScreenClapDialogListener
 import com.dev.baseproject.ui.component.home.viewmodel.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class HomeFragment : BaseViewModelFragmentBinding<FragmentHomeBinding, HomeViewModel>(),
-    FullScreenClapDialogListener {
+class HomeFragment : BaseViewModelFragmentBinding<FragmentHomeBinding, HomeViewModel>() {
 
     override fun getContentViewId() = R.layout.fragment_home
 
@@ -23,11 +21,5 @@ class HomeFragment : BaseViewModelFragmentBinding<FragmentHomeBinding, HomeViewM
     }
 
     override fun initializeData() {
-    }
-
-    override fun onImageViewClicked() {
-    }
-
-    override fun onNavigateViewClicked() {
     }
 }

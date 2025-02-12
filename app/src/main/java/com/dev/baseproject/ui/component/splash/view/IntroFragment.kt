@@ -75,12 +75,11 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
                     }
                 } else if (isIntro3) {
                     if (Build.VERSION.SDK_INT >= 33) {
-                        findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_permissionFragment)
+                        findNavControllerSafety()?.navigate(R.id.atcIntro3ToHomeFragment)
                     } else {
                         val bundle = Bundle()
                         findNavControllerSafety()?.navigate(
-                            R.id.action_introFragment3_to_recordPermissionFragment,
-                            bundle
+                            R.id.atcIntro3ToHomeFragment, bundle
                         )
                     }
                 } else {
@@ -106,12 +105,11 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
             } else if (isIntro3) {
                 try {
                     if (Build.VERSION.SDK_INT >= 33) {
-                        findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_permissionFragment)
+                        findNavControllerSafety()?.navigate(R.id.atcIntro3ToHomeFragment)
                     } else {
                         val bundle = Bundle()
                         findNavControllerSafety()?.navigate(
-                            R.id.action_introFragment3_to_recordPermissionFragment,
-                            bundle
+                            R.id.atcIntro3ToHomeFragment, bundle
                         )
                     }
                 } catch (ex: Exception) {
