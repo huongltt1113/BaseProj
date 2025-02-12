@@ -16,15 +16,21 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import io.reactivex.schedulers.Schedulers
-import okhttp3.*
+import okhttp3.Call
+import okhttp3.Callback
+import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
+import okhttp3.OkHttpClient
+import okhttp3.Protocol
+import okhttp3.Request
+import okhttp3.Response
 import okhttp3.ResponseBody.Companion.toResponseBody
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
-import java.util.*
+import java.util.Locale
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
@@ -169,7 +175,7 @@ object NetworkModule {
 
     private fun getCachedResponse(cachedData: String, request: Request): Response {
         return Response.Builder().code(200)
-            .body(ResponseBody.create("application/json".toMediaTypeOrNull(), cachedData))
+            .body(cachedData.toResponseBody("application/json".toMediaTypeOrNull()))
             .message("Response").addHeader("Content-Type", "application/json").request(request)
             .protocol(Protocol.HTTP_2).build()
     }

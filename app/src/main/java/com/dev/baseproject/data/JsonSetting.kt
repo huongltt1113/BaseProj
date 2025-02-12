@@ -5,8 +5,7 @@ import com.squareup.moshi.Json
 import java.lang.reflect.Type
 
 data class JsonSetting(
-    @field:Json(name = "commonInfo")
-    var commonInfo: CommonInfo? = null,
+    @field:Json(name = "commonInfo") var commonInfo: CommonInfo? = null,
 
     ) {
     companion object {

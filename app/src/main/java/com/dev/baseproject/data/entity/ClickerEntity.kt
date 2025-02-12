@@ -8,15 +8,8 @@ import java.io.Serializable
 
 @Entity(tableName = "clicker_entity")
 data class ClickerEntity(
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
-    @SerializedName("id")
-    var id: Int? = null,
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "id") @SerializedName("id") var id: Int? = null,
 
-    @ColumnInfo(name = "idScript")
-    @SerializedName("idScript")
-    var idScript: Int? = null,
+    @ColumnInfo(name = "idScript") @SerializedName("idScript") var idScript: Int? = null,
 
-) : Serializable {
-
-}
+    ) : Serializable

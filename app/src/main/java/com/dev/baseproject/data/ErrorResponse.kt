@@ -6,4 +6,4 @@ data class ErrorResponse(
     override val message: String?,
     val isOnline: Boolean = true,
     val url: String? = null
-) : Exception() {}
+) : Exception()
