@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_background" android:tag="layout/fragment_sound_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_56dp"
+            android:background="@drawable/bg_toolbar"
+            app:layout_constraintBottom_toTopOf="@id/scrViewSetting"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/common_20dp"
+                android:layout_marginVertical="@dimen/common_12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingVertical="@dimen/common_12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_arrow_left"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/common_12dp"
+                    android:layout_marginTop="@dimen/common_2dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:paddingRight="@dimen/common_8dp"
+                    android:text="@string/dog_barking"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16sp" />
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:id="@+id/scrViewSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_0dp"
+            android:clipToPadding="true"
+            android:paddingBottom="@dimen/common_16dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_view"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarLayout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/common_20dp">
+
+                <ImageView
+                    android:id="@+id/ivBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:src="@drawable/bg_sound_detail"
+                    app:layout_constraintBottom_toTopOf="@id/rvSound"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.dev.baseproject.customviews.CircularSeekBar
+                    android:id="@+id/circularseekbar"
+                    android:layout_width="@dimen/common_0dp"
+                    android:layout_height="@dimen/common_0dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.65" />
+
+                <ImageView
+                    android:id="@+id/voicemute"
+                    android:layout_width="@dimen/common_30dp"
+                    android:layout_height="@dimen/common_30dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginTop="@dimen/common_60dp"
+                    android:src="@drawable/vollow"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularseekbar"
+                    app:layout_constraintStart_toStartOf="@+id/circularseekbar"
+                    app:layout_constraintTop_toTopOf="@+id/circularseekbar" />
+
+                <ImageView
+                    android:id="@+id/voicemax"
+                    android:layout_width="@dimen/common_30dp"
+                    android:layout_height="@dimen/common_30dp"
+                    android:layout_marginTop="@dimen/common_60dp"
+                    android:layout_marginEnd="-5dp"
+                    android:src="@drawable/vlohigh"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularseekbar"
+                    app:layout_constraintEnd_toEndOf="@+id/circularseekbar"
+                    app:layout_constraintTop_toTopOf="@+id/circularseekbar" />
+
+                <ImageView
+                    android:id="@+id/ivsound"
+                    android:layout_width="@dimen/common_0dp"
+                    android:layout_height="@dimen/common_0dp"
+                    android:layout_marginLeft="@dimen/common_35dp"
+                    android:layout_marginRight="@dimen/common_35dp"
+                    android:layout_marginBottom="@dimen/common_24dp"
+                    android:background="@drawable/sounddetailbg"
+                    android:padding="@dimen/common_40dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dog"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularseekbar"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="@+id/circularseekbar"
+                    app:layout_constraintStart_toStartOf="@+id/circularseekbar" />
+
+                <ImageView
+                    android:id="@+id/play"
+                    android:layout_width="@dimen/common_40dp"
+                    android:layout_height="@dimen/common_40dp"
+                    android:layout_marginLeft="@dimen/common_45dp"
+                    android:layout_marginRight="@dimen/common_45dp"
+                    android:layout_marginBottom="@dimen/common_minus_10dp"
+                    android:src="@drawable/play"
+                    app:layout_constraintBottom_toBottomOf="@+id/ivsound"
+                    app:layout_constraintEnd_toEndOf="@+id/voicemax"
+                    app:layout_constraintStart_toStartOf="@+id/voicemute" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvSound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/common_20dp"
+                    android:layout_marginTop="@dimen/common_16dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/common_16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintTop_toBottomOf="@id/play" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layvib"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_16dp"
+                    android:background="@drawable/bg_curved_24dp_white_no_ripple"
+                    app:layout_constraintEnd_toStartOf="@id/layFlash"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rvSound">
+
+                    <TextView
+                        android:id="@+id/tvVib"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/common_16dp"
+                        android:layout_marginBottom="@dimen/common_16dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/vibration"
+                        android:textColor="@color/maintextcolor"
+                        android:textSize="@dimen/text_size_13sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ivvibrateswitch" />
+
+                    <ImageView
+                        android:id="@+id/ivvibrateswitch"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_30dp"
+                        android:layout_marginVertical="@dimen/common_16dp"
+                        android:layout_marginStart="@dimen/common_16dp"
+                        android:src="@drawable/ic_vibration"
+                        app:layout_constraintBottom_toTopOf="@id/tvVib"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/switchvibrate"
+                        style="@style/Widget.App.Switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10dp"
+                        android:layout_marginEnd="@dimen/common_10dp"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layFlash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/common_16dp"
+                    android:background="@drawable/bg_curved_24dp_white_no_ripple"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/layvib"
+                    app:layout_constraintTop_toTopOf="@+id/layvib">
+
+                    <TextView
+                        android:id="@+id/tvFlash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/common_16dp"
+                        android:layout_marginBottom="@dimen/common_16dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/flashlight"
+                        android:textColor="@color/maintextcolor"
+                        android:textSize="@dimen/text_size_13sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ivflashswitch" />
+
+                    <ImageView
+                        android:id="@+id/ivflashswitch"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_30dp"
+                        android:layout_marginVertical="@dimen/common_16dp"
+                        android:layout_marginStart="@dimen/common_16dp"
+                        android:src="@drawable/ic_flash"
+                        app:layout_constraintBottom_toTopOf="@id/tvFlash"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/switchflash"
+                        style="@style/Widget.App.Switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10dp"
+                        android:layout_marginEnd="@dimen/common_10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:scaleY="0.7"
+                        android:scaleX="0.7"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/soundsettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_16dp"
+                    android:background="@drawable/bg_curved_24dp_white_no_ripple"
+                    app:layout_constraintTop_toBottomOf="@id/layvib">
+
+                    <ImageView
+                        android:id="@+id/darkversion"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_30dp"
+                        android:layout_margin="@dimen/common_16dp"
+                        android:src="@drawable/ic_sound"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/common_10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/sound"
+                        android:textColor="@color/maintextcolor"
+                        android:textSize="@dimen/text_size_13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/darkversion"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/darkversion"
+                        app:layout_constraintTop_toTopOf="@+id/darkversion" />
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/switchsound"
+                        style="@style/Widget.App.Switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/common_10dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/darkversion"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/darkversion"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7" />
+
+                    <ImageView
+                        android:id="@+id/ivDuration"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_30dp"
+                        android:layout_marginStart="@dimen/common_16dp"
+                        android:layout_marginTop="@dimen/common_16dp"
+                        android:src="@drawable/ic_duration"
+                        app:layout_constraintBottom_toTopOf="@id/layoutDuration"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/darkversion" />
+
+                    <TextView
+                        android:id="@+id/lableduration"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/common_10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/duration"
+                        android:textColor="@color/maintextcolor"
+                        android:textSize="@dimen/text_size_13sp"
+                        app:layout_constraintBottom_toBottomOf="@id/ivDuration"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/ivDuration"
+                        app:layout_constraintTop_toTopOf="@id/ivDuration" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutDuration"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/common_16dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ivDuration">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvDuration"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_16dp"
+                            android:layout_marginTop="@dimen/common_16dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:listitem="@layout/item_duration" />
+
+                        <ImageView
+                            android:id="@+id/ivSettingDuration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/common_10dp"
+                            android:layout_marginTop="@dimen/common_16dp"
+                            android:layout_marginEnd="@dimen/common_16dp"
+                            android:background="@drawable/bg_button"
+                            android:paddingHorizontal="@dimen/common_16dp"
+                            android:paddingVertical="@dimen/common_10dp"
+                            android:src="@drawable/ic_duration_setting"
+                            app:tint="@color/white" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/common_16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrViewSetting">
+
+            <TextView
+                android:id="@+id/cancelbutton"
+                style="@style/CancelButtonStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/common_20dp"
+                android:layout_marginRight="@dimen/common_8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:id="@+id/applybutton"
+                style="@style/ButtonSaveStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/common_8dp"
+                android:layout_marginRight="@dimen/common_20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/save" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

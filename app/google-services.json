@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "971109332629",
+    "project_id": "taki-digital-dev",
+    "storage_bucket": "taki-digital-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971109332629:android:322623818df64faaf70d9c",
+        "android_client_info": {
+          "package_name": "com.clapai.donttouch.claptofindphone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971109332629:android:83a488590cbf069af70d9c",
+        "android_client_info": {
+          "package_name": "com.dev.baseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971109332629:android:a1a7ad2e792bd1f8f70d9c",
+        "android_client_info": {
+          "package_name": "com.higher.photorecovery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971109332629:android:42544c14e8a6d52ef70d9c",
+        "android_client_info": {
+          "package_name": "com.higherstudio.calculatorlauncher.calculatorvault.vault.hidemedia.hideapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

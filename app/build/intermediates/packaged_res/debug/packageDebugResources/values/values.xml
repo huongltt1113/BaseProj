@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="adsColor">#f1f0ff</color>
+    <color name="adsTextColor">#000000</color>
+    <color name="adstext">#000000</color>
+    <color name="bg_record_text">#FFB3F3F0</color>
+    <color name="bg_record_text_inner">#FFFAF9F9</color>
+    <color name="black">#FF000000</color>
+    <color name="black1">#4c4c4c</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_4c4c4c">#4c4c4c</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_rate">#131313</color>
+    <color name="black_title">#38383D</color>
+    <color name="blackads">#1a1a1a</color>
+    <color name="blue_divider_color">#319DFF</color>
+    <color name="blue_download">#1D7DEE</color>
+    <color name="circlegren">#45bd4a</color>
+    <color name="circlegrey">#eeeeee</color>
+    <color name="circleprogresscolor">#00C7BE</color>
+    <color name="circletrackcolor">#ffffff</color>
+    <color name="coloe_7AA8BE">#7AA8BE</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBgBtnScriptHistory">#2E507F</color>
+    <color name="colorBgWhiteComponent">#F0F6FF</color>
+    <color name="colorButtonDelete">#FF2D2D</color>
+    <color name="colorDisable">#BEBEBE</color>
+    <color name="colorHomeItem">#CC2E507F</color>
+    <color name="colorHomeItemIc">#4DFFFFFF</color>
+    <color name="colorHomeLastScript">#66365989</color>
+    <color name="colorIcon">#3C6CB1</color>
+    <color name="colorLike">#EB5757</color>
+    <color name="colorOK">#F2994A</color>
+    <color name="colorPrimary">#0C3355</color>
+    <color name="colorPrimaryDark">#01172C</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorTabUnselect">#4A6572</color>
+    <color name="colorText">#212833</color>
+    <color name="colorTextPrimary">@color/md_gray_900</color>
+    <color name="colorTextRequestAge">#2E2E2E</color>
+    <color name="colorTextSecondary">#000000</color>
+    <color name="colorTxtHomeItemDescription">#E6E5E5</color>
+    <color name="colorTxtSettingCommon">#212833</color>
+    <color name="colorVeryNice">#219653</color>
+    <color name="color_0BABAB">#0BABAB</color>
+    <color name="color_21D4D4">#21D4D4</color>
+    <color name="color_424141">#424141</color>
+    <color name="color_6B7280">#6B7280</color>
+    <color name="color_6F7384">#6F7384</color>
+    <color name="color_8FF8D9">#8FF8D9</color>
+    <color name="color_A5EFED">#A5EFED</color>
+    <color name="color_CBF6E9">#CBF6E9</color>
+    <color name="color_DEDFE5">#DEDFE5</color>
+    <color name="color_E2EDEA">#E2EDEA</color>
+    <color name="color_EBFFEE">#EBFFEE</color>
+    <color name="color_bg_unselected_duration">#F2F2F7</color>
+    <color name="color_black10">#1A000000</color>
+    <color name="color_btn_see_more">#1FC1BB</color>
+    <color name="color_green">#FF00C7BE</color>
+    <color name="color_ripple">#A4FFFFFF</color>
+    <color name="color_stroke_btn_see_more">#18C0B6</color>
+    <color name="color_unselect">#DDDDE3</color>
+    <color name="color_view_divide">#99FFFFFF</color>
+    <color name="color_yes_dialog">#FF21D4D4</color>
+    <color name="colorlight">#FFFFFF</color>
+    <color name="colorlightdark">#FFFFFF</color>
+    <color name="common_ripple">#1AFFFFFF</color>
+    <color name="content_rate">#808080</color>
+    <color name="cyan">#21D4B4</color>
+    <color name="cyan_50">#FFF4FDFA</color>
+    <color name="dark_green">#FF0393A3</color>
+    <color name="dotscolorselected">#fdfdff</color>
+    <color name="dotscolorunselected">#676f73</color>
+    <color name="gray_mode_color">#F3F4F3</color>
+    <color name="green_mode_color">#F5FEFB</color>
+    <color name="grey_100">#FFC0C0C0</color>
+    <color name="grey_150">#FF6F7384</color>
+    <color name="grey_50">#FFF4F5FD</color>
+    <color name="halfblack">#80000000</color>
+    <color name="how_to_use_text_color">#3D475C</color>
+    <color name="main_bg_ripple">#65717C</color>
+    <color name="maintextcolor">#021025</color>
+    <color name="maintexthalfcolor">#80021025</color>
+    <color name="md_amber_100">#FFECB3</color>
+    <color name="md_amber_200">#FFE082</color>
+    <color name="md_amber_300">#FFD54F</color>
+    <color name="md_amber_400">#FFCA28</color>
+    <color name="md_amber_50">#FFF8E1</color>
+    <color name="md_amber_500">#FFC107</color>
+    <color name="md_amber_600">#FFB300</color>
+    <color name="md_amber_700">#FFA000</color>
+    <color name="md_amber_800">#FF8F00</color>
+    <color name="md_amber_900">#FF6F00</color>
+    <color name="md_amber_A100">#FFE57F</color>
+    <color name="md_amber_A200">#FFD740</color>
+    <color name="md_amber_A400">#FFC400</color>
+    <color name="md_amber_A700">#FFAB00</color>
+    <color name="md_blue_100">#BBDEFB</color>
+    <color name="md_blue_200">#90CAF9</color>
+    <color name="md_blue_300">#64B5F6</color>
+    <color name="md_blue_400">#42A5F5</color>
+    <color name="md_blue_50">#E3F2FD</color>
+    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_600">#1E88E5</color>
+    <color name="md_blue_700">#1976D2</color>
+    <color name="md_blue_800">#1565C0</color>
+    <color name="md_blue_900">#0D47A1</color>
+    <color name="md_blue_A100">#82B1FF</color>
+    <color name="md_blue_A200">#448AFF</color>
+    <color name="md_blue_A400">#2979FF</color>
+    <color name="md_blue_A700">#2962FF</color>
+    <color name="md_blue_gray_100">#CFD8DC</color>
+    <color name="md_blue_gray_200">#B0BBC5</color>
+    <color name="md_blue_gray_300">#90A4AE</color>
+    <color name="md_blue_gray_400">#78909C</color>
+    <color name="md_blue_gray_50">#ECEFF1</color>
+    <color name="md_blue_gray_500">#607D8B</color>
+    <color name="md_blue_gray_600">#546E7A</color>
+    <color name="md_blue_gray_700">#455A64</color>
+    <color name="md_blue_gray_800">#37474F</color>
+    <color name="md_blue_gray_900">#263238</color>
+    <color name="md_brown_100">#D7CCC8</color>
+    <color name="md_brown_200">#BCAAA4</color>
+    <color name="md_brown_300">#A1887F</color>
+    <color name="md_brown_400">#8D6E63</color>
+    <color name="md_brown_50">#EFEBE9</color>
+    <color name="md_brown_500">#795548</color>
+    <color name="md_brown_600">#6D4C41</color>
+    <color name="md_brown_700">#5D4037</color>
+    <color name="md_brown_800">#4E342E</color>
+    <color name="md_brown_900">#3E2723</color>
+    <color name="md_cyan_100">#B2EBF2</color>
+    <color name="md_cyan_200">#80DEEA</color>
+    <color name="md_cyan_300">#4DD0E1</color>
+    <color name="md_cyan_400">#26C6DA</color>
+    <color name="md_cyan_50">#E0F7FA</color>
+    <color name="md_cyan_500">#00BCD4</color>
+    <color name="md_cyan_600">#00ACC1</color>
+    <color name="md_cyan_700">#0097A7</color>
+    <color name="md_cyan_800">#00838F</color>
+    <color name="md_cyan_900">#006064</color>
+    <color name="md_cyan_A100">#84FFFF</color>
+    <color name="md_cyan_A200">#18FFFF</color>
+    <color name="md_cyan_A400">#00E5FF</color>
+    <color name="md_cyan_A700">#00B8D4</color>
+    <color name="md_deep_orange_100">#FFCCBC</color>
+    <color name="md_deep_orange_200">#FFAB91</color>
+    <color name="md_deep_orange_300">#FF8A65</color>
+    <color name="md_deep_orange_400">#FF7043</color>
+    <color name="md_deep_orange_50">#FBE9A7</color>
+    <color name="md_deep_orange_500">#FF5722</color>
+    <color name="md_deep_orange_600">#F4511E</color>
+    <color name="md_deep_orange_700">#E64A19</color>
+    <color name="md_deep_orange_800">#D84315</color>
+    <color name="md_deep_orange_900">#BF360C</color>
+    <color name="md_deep_orange_A100">#FF9E80</color>
+    <color name="md_deep_orange_A200">#FF6E40</color>
+    <color name="md_deep_orange_A400">#FF3D00</color>
+    <color name="md_deep_orange_A700">#DD2600</color>
+    <color name="md_deep_purple_100">#D1C4E9</color>
+    <color name="md_deep_purple_200">#B39DDB</color>
+    <color name="md_deep_purple_300">#9575CD</color>
+    <color name="md_deep_purple_400">#7E57C2</color>
+    <color name="md_deep_purple_50">#EDE7F6</color>
+    <color name="md_deep_purple_500">#673AB7</color>
+    <color name="md_deep_purple_600">#5E35B1</color>
+    <color name="md_deep_purple_700">#512DA8</color>
+    <color name="md_deep_purple_800">#4527A0</color>
+    <color name="md_deep_purple_900">#311B92</color>
+    <color name="md_deep_purple_A100">#B388FF</color>
+    <color name="md_deep_purple_A200">#7C4DFF</color>
+    <color name="md_deep_purple_A400">#651FFF</color>
+    <color name="md_deep_purple_A700">#6200EA</color>
+    <color name="md_gray_100">#F5F5F5</color>
+    <color name="md_gray_200">#EEEEEE</color>
+    <color name="md_gray_250">#64646D</color>
+    <color name="md_gray_300">#E0E0E0</color>
+    <color name="md_gray_350">#A6A6B0</color>
+    <color name="md_gray_400">#BDBDBD</color>
+    <color name="md_gray_50">#FAFAFA</color>
+    <color name="md_gray_500">#9E9E9E</color>
+    <color name="md_gray_600">#757575</color>
+    <color name="md_gray_700">#616161</color>
+    <color name="md_gray_800">#424242</color>
+    <color name="md_gray_900">#212121</color>
+    <color name="md_gray_search">#EBEBF0</color>
+    <color name="md_green_100">#C8E6C9</color>
+    <color name="md_green_200">#A5D6A7</color>
+    <color name="md_green_300">#81C784</color>
+    <color name="md_green_400">#66BB6A</color>
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_green_600">#43A047</color>
+    <color name="md_green_700">#388E3C</color>
+    <color name="md_green_800">#2E7D32</color>
+    <color name="md_green_900">#1B5E20</color>
+    <color name="md_green_A100">#B9F6CA</color>
+    <color name="md_green_A200">#69F0AE</color>
+    <color name="md_green_A400">#00E676</color>
+    <color name="md_green_A700">#00C853</color>
+    <color name="md_indigo_100">#C5CAE9</color>
+    <color name="md_indigo_200">#9FA8DA</color>
+    <color name="md_indigo_300">#7986CB</color>
+    <color name="md_indigo_400">#5C6BC0</color>
+    <color name="md_indigo_50">#E8EAF6</color>
+    <color name="md_indigo_500">#3F51B5</color>
+    <color name="md_indigo_600">#3949AB</color>
+    <color name="md_indigo_700">#303F9F</color>
+    <color name="md_indigo_800">#283593</color>
+    <color name="md_indigo_900">#1A237E</color>
+    <color name="md_indigo_A100">#8C9EFF</color>
+    <color name="md_indigo_A200">#536DFE</color>
+    <color name="md_indigo_A400">#3D5AFE</color>
+    <color name="md_indigo_A700">#304FFE</color>
+    <color name="md_light_blue_100">#B3E5FC</color>
+    <color name="md_light_blue_200">#81D4fA</color>
+    <color name="md_light_blue_300">#4fC3F7</color>
+    <color name="md_light_blue_400">#29B6FC</color>
+    <color name="md_light_blue_50">#E1F5FE</color>
+    <color name="md_light_blue_500">#03A9F4</color>
+    <color name="md_light_blue_600">#039BE5</color>
+    <color name="md_light_blue_700">#0288D1</color>
+    <color name="md_light_blue_800">#0277BD</color>
+    <color name="md_light_blue_900">#01579B</color>
+    <color name="md_light_blue_A100">#80D8FF</color>
+    <color name="md_light_blue_A200">#40C4FF</color>
+    <color name="md_light_blue_A400">#00B0FF</color>
+    <color name="md_light_blue_A700">#0091EA</color>
+    <color name="md_light_green_100">#DCEDC8</color>
+    <color name="md_light_green_200">#C5E1A5</color>
+    <color name="md_light_green_300">#AED581</color>
+    <color name="md_light_green_400">#9CCC65</color>
+    <color name="md_light_green_50">#F1F8E9</color>
+    <color name="md_light_green_500">#8BC34A</color>
+    <color name="md_light_green_600">#7CB342</color>
+    <color name="md_light_green_700">#689F38</color>
+    <color name="md_light_green_800">#558B2F</color>
+    <color name="md_light_green_900">#33691E</color>
+    <color name="md_light_green_A100">#CCFF90</color>
+    <color name="md_light_green_A200">#B2FF59</color>
+    <color name="md_light_green_A400">#76FF03</color>
+    <color name="md_light_green_A700">#64DD17</color>
+    <color name="md_lime_100">#F0F4C3</color>
+    <color name="md_lime_200">#E6EE9C</color>
+    <color name="md_lime_300">#DCE775</color>
+    <color name="md_lime_400">#D4E157</color>
+    <color name="md_lime_50">#F9FBE7</color>
+    <color name="md_lime_500">#CDDC39</color>
+    <color name="md_lime_600">#C0CA33</color>
+    <color name="md_lime_700">#A4B42B</color>
+    <color name="md_lime_800">#9E9D24</color>
+    <color name="md_lime_900">#827717</color>
+    <color name="md_lime_A100">#F4FF81</color>
+    <color name="md_lime_A200">#EEFF41</color>
+    <color name="md_lime_A400">#C6FF00</color>
+    <color name="md_lime_A700">#AEEA00</color>
+    <color name="md_orange_100">#FFE0B2</color>
+    <color name="md_orange_200">#FFCC80</color>
+    <color name="md_orange_300">#FFB74D</color>
+    <color name="md_orange_400">#FFA726</color>
+    <color name="md_orange_50">#FFF3E0</color>
+    <color name="md_orange_500">#FF9800</color>
+    <color name="md_orange_600">#FB8C00</color>
+    <color name="md_orange_700">#F57C00</color>
+    <color name="md_orange_800">#EF6C00</color>
+    <color name="md_orange_900">#E65100</color>
+    <color name="md_orange_A100">#FFD180</color>
+    <color name="md_orange_A200">#FFAB40</color>
+    <color name="md_orange_A400">#FF9100</color>
+    <color name="md_orange_A700">#FF6D00</color>
+    <color name="md_pink_100">#F8BBD0</color>
+    <color name="md_pink_200">#F48FB1</color>
+    <color name="md_pink_300">#F06292</color>
+    <color name="md_pink_400">#EC407A</color>
+    <color name="md_pink_50">#FCE4EC</color>
+    <color name="md_pink_500">#E91E63</color>
+    <color name="md_pink_600">#D81B60</color>
+    <color name="md_pink_700">#C2185B</color>
+    <color name="md_pink_800">#AD1457</color>
+    <color name="md_pink_900">#880E4F</color>
+    <color name="md_pink_A100">#FF80AB</color>
+    <color name="md_pink_A200">#FF4081</color>
+    <color name="md_pink_A400">#F50057</color>
+    <color name="md_pink_A700">#C51162</color>
+    <color name="md_purple_100">#E1BEE7</color>
+    <color name="md_purple_200">#CE93D8</color>
+    <color name="md_purple_300">#BA68C8</color>
+    <color name="md_purple_400">#AB47BC</color>
+    <color name="md_purple_50">#F3E5F5</color>
+    <color name="md_purple_500">#9C27B0</color>
+    <color name="md_purple_600">#8E24AA</color>
+    <color name="md_purple_700">#7B1FA2</color>
+    <color name="md_purple_800">#6A1B9A</color>
+    <color name="md_purple_900">#4A148C</color>
+    <color name="md_purple_A100">#EA80FC</color>
+    <color name="md_purple_A200">#E040FB</color>
+    <color name="md_purple_A400">#D500F9</color>
+    <color name="md_purple_A700">#AA00FF</color>
+    <color name="md_red_100">#FFCDD2</color>
+    <color name="md_red_200">#EF9A9A</color>
+    <color name="md_red_300">#E57373</color>
+    <color name="md_red_400">#EF5350</color>
+    <color name="md_red_50">#FFEBEE</color>
+    <color name="md_red_500">#F44336</color>
+    <color name="md_red_600">#E53935</color>
+    <color name="md_red_700">#D32F2F</color>
+    <color name="md_red_800">#C62828</color>
+    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_A100">#FF8A80</color>
+    <color name="md_red_A200">#FF5252</color>
+    <color name="md_red_A400">#FF1744</color>
+    <color name="md_red_A700">#D50000</color>
+    <color name="md_teal_100">#B2DFDB</color>
+    <color name="md_teal_200">#80CBC4</color>
+    <color name="md_teal_300">#4DB6AC</color>
+    <color name="md_teal_400">#26A69A</color>
+    <color name="md_teal_50">#E0F2F1</color>
+    <color name="md_teal_500">#009688</color>
+    <color name="md_teal_600">#00897B</color>
+    <color name="md_teal_700">#00796B</color>
+    <color name="md_teal_800">#00695C</color>
+    <color name="md_teal_900">#004D40</color>
+    <color name="md_teal_A100">#A7FFEB</color>
+    <color name="md_teal_A200">#64FFDA</color>
+    <color name="md_teal_A400">#1DE9B6</color>
+    <color name="md_teal_A700">#00BFA5</color>
+    <color name="md_yellow_100">#FFF9C4</color>
+    <color name="md_yellow_200">#FFF590</color>
+    <color name="md_yellow_300">#FFF176</color>
+    <color name="md_yellow_400">#FFEE58</color>
+    <color name="md_yellow_50">#FFFDE7</color>
+    <color name="md_yellow_500">#FFEB3B</color>
+    <color name="md_yellow_600">#FDD835</color>
+    <color name="md_yellow_700">#FBC02D</color>
+    <color name="md_yellow_800">#F9A825</color>
+    <color name="md_yellow_900">#F57F17</color>
+    <color name="md_yellow_A100">#FFFF82</color>
+    <color name="md_yellow_A200">#FFFF00</color>
+    <color name="md_yellow_A400">#FFEA00</color>
+    <color name="md_yellow_A700">#FFD600</color>
+    <color name="mint">#00C7BE</color>
+    <color name="moresoundscolor">#0592fa</color>
+    <color name="number_picker_text_color">#3FA599</color>
+    <color name="primarymain">#0592fa</color>
+    <color name="sound_bg_color">#FFF8F8F8</color>
+    <color name="soundtextcolor">#2a2a2b</color>
+    <color name="soundtextcolorselected">#0379f3</color>
+    <color name="tab_text_color_normal">#8492AE</color>
+    <color name="tabindicatorcolor">#038ff4</color>
+    <color name="tertiary">#FFEBFFEE</color>
+    <color name="text_color_normal">#5A5A5A</color>
+    <color name="text_gray">#8E8E93</color>
+    <color name="transparent">#00000000</color>
+    <color name="unselectedcolor">#a5a5a5</color>
+    <color name="view_bg">#B3000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_75">#BFFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_95">#F2FFFFFF</color>
+    <color name="white_background">#FFF8F8F8</color>
+    <color name="yellow">#FFDE67</color>
+    <dimen name="banner_height">50dp</dimen>
+    <dimen name="banner_height_90">90dp</dimen>
+    <dimen name="border_input_text">2dp</dimen>
+    <dimen name="common_0.5dp">0.5dp</dimen>
+    <dimen name="common_0.75dp">0.75dp</dimen>
+    <dimen name="common_0dp">0dp</dimen>
+    <dimen name="common_100dp">100dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_11dp">11dp</dimen>
+    <dimen name="common_120dp">120dp</dimen>
+    <dimen name="common_126dp">126dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_130dp">130dp</dimen>
+    <dimen name="common_13dp">13dp</dimen>
+    <dimen name="common_14dp">14dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+    <dimen name="common_180dp">180dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_200dp">200dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_240dp">240dp</dimen>
+    <dimen name="common_24dp">24dp</dimen>
+    <dimen name="common_25dp">25dp</dimen>
+    <dimen name="common_265dp">265dp</dimen>
+    <dimen name="common_26dp">26dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_32dp">32dp</dimen>
+    <dimen name="common_35dp">35dp</dimen>
+    <dimen name="common_36dp">36dp</dimen>
+    <dimen name="common_3dp">3dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_42dp">42dp</dimen>
+    <dimen name="common_44dp">44dp</dimen>
+    <dimen name="common_45dp">45dp</dimen>
+    <dimen name="common_46dp">46dp</dimen>
+    <dimen name="common_48dp">48dp</dimen>
+    <dimen name="common_4dp">4dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_52dp">52dp</dimen>
+    <dimen name="common_54dp">54dp</dimen>
+    <dimen name="common_56dp">56dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_65dp">65dp</dimen>
+    <dimen name="common_68dp">68dp</dimen>
+    <dimen name="common_6dp">6dp</dimen>
+    <dimen name="common_70dp">70dp</dimen>
+    <dimen name="common_75dp">75dp</dimen>
+    <dimen name="common_80dp">80dp</dimen>
+    <dimen name="common_84dp">84dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_90dp">90dp</dimen>
+    <dimen name="common_95dp">95dp</dimen>
+    <dimen name="common_98dp">98dp</dimen>
+    <dimen name="common_minus_10dp">-10dp</dimen>
+    <dimen name="common_minus_20dp">-20dp</dimen>
+    <dimen name="common_minus_30dp">-30dp</dimen>
+    <dimen name="common_minus_45dp">-45dp</dimen>
+    <dimen name="common_minus_48dp">-48dp</dimen>
+    <dimen name="common_minus_5dp">-5dp</dimen>
+    <dimen name="confirm_dialog_title_padding">4dp</dimen>
+    <dimen name="corner_radius_button">8dp</dimen>
+    <dimen name="default_badge_corner_radii">16dp</dimen>
+    <dimen name="default_corner_radii">56dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_nav_item_badge_padding">2dp</dimen>
+    <dimen name="default_nav_item_badge_text_size">7sp</dimen>
+    <dimen name="default_nav_item_padding">12dp</dimen>
+    <dimen name="default_nav_item_text_padding">8dp</dimen>
+    <dimen name="default_nav_item_text_size">14sp</dimen>
+    <dimen name="default_nav_item_title_max_width">80dp</dimen>
+    <dimen name="detail_item_radius">4dp</dimen>
+    <dimen name="dialog_invite_rate_title_margin_bottom">25dp</dimen>
+    <dimen name="height_header">56dp</dimen>
+    <dimen name="height_item_menu">54dp</dimen>
+    <dimen name="ic_mobile_play">24dp</dimen>
+    <dimen name="left_menu_margin_divider">8dp</dimen>
+    <dimen name="main_fragment_margin_start_nav_view">0dp</dimen>
+    <dimen name="main_fragment_padding_ic_search">20dp</dimen>
+    <dimen name="main_fragment_title_header">18sp</dimen>
+    <dimen name="main_item_radius">4dp</dimen>
+    <dimen name="min_banner_height">45dp</dimen>
+    <dimen name="no_border_input_text">0dp</dimen>
+    <dimen name="reward_dialog_button_margin_bottom">16dp</dimen>
+    <dimen name="reward_dialog_button_width">200dp</dimen>
+    <dimen name="search_edit_text_height">44dp</dimen>
+    <dimen name="search_tab_indicator_height">40dp</dimen>
+    <dimen name="search_tab_layout_height">42dp</dimen>
+    <dimen name="size_set_wallpaper_icon">56dp</dimen>
+    <dimen name="splash_fragment_icon_app_size">96dp</dimen>
+    <dimen name="splash_fragment_margin_bottom_app_name">156dp</dimen>
+    <dimen name="splash_fragment_margin_name_input">16dp</dimen>
+    <dimen name="splash_fragment_margin_top_loading_ic">38dp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_26sp">26sp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+    <dimen name="text_size_80sp">80sp</dimen>
+    <dimen name="text_size_8sp">8sp</dimen>
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_small_normal">11sp</dimen>
+    <dimen name="text_tiny">8sp</dimen>
+    <dimen name="text_title">14sp</dimen>
+    <dimen name="tutorial_main_button_margin">16dp</dimen>
+    <integer name="slide">300</integer>
+    <string name="active">Activate</string>
+    <string name="ad">Ad</string>
+    <string name="advertiser">Advertiser</string>
+    <string name="aggressive_male_laugh">Aggressive male laugh</string>
+    <string name="alarm_clock_80s">80s alarm clock</string>
+    <string name="allow">Allow</string>
+    <string name="allow_battery_optimization">Allow Battery Optimization</string>
+    <string name="allow_notification">Allow Notification</string>
+    <string name="allow_record">Allow Record</string>
+    <string name="allowed">Allowed</string>
+    <string name="app_name"><![CDATA[Find Phone By Clap]]></string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applause_and_standing_ovation">Applause and standing ovation</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="army_trumpet">Army trumpet</string>
+    <string name="ballerina_music_label">Ballerina music box song</string>
+    <string name="battery_limit_free">Battery Limit Free</string>
+    <string name="battery_optimization_label">Prevent the app from being killed by the system</string>
+    <string name="battery_permission_exception">Cannot start the service. Please grant Battery Limit Free permission for the best experience.</string>
+    <string name="battery_permission_rationale">Unable to start the service. Please check the permissions and grant us Battery Limit Free permissions to use this feature.</string>
+    <string name="beast_roar">Beast roar</string>
+    <string name="birds_chirping">Birds chirping</string>
+    <string name="btn_later"><![CDATA[Later]]></string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="cancel">Cancel</string>
+    <string name="car_honk">Car honk</string>
+    <string name="cartoon_run">Cartoon run</string>
+    <string name="cartoon_steps">Cartoon steps</string>
+    <string name="cat_meowing">Cat meowing</string>
+    <string name="cavelry">Cavelry</string>
+    <string name="change_passcode">Change Passcode</string>
+    <string name="channel_description">Clap To Find Phone</string>
+    <string name="channel_name">Find Phone By Clap &amp; Voice</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="choose_email"><![CDATA[Choose an Email:]]></string>
+    <string name="choose_language"><![CDATA[Select Languages]]></string>
+    <string name="choose_mode">Choose mode</string>
+    <string name="choose_sound">Choose sound</string>
+    <string name="choose_sound_title">Choose Sound</string>
+    <string name="christmas_themed">Christmas themed</string>
+    <string name="clap_detection_service">Clap Detection Service</string>
+    <string name="clap_mode">Clap Mode</string>
+    <string name="clap_mode_intro">Clap twice consecutively to find your phone.</string>
+    <string name="clap_modes">Clap</string>
+    <string name="clap_service_is_running">Clap To Find Phone Service is running</string>
+    <string name="clock_ticking_fast">Clock ticking fast</string>
+    <string name="close_and_continue_listening">Close and continue</string>
+    <string name="close_and_stop_service">Close and stop</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="congratulations_nyou_have_found_your_phone">Congratulations!\nYou have found your phone</string>
+    <string name="connect_internet"><![CDATA[Internet Connection]]></string>
+    <string name="content_feedback"><![CDATA[We are sorry to hear you are not satisfied with Find Phone by Clap, Voice. Please send your feedback and suggestions to our email, so we can improve our service in the future.]]></string>
+    <string name="content_save_sound_setting"><![CDATA[Are you sure you want to save this change?]]></string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="create_passcode">Create Passcode</string>
+    <string name="create_passcode_dialog_message">Use a short, simple, and easy-to-pronounce code to help the phone recognize it more accurately. Avoid complex or lengthy words to ensure the best performance</string>
+    <string name="create_passcode_dialog_title">Choose a Recognizable Voice Code</string>
+    <string name="create_passcode_first">Please create passcode first to enable this feature!</string>
+    <string name="custom">Custom</string>
+    <string name="deactive">Deactivate</string>
+    <string name="default1">Default</string>
+    <string name="ding_dong_merrily_label">Ding dong merrily on high doorbell</string>
+    <string name="disable_voice_detection_service_first">Please Deactivate Service First</string>
+    <string name="disco_mode">Disco mode</string>
+    <string name="dog_barking">Dog barking</string>
+    <string name="don_t_have_passcode_yet">Please record your passcord</string>
+    <string name="don_t_touch_mode">Don\'t touch Mode</string>
+    <string name="don_t_touch_mode_active">The don\'t touch mode will be activated in 10 seconds</string>
+    <string name="don_t_touch_my_phone">Don\'t Touch My Phone Service</string>
+    <string name="don_t_touch_my_phone_service_is_running">Don\'t Touch my phone service is running</string>
+    <string name="dont_touch_mode_intro">The app will trigger an alert if someone touches your phone.</string>
+    <string name="donttouch">Don\'t touch</string>
+    <string name="door_bell">Door bell</string>
+    <string name="duration">Duration</string>
+    <string name="enable_at_least_one_method">You need to enable at least one detection method to find your phone. Please select one or more methods to proceed.</string>
+    <string name="enable_at_least_one_method_title">Enable Detection Methods</string>
+    <string name="english" translatable="false">English</string>
+    <string name="enter_your_passcode_here">Enter your passcode here</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="facebook">Facebook</string>
+    <string name="fast">Fast</string>
+    <string name="feedback">Feedback</string>
+    <string name="festival_cheers">Festival cheers and applause</string>
+    <string name="find_phone_running">Find Phone By Clap &amp; Voice is running</string>
+    <string name="first_check">I understand that sharing of inappropriate content will not be tolerated.</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="funny">Funny</string>
+    <string name="funny_footstep">Funny footsteps</string>
+    <string name="funny_laugh">Funny laugh</string>
+    <string name="gcm_defaultSenderId" translatable="false">971109332629</string>
+    <string name="german" translatable="false">German</string>
+    <string name="get_started">Get Started</string>
+    <string name="ghost_of_christmas_past">Ghost of the Christmas past</string>
+    <string name="glitch_button">Glitch button click</string>
+    <string name="glitching">Glitching</string>
+    <string name="glitchy">Glitchy</string>
+    <string name="google_api_key" translatable="false">AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og</string>
+    <string name="google_app_id" translatable="false">1:971109332629:android:83a488590cbf069af70d9c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRDcA-DJB8-vOrutotps6yMNs9O0t7-Og</string>
+    <string name="google_storage_bucket" translatable="false">taki-digital-dev.firebasestorage.app</string>
+    <string name="got_it">Got it</string>
+    <string name="grant_permission">Grant Permissions</string>
+    <string name="greeting">Greeting</string>
+    <string name="halloween_doorbell">Halloween doorbell</string>
+    <string name="hand_bell_chiming">Hand bell chiming</string>
+    <string name="happy_birthday_doorbell">Happy birthday</string>
+    <string name="headline">Headline</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="how_to_use">How To Use</string>
+    <string name="hurry_up_game_movement">Hurry up game movement</string>
+    <string name="intercom_doorbell">Intereom doorbell</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="korean" translatable="false">Korean</string>
+    <string name="label_grant_permission">The Application needs Permission to provide phone finder by clapping.</string>
+    <string name="label_htu_clap_1">Click to activate button</string>
+    <string name="label_htu_clap_2">Clap to find phone</string>
+    <string name="label_htu_clap_3">The app will detect the clapping sound and start ringing</string>
+    <string name="label_htu_clap_4">Before activating, you can set the flashlight, adjust the volume and select alarm sound</string>
+    <string name="label_htu_pocket_2">Wait about 10 seconds to set the alarm</string>
+    <string name="label_htu_pocket_3">When someone touches your phone, the app detects and rings an alert</string>
+    <string name="label_htu_pocket_4">When someone pulls the phone out of your pocket, the app will detect and ring an alert</string>
+    <string name="label_htu_voice_1">Create an audio passcode and save it</string>
+    <string name="label_htu_voice_3">Read the audio passcode aloud when you can\'t find your phone</string>
+    <string name="label_htu_voice_4">The app will detect the clapping sound and start ringing</string>
+    <string name="label_htu_voice_5">Before activating, you can set the flashlight, adjust the volume and select alarm sound</string>
+    <string name="label_notification_permission">The Application needs Notification Permission to provide phone finder by clapping.</string>
+    <string name="label_rating_notification">Give us a 5-star rating to help us serve you better!</string>
+    <string name="label_record_permission">Clap To Find Phone requires record permission to listen for your phone-finding signal. Without this permission, the main feature will not function.</string>
+    <string name="languages">Languages</string>
+    <string name="light">Light</string>
+    <string name="listen">Listen</string>
+    <string name="loading_sound">Loading sound</string>
+    <string name="loop">Loop</string>
+    <string name="lost_network_connection"><![CDATA[Lost network connection. Please reconnect to the network.]]></string>
+    <string name="m_text">m</string>
+    <string name="mallet_notification">Mallet notification</string>
+    <string name="max_length_exceeded">You can only enter up to 30 characters!</string>
+    <string name="melody">Melody</string>
+    <string name="message_connect_internet"><![CDATA[To ensure we can maintain and enhance the application, a network connection is essential. Please enable your network to continue using the app.]]></string>
+    <string name="message_update_version"><![CDATA[Find Phone by Clap, Voice has a new version. Please update to the new version for the best experience!]]></string>
+    <string name="mgs_cancel"><![CDATA[Cancel]]></string>
+    <string name="mgs_ok"><![CDATA[OK]]></string>
+    <string name="more">More</string>
+    <string name="more_info_light_pocket">The feature will be activated under conditions %1$s. Please adjust the mode to suit the lighting conditions of your environment.</string>
+    <string name="more_info_sensitivity_DT">The feature will be activated when the phone moves %1$s. You should use a slow speed in a low-motion environment to avoid being mistaken for other actions.</string>
+    <string name="more_info_sensitivity_pocket">The feature will be activated when the phone moves %1$s. It is recommended to use slow sensitivity in low-motion environments for the most accurate operation.</string>
+    <string name="msg_apply_language_dialog"><![CDATA[Are you sure you want to apply this language?]]></string>
+    <string name="need_allow_notification_to_show_notification">Need Allow Notification to show Notification</string>
+    <string name="need_to_allow_audio_recording_to_use_this_feature">Need to allow audio recording to use this feature</string>
+    <string name="network_connect"><![CDATA[Network connected]]></string>
+    <string name="not_now">Not now</string>
+    <string name="notification_permission">Notification Permission</string>
+    <string name="notification_permission_label">Clap To Find Phone requires notification permission to display alerts while listening for your phone-finding signal. Without this permission, the main feature will not function.</string>
+    <string name="notifications_permission_confirm">Allow</string>
+    <string name="notifications_permission_decline">Don\'t allow</string>
+    <string name="notifications_permission_title">Allow app to send you notifications?</string>
+    <string name="offline_notification_title">View the ad you saved when you were offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">We\'ll send you a notification with a link to the advertiser site.</string>
+    <string name="offline_opt_in_title">Open ad when you\'re back online.</string>
+    <string name="oh_my_god">Oh my god</string>
+    <string name="overview">Overview</string>
+    <string name="party_horn">Party horn</string>
+    <string name="peaceful_piano_melody_label">Peaceful piano melody ident</string>
+    <string name="permission_success_content">Clap twice consecutively or use your set passcode to locate your phone!</string>
+    <string name="permission_success_title">Find Phone By Clap and Voice is ready</string>
+    <string name="phone_found_clap_detected">Congratulations, you have found your phone by clapping!</string>
+    <string name="phone_found_motion_detected">Don\'t touch my phone!</string>
+    <string name="phone_found_pocket_detected">Please return my phone to me. Kindly don’t take it away!</string>
+    <string name="phone_found_voice_detected">Congratulations, you have found your phone using your voice!</string>
+    <string name="please_record_something">Please Record Something</string>
+    <string name="please_select_language"><![CDATA[Please select a display language.]]></string>
+    <string name="pocket">Pocket</string>
+    <string name="pocket_detection_service_started">Pocket Detection Service Started</string>
+    <string name="pocket_mode">Pocket Mode</string>
+    <string name="pocket_mode_active">The pocket mode will be activated in 10 seconds</string>
+    <string name="pocket_mode_intro">The app will trigger an alert if someone tries to pickpocket your phone.</string>
+    <string name="pocket_not_available">Pocket Mode Not Supported</string>
+    <string name="pocket_not_available_message">Your device does not support Pocket Mode. Some features may not work as expected. Please check your device configuration or contact support for more information.</string>
+    <string name="pocket_service_is_run">Don\'t take my phone</string>
+    <string name="pocket_service_is_running">Pocket Service</string>
+    <string name="police_siren_loop">"Police siren loop "</string>
+    <string name="police_whistle">Police</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="project_id" translatable="false">taki-digital-dev</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="reconnect"><![CDATA[Reconnect]]></string>
+    <string name="record_passcode">Record Passcode</string>
+    <string name="record_permission">Record Permission</string>
+    <string name="record_permission_label">Clap To Find Phone requires record permission to listen for your phone-finding signal. Without this permission, the main feature will not function.</string>
+    <string name="register_account">Register Account</string>
+    <string name="relaxing_piano">Relaxing piano</string>
+    <string name="rifle">Rifle</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="s_text">s</string>
+    <string name="sad_trumpet">Sad trumpet</string>
+    <string name="save">Save</string>
+    <string name="save_script"><![CDATA[Save]]></string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchbar_scrolling_view_behavior" translatable="false">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="see_more">See more +%1$s</string>
+    <string name="select">Select</string>
+    <string name="select_language">Select Languages</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="setting">Settings</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="single_cat_meow">Single cat meow</string>
+    <string name="slow">Slow</string>
+    <string name="solitude_ringtone_label">Perfect solitude music ringtone</string>
+    <string name="sos_mode">SOS mode</string>
+    <string name="sound">Sound</string>
+    <string name="sound_effects">Sound effects</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="start_now">Start now</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab_text_1">Clap</string>
+    <string name="tab_text_2">Voice</string>
+    <string name="tab_text_4">Pocket</string>
+    <string name="tab_text_5">Don\'t touch</string>
+    <string name="tap_to_complete">Tap to complete</string>
+    <string name="tap_to_record">Tap to record</string>
+    <string name="ten" translatable="false">10</string>
+    <string name="text_15s" translatable="false">15s</string>
+    <string name="text_create_by"><![CDATA[Created by Higher Studio]]></string>
+    <string name="text_intro1_msg"><![CDATA[Easily find phone with flashlight, vibration mode and ringtone]]></string>
+    <string name="text_intro1_title"><![CDATA[Clap to Find Phone]]></string>
+    <string name="text_intro2_msg"><![CDATA[The flashlight feature helps you quickly and easily locate your phone in the dark.]]></string>
+    <string name="text_intro2_title"><![CDATA[Flashlight turns on in the dark]]></string>
+    <string name="text_intro3_msg"><![CDATA[Open the app to locate it quickly and easily right now!!]]></string>
+    <string name="text_intro3_title"><![CDATA[Can\'t find your phone?]]></string>
+    <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
+    <string name="text_lang_de" translatable="false"><![CDATA[Deutsch]]></string>
+    <string name="text_lang_en" translatable="false"><![CDATA[English]]></string>
+    <string name="text_lang_es" translatable="false"><![CDATA[Español]]></string>
+    <string name="text_lang_hi" translatable="false"><![CDATA[हिन्दी]]></string>
+    <string name="text_lang_ja" translatable="false"><![CDATA[日本語]]></string>
+    <string name="text_lang_ko" translatable="false"><![CDATA[한국어]]></string>
+    <string name="text_lang_pt" translatable="false"><![CDATA[Português]]></string>
+    <string name="text_lang_ru" translatable="false"><![CDATA[Русский]]></string>
+    <string name="text_lang_tr" translatable="false"><![CDATA[Türkçe]]></string>
+    <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
+    <string name="text_lang_vi" translatable="false"><![CDATA[Tiếng Việt]]></string>
+    <string name="text_lang_zh" translatable="false"><![CDATA[简体中文]]></string>
+    <string name="text_next"><![CDATA[Next]]></string>
+    <string name="text_to_voice">Text to voice</string>
+    <string name="text_welcome"><![CDATA[Welcome]]></string>
+    <string name="this_feature_is_not_supported_by_your_device">This Feature is not supported by your device</string>
+    <string name="thunder">Thunder</string>
+    <string name="title_apply_change_language_dialog"><![CDATA[Apply Change Language]]></string>
+    <string name="title_rating_notification">Do You Like Our App ?</string>
+    <string name="title_save_sound_setting"><![CDATA[Save Sound Setting]]></string>
+    <string name="title_update_version"><![CDATA[Update New Version]]></string>
+    <string name="toy_dog_barking">Toy dog barking</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="ukrainian" translatable="false">Ukrainian</string>
+    <string name="vibration">Vibration</string>
+    <string name="vietnamese" translatable="false">Vietnamese</string>
+    <string name="voice">Voice</string>
+    <string name="voice_detection_service">Voice Detection Service</string>
+    <string name="voice_mode">Voice Mode</string>
+    <string name="voice_mode_intro">Record your sound or use text-to-voice to set up a phone-finding sound.</string>
+    <string name="voice_service_is_running">Speak To Find Phone</string>
+    <string name="warning_rating"><![CDATA[Please select your rating.]]></string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="whispered_oh_no">Whispered oh no</string>
+    <string name="whistle">Whistle</string>
+    <string name="whistle_noise">Whistle noise</string>
+    <string name="winning_horn_sound">Winning horn sound</string>
+    <string name="with_light">With Light</string>
+    <string name="without_light">Without Light</string>
+    <string name="your_device_doesn_t_support_flash">Your device doesn\'t support flash</string>
+    <string name="your_passcode">Your Passcode</string>
+    <style name="AppBarTitle">
+        <item name="fontFamily">@font/poppinsmedium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="AppButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/common_10dp</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/common_16dp</item>
+    </style>
+    <style name="AppButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+    </style>
+    <style name="AppText">
+        <item name="fontFamily">@font/poppinsregular</item>
+    </style>
+    <style name="AppTextBlack">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">#38383D</item>
+    </style>
+    <style name="AppTextBold">
+        <item name="fontFamily">@font/poppinsmedium</item>
+        <item name="android:textColor">#38383D</item>
+    </style>
+    <style name="AppTextGray">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">#64646D</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="AppTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+    </style>
+    <style name="AppTextWhite">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AppTheme" parent="NotchTheme">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="android:buttonStyle">@style/AppButtonStyle</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:editTextColor">@color/number_picker_text_color</item>
+        <item name="colorControlNormal">@color/mint</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/poppinsregular</item>
+    </style>
+    <style name="BottomSheetTextMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">@color/color_6F7384</item>
+        <item name="android:textSize">@dimen/text_size_13sp</item>
+        <item name="android:layout_marginTop">@dimen/common_12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="BottomSheetTextTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppinsmedium</item>
+        <item name="android:textColor">@color/color_424141</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">@dimen/common_16dp</item>
+    </style>
+    <style name="ButtonCancelStyle">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+        <item name="android:background">@drawable/bg_button_stroke</item>
+        <item name="android:textColor">@color/color_424141</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ButtonConfirmStyle">
+        <item name="fontFamily">@font/poppinsmedium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ButtonNextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_60dp</item>
+        <item name="android:background">@drawable/bg_button_intro</item>
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="ButtonSaveStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_54dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_button_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ButtonSelectLangStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_54dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_item_language</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+    </style>
+    <style name="ButtonWelcomeBackStyle">
+        <item name="android:background">@drawable/bg_button_with_shadow</item>
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="CancelButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_54dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_button_cancel</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="CheckboxStyleDialogFeedback" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textSize">16sp</item>
+        <item name="android:insetLeft">0dp</item>
+        
+        <item name="buttonTint">#131313</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CustomAlertDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+    <style name="CustomRadioTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">@color/md_gray_350</item>
+        <item name="android:colorControlActivated">@color/md_blue_400</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+    <style name="DialogAnimationLeftRight">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="DialogFeedbackAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+    <style name="DownloadStatusTabLayout">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="MyTabTextAppearance">
+        <item name="android:textSize">@dimen/common_13dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+    </style>
+    <style name="NotchTheme" parent="TransparentStatusBarTheme">
+        
+        
+        
+        
+    </style>
+    <style name="TextHomeDescItemStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTxtHomeItemDescription</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextHomeTitleItemStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextSettingStyle">
+        <item name="android:textColor">@color/colorTxtSettingCommon</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorSurfaceVariant">@color/grey_100</item>
+        <item name="colorPrimary">@color/mint</item>
+        <item name="colorOutline">@color/white</item>
+    </style>
+    <style name="TransparentStatusBarTheme" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/colorTextSecondary</item>
+        <item name="statusBarBackground">@color/colorTextSecondary</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+    <style name="foodRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/drawable_rating_star</item>
+    </style>
+    <style name="style_star_native_ad" parent="@android:style/Widget.RatingBar">
+        <item name="colorAccent">@color/md_amber_500</item>
+    </style>
+</resources>

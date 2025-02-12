@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_confirm_apply_language.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_confirm_apply_language.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/activity_main.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_choose_sound_effect.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_choose_sound_effect.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_intro.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_intro.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/item_duration.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/item_duration.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_passcord.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_passcord.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/ads_layout_banner.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/ads_layout_banner.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_splash.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/native_ad_unified_type_click.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/native_ad_unified_type_click.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_setting_language.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_setting_language.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_alert_sound_detail.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_alert_sound_detail.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_permission.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_permission.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_rating_app.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_rating_app.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_place_holder3.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_place_holder3.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_ask_language.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_ask_language.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_create_passcode.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_create_passcode.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/item_choose_sound.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/item_choose_sound.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_setting.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_request_internet.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_request_internet.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_sound_detail.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_sound_detail.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_home.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/item_sound.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/item_sound.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/native_ad_unified.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/native_ad_unified.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_record_pass_code.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_record_pass_code.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/activity_phone_found.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/activity_phone_found.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_text_to_voice.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_text_to_voice.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_warning.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_warning.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_choose_melody.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_choose_melody.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_how_to_use.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_how_to_use.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_grant_permission.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_grant_permission.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_choose_sound.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_choose_sound.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/popup_window_text.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/popup_window_text.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_placeholder2.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_placeholder2.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_place_holder4.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_place_holder4.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_placeholder5.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_placeholder5.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_choose_funny.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_choose_funny.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/dialog_check_internet.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/dialog_check_internet.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/native_faq.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/native_faq.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_update_new_version.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_update_new_version.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_confirm_to_show_ads.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_confirm_to_show_ads.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/native_ad_unified_small.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/native_ad_unified_small.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/fragment_count_down.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/fragment_count_down.xml"
+    },
+    {
+        "merged": "com.dev.baseproject.app-mergeDebugResources-118:/layout/bottom_sheet_duration.xml",
+        "source": "com.dev.baseproject.app-main-121:/layout/bottom_sheet_duration.xml"
+    }
+]

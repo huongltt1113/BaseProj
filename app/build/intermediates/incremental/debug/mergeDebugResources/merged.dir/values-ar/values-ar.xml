@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="active">مفعل</string>
+    <string name="ad">إعلان</string>
+    <string name="advertiser">المعلن</string>
+    <string name="aggressive_male_laugh">ضحكة ذكورية عدوانية</string>
+    <string name="alarm_clock_80s">منبه الثمانينيات</string>
+    <string name="allow">السماح</string>
+    <string name="allow_battery_optimization">السماح بتحسين البطارية</string>
+    <string name="allow_notification">السماح بالإشعارات</string>
+    <string name="allow_record">السماح بالتسجيل</string>
+    <string name="allowed">مسموح</string>
+    <string name="app_name"><![CDATA[ابحث عن الهاتف بالتصفيق]]></string>
+    <string name="applause_and_standing_ovation">تصفيق وحفاوة وقوف</string>
+    <string name="army_trumpet">بوق الجيش</string>
+    <string name="ballerina_music_label">أغنية صندوق موسيقى الباليه</string>
+    <string name="battery_limit_free">حد البطارية مجاني</string>
+    <string name="battery_optimization_label">منع التطبيق من الإغلاق بواسطة النظام</string>
+    <string name="battery_permission_exception">لا يمكن بدء الخدمة. يرجى منح إذن بدون حدود للبطارية للحصول على أفضل تجربة.</string>
+    <string name="battery_permission_rationale">لا يمكن بدء الخدمة. يرجى التحقق من الأذونات ومنحنا إذن بدون حدود للبطارية لاستخدام هذه الميزة.</string>
+    <string name="beast_roar">زئير الوحش</string>
+    <string name="birds_chirping">تغريد الطيور</string>
+    <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
+    <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
+    <string name="btn_later"><![CDATA[لاحقًا]]></string>
+    <string name="call_notification_answer_action">إجابة</string>
+    <string name="call_notification_answer_video_action">فيديو</string>
+    <string name="call_notification_decline_action">رفض</string>
+    <string name="call_notification_hang_up_action">إنهاء المكالمة</string>
+    <string name="call_notification_incoming_text">مكالمة واردة</string>
+    <string name="call_notification_ongoing_text">مكالمة جارية</string>
+    <string name="call_notification_screening_text">تصفية مكالمة واردة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="car_honk">زمور السيارة</string>
+    <string name="cartoon_run">جري كرتوني</string>
+    <string name="cartoon_steps">خطوات كرتونية</string>
+    <string name="cat_meowing">مواء القطة</string>
+    <string name="cavelry">فرسان</string>
+    <string name="change_passcode">تغيير رمز المرور</string>
+    <string name="channel_description">صفق للعثور على الهاتف</string>
+    <string name="channel_name">ابحث عن الهاتف بالتصفيق والصوت</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="choose_email"><![CDATA[اختر بريدًا إلكترونيًا:]]></string>
+    <string name="choose_language"><![CDATA[اختر اللغة]]></string>
+    <string name="choose_mode">اختر الوضع</string>
+    <string name="choose_sound">اختر الصوت</string>
+    <string name="choose_sound_title">اختر الصوت</string>
+    <string name="christmas_themed">ثيم عيد الميلاد</string>
+    <string name="clap_detection_service">خدمة اكتشاف التصفيق</string>
+    <string name="clap_mode">وضع التصفيق</string>
+    <string name="clap_mode_intro">صفق مرتين متتاليتين للعثور على هاتفك.</string>
+    <string name="clap_modes">تصفيق</string>
+    <string name="clap_service_is_running">خدمة صفق للعثور على الهاتف</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="clock_ticking_fast">دقات الساعة السريعة</string>
+    <string name="close_and_continue_listening">إغلاق والمتابعة</string>
+    <string name="close_and_stop_service">إغلاق وإيقاف</string>
+    <string msgid="406453423630273620" name="close_drawer">"إغلاق قائمة التنقل"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"إغلاق الورقة"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">تفعيل</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">تحديث</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="congratulations_nyou_have_found_your_phone">تهانينا!\nلقد وجدت هاتفك</string>
+    <string name="connect_internet"><![CDATA[اتصال الإنترنت]]></string>
+    <string name="content_feedback"><![CDATA[نأسف لسماع أنك غير راضٍ عن التطبيق. يرجى إرسال ملاحظاتك واقتراحاتك إلى بريدنا الإلكتروني لتحسين خدمتنا في المستقبل.]]></string>
+    <string name="content_save_sound_setting"><![CDATA[هل أنت متأكد أنك تريد حفظ هذا التغيير؟]]></string>
+    <string name="copy_toast_msg">تم نسخ الرابط إلى الحافظة</string>
+    <string name="create_passcode">إنشاء رمز مرور</string>
+    <string name="create_passcode_dialog_message">استخدم رمزًا قصيرًا وبسيطًا وسهل النطق لمساعدة الهاتف على التعرف عليه بدقة أكبر. تجنب الكلمات المعقدة أو الطويلة لضمان أفضل أداء.</string>
+    <string name="create_passcode_dialog_title">اختر رمز صوتي يسهل التعرف عليه</string>
+    <string name="create_passcode_first">يرجى إنشاء رمز المرور أولاً لتفعيل هذه الميزة!</string>
+    <string name="custom">مخصص</string>
+    <string name="deactive">غير مفعل</string>
+    <string name="default1">الافتراضي</string>
+    <string msgid="8038256446254964252" name="default_error_message">"إدخال غير صالح"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"نافذة منبثقة"</string>
+    <string name="ding_dong_merrily_label">جرس الباب دينغ دونغ بسعادة</string>
+    <string name="disable_voice_detection_service_first">يرجى إلغاء تفعيل الخدمة أولاً</string>
+    <string name="disco_mode">وضع الديسكو</string>
+    <string name="dog_barking">نباح الكلب</string>
+    <string name="don_t_have_passcode_yet">يرجى تسجيل رمز المرور الخاص بك</string>
+    <string name="don_t_touch_mode">وضع "لا تلمس"</string>
+    <string name="don_t_touch_mode_active">وضع "لا تلمس" سيتم تفعيله خلال 10 ثوانٍ</string>
+    <string name="don_t_touch_my_phone">خدمة لا تلمس هاتفي</string>
+    <string name="don_t_touch_my_phone_service_is_running">خدمة لا تلمس هاتفي تعمل</string>
+    <string name="dont_touch_mode_intro">سيطلق التطبيق تنبيهًا إذا لمس شخص ما هاتفك.</string>
+    <string name="donttouch">لا تلمس</string>
+    <string name="door_bell">جرس الباب</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"قائمة منسدلة"</string>
+    <string name="duration">المدة</string>
+    <string name="enable_at_least_one_method">تحتاج إلى تفعيل طريقة كشف واحدة على الأقل للعثور على هاتفك. يرجى اختيار طريقة أو أكثر للمتابعة.</string>
+    <string name="enable_at_least_one_method_title">تفعيل طرق الكشف</string>
+    <string name="enter_your_passcode_here">أدخل رمز المرور هنا</string>
+    <string name="error_a11y_label">خطأ: غير صالح</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="facebook">فيسبوك</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
+    <string name="fast">سريع</string>
+    <string name="feedback">تعليقات</string>
+    <string name="festival_cheers">هتافات واحتفالات المهرجان</string>
+    <string name="find_phone_running">ابحث عن الهاتف بالتصفيق والصوت يعمل</string>
+    <string name="first_check">أفهم أن مشاركة محتوى غير لائق لن يتم التسامح معه.</string>
+    <string name="flashlight">مصباح يدوي</string>
+    <string name="funny">مضحك</string>
+    <string name="funny_footstep">خطوات مضحكة</string>
+    <string name="funny_laugh">ضحكة مضحكة</string>
+    <string name="get_started">ابدأ</string>
+    <string name="ghost_of_christmas_past">شبح عيد الميلاد الماضي</string>
+    <string name="glitch_button">نقرة زر مع خلل</string>
+    <string name="glitching">خلل</string>
+    <string name="glitchy">مع خلل</string>
+    <string name="got_it">تم</string>
+    <string name="grant_permission">منح الأذونات</string>
+    <string name="greeting">تحية</string>
+    <string name="halloween_doorbell">جرس باب الهالوين</string>
+    <string name="hand_bell_chiming">رن جرس اليد</string>
+    <string name="happy_birthday_doorbell">جرس عيد الميلاد</string>
+    <string name="headline">العنوان</string>
+    <string name="how_to_use">كيفية الاستخدام</string>
+    <string name="hurry_up_game_movement">حركة لعبة أسرع</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string msgid="6827826412747255547" name="in_progress">"قيد التقدم"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"تم وضع علامة في المربّع بشكل جزئي"</string>
+    <string name="intercom_doorbell">جرس باب الاتصال الداخلي</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="label_grant_permission">التطبيق يحتاج إلى إذن لتوفير البحث عن الهاتف بالتصفيق.</string>
+    <string name="label_htu_clap_1">انقر لتنشيط الزر</string>
+    <string name="label_htu_clap_2">صفق للعثور على الهاتف</string>
+    <string name="label_htu_clap_3">سيكتشف التطبيق صوت التصفيق ويبدأ بالرنين</string>
+    <string name="label_htu_clap_4">قبل التفعيل، يمكنك ضبط المصباح، وضبط مستوى الصوت، واختيار صوت التنبيه</string>
+    <string name="label_htu_pocket_2">انتظر حوالي 10 ثوانٍ لضبط التنبيه</string>
+    <string name="label_htu_pocket_3">عندما يلمس شخص ما هاتفك، يكتشف التطبيق ذلك ويطلق تنبيهًا</string>
+    <string name="label_htu_pocket_4">عندما يسحب شخص ما الهاتف من جيبك، يكتشف التطبيق ذلك ويطلق تنبيهًا</string>
+    <string name="label_htu_voice_1">أنشئ رمزًا صوتيًا واحفظه</string>
+    <string name="label_htu_voice_3">اقرأ الرمز الصوتي بصوت عالٍ عندما لا تستطيع العثور على هاتفك</string>
+    <string name="label_htu_voice_4">سيكتشف التطبيق صوت التصفيق ويبدأ بالرنين</string>
+    <string name="label_htu_voice_5">قبل التفعيل، يمكنك ضبط المصباح، وضبط مستوى الصوت، واختيار صوت التنبيه</string>
+    <string name="label_notification_permission">التطبيق يحتاج إلى إذن الإشعارات لتوفير البحث عن الهاتف بالتصفيق.</string>
+    <string name="label_rating_notification">امنحنا تقييمًا بـ 5 نجوم لمساعدتنا على خدمتك بشكل أفضل!</string>
+    <string name="label_record_permission">التطبيق يحتاج إلى إذن التسجيل للاستماع لإشارة العثور على هاتفك. بدون هذا الإذن، لن تعمل الميزة الرئيسية.</string>
+    <string name="languages">اللغات</string>
+    <string name="light">ضوء</string>
+    <string name="listen">استمع</string>
+    <string name="loading_sound">صوت التحميل</string>
+    <string name="loop">تكرار</string>
+    <string name="lost_network_connection"><![CDATA[تم فقدان اتصال الشبكة. يرجى إعادة الاتصال بالشبكة.]]></string>
+    <string name="mallet_notification">إشعار المطرقة</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعة</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="max_length_exceeded">يمكنك إدخال ما يصل إلى 30 حرفًا فقط!</string>
+    <string name="melody">لحن</string>
+    <string name="message_connect_internet"><![CDATA[لضمان قدرتنا على صيانة وتحسين التطبيق، الاتصال بالشبكة ضروري. يرجى تفعيل الشبكة لمتابعة استخدام التطبيق.]]></string>
+    <string name="message_update_version"><![CDATA[التطبيق لديه إصدار جديد. يرجى التحديث للحصول على أفضل تجربة!]]></string>
+    <string name="mgs_cancel"><![CDATA[إلغاء]]></string>
+    <string name="mgs_ok"><![CDATA[حسنًا]]></string>
+    <string name="more">المزيد</string>
+    <string name="more_info_light_pocket">سيتم تفعيل الميزة في ظل ظروف %1$s. يُرجى ضبط الوضع ليتناسب مع ظروف الإضاءة في بيئتك.</string>
+    <string name="more_info_sensitivity_DT">سيتم تفعيل الميزة عندما يتحرك الهاتف %1$s. يُوصى باستخدام سرعة بطيئة في بيئة قليلة الحركة لتجنب الخلط مع الإجراءات الأخرى.</string>
+    <string name="more_info_sensitivity_pocket">سيتم تفعيل الميزة عندما يتحرك الهاتف %1$s. يُوصى باستخدام حساسية بطيئة في بيئات قليلة الحركة لتحقيق دقة تشغيل أعلى.</string>
+    <string name="msg_apply_language_dialog"><![CDATA[هل أنت متأكد أنك تريد تطبيق هذه اللغة؟]]></string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_checkbox_state_description_checked">تم وضع علامة في المربّع</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">يجوز أنه تم وضع علامة في المربّع</string>
+    <string name="mtrl_checkbox_state_description_unchecked">لم يتم وضع علامة في المربّع</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_range_selection">اختيار تاريخ البدء: %1$s – اختيار تاريخ الانتهاء: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">بلا</string>
+    <string name="mtrl_picker_cancel">إلغاء</string>
+    <string name="mtrl_picker_confirm">حسنًا</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">تاريخ الانتهاء: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">الانتقال إلى السنة الحالية %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$d</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_start_date_description">تاريخ البدء: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_today_description">اليوم %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">يمكنك النقر للتبديل إلى عرض \"تقويم Google\".</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">يمكنك النقر للتبديل إلى عرض السنة.</string>
+    <string name="mtrl_timepicker_cancel">إلغاء</string>
+    <string name="mtrl_timepicker_confirm">حسنًا</string>
+    <string name="native_body">النص</string>
+    <string name="native_headline">العنوان</string>
+    <string name="native_media_view">عرض الوسائط</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"فتح لائحة التنقل"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"قائمة تنقل"</string>
+    <string name="need_allow_notification_to_show_notification">تحتاج إلى السماح بالإشعارات لعرض الإشعار</string>
+    <string name="need_to_allow_audio_recording_to_use_this_feature">تحتاج إلى السماح بتسجيل الصوت لاستخدام هذه الميزة</string>
+    <string name="network_connect"><![CDATA[تم الاتصال بالشبكة]]></string>
+    <string name="not_now">ليس الآن</string>
+    <string msgid="6610465462668679431" name="not_selected">"غير محدّد"</string>
+    <string name="notification_permission">إذن الإشعارات</string>
+    <string name="notification_permission_label">التطبيق يحتاج إلى إذن الإشعارات لعرض التنبيهات أثناء الاستماع لإشارة العثور على هاتفك. بدون هذا الإذن، لن تعمل الميزة الرئيسية.</string>
+    <string name="notifications_permission_confirm">سماح</string>
+    <string name="notifications_permission_decline">عدم السماح</string>
+    <string name="notifications_permission_title">هل تريد السماح للتطبيق بإرسال الإشعارات؟</string>
+    <string msgid="875452955155264703" name="off">"غير مفعّل"</string>
+    <string name="offline_dialog_image_description">رمز</string>
+    <string name="offline_dialog_text">‏نشكرك على اهتمامك.\nسنشارك المزيد من المعلومات بعد إعادة الاتصال بالإنترنت.</string>
+    <string name="offline_notification_title">عرض الإعلان الذي حفظته أثناء عدم الاتصال</string>
+    <string name="offline_notification_title_with_advertiser">تمت إعادة الاتصال بالإنترنت وبإمكانك الآن مواصلة التعرّف على \"%s\"</string>
+    <string name="offline_opt_in_confirm">موافق</string>
+    <string name="offline_opt_in_decline">لا شكراً</string>
+    <string name="offline_opt_in_message">سنرسل إليك إشعارًا برابط إلى موقع المعلن.</string>
+    <string name="offline_opt_in_title">افتح الإعلان عندما تكون متصلًا بالإنترنت.</string>
+    <string name="oh_my_god">يا إلهي</string>
+    <string msgid="8655164131929253426" name="on">"مفعّل"</string>
+    <string name="overview">نظرة عامة</string>
+    <string name="party_horn">بوق الحفلة</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="peaceful_piano_melody_label">معرّف لحن البيانو الهادئ</string>
+    <string name="permission_success_content">قم بالتصفيق مرتين متتاليتين أو استخدم رمز المرور المحدد لتحديد موقع هاتفك!</string>
+    <string name="permission_success_title">التطبيق جاهز</string>
+    <string name="phone_found_clap_detected">تهانينا، لقد وجدت هاتفك عن طريق التصفيق!</string>
+    <string name="phone_found_motion_detected">لا تلمس هاتفي!</string>
+    <string name="phone_found_pocket_detected">يرجى إرجاع هاتفي لي. لا تأخذه بعيدًا!</string>
+    <string name="phone_found_voice_detected">تهانينا، لقد وجدت هاتفك باستخدام صوتك!</string>
+    <string name="please_record_something">يرجى تسجيل شيء</string>
+    <string name="please_select_language"><![CDATA[يرجى اختيار لغة العرض.]]></string>
+    <string name="pocket">جيب</string>
+    <string name="pocket_detection_service_started">تم بدء خدمة الكشف عن الجيب</string>
+    <string name="pocket_mode">وضع الجيب</string>
+    <string name="pocket_mode_active">وضع "الجيب" سيتم تفعيله خلال 10 ثوانٍ</string>
+    <string name="pocket_mode_intro">سيطلق التطبيق تنبيهًا إذا حاول شخص ما سرقة هاتفك من جيبك.</string>
+    <string name="pocket_not_available">وضع الجيب غير مدعوم</string>
+    <string name="pocket_not_available_message">جهازك لا يدعم وضع الجيب. قد لا تعمل بعض الميزات كما هو متوقع. يرجى التحقق من إعدادات الجهاز أو الاتصال بالدعم للحصول على مزيد من المعلومات.</string>
+    <string name="pocket_service_is_run">لا تأخذ هاتفي</string>
+    <string name="pocket_service_is_running">خدمة الجيب</string>
+    <string name="police_siren_loop">تكرار صفارة الشرطة</string>
+    <string name="police_whistle">صفارة الشرطة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string msgid="5941395253238309765" name="range_end">"نهاية النطاق"</string>
+    <string msgid="7097486360902471446" name="range_start">"بداية النطاق"</string>
+    <string name="rate_us">قيمنا</string>
+    <string name="reconnect"><![CDATA[إعادة الاتصال]]></string>
+    <string name="record_passcode">سجل كلمة المرور</string>
+    <string name="record_permission">إذن التسجيل</string>
+    <string name="record_permission_label">التطبيق يحتاج إلى إذن التسجيل للاستماع لإشارة العثور على هاتفك. بدون هذا الإذن، لن تعمل الميزة الرئيسية.</string>
+    <string name="register_account">تسجيل حساب</string>
+    <string name="relaxing_piano">بيانو مريح</string>
+    <string name="rifle">بندقية</string>
+    <string name="s1">حفظ الصورة</string>
+    <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
+    <string name="s3">قبول</string>
+    <string name="s4">رفض</string>
+    <string name="s5">إنشاء حدث تقويم</string>
+    <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
+    <string name="s7">إعلان تجريبي</string>
+    <string name="sad_trumpet">بوق حزين</string>
+    <string name="save">حفظ</string>
+    <string name="save_script"><![CDATA[حفظ]]></string>
+    <string name="search_menu_title">بحث</string>
+    <string name="searchview_clear_text_content_description">مسح النص</string>
+    <string name="searchview_navigation_content_description">عودة</string>
+    <string name="see_more">عرض المزيد +%1$s</string>
+    <string name="select">اختر</string>
+    <string name="select_language">اختر اللغات</string>
+    <string msgid="6043586758067023" name="selected">"محدّد"</string>
+    <string name="sensitivity">الحساسية</string>
+    <string name="setting">الإعدادات</string>
+    <string name="side_sheet_accessibility_pane_title">اللوحة الجانبية</string>
+    <string name="single_cat_meow">مواء قطة واحدة</string>
+    <string name="slow">بطيء</string>
+    <string name="solitude_ringtone_label">نغمة موسيقى الهدوء المثالية</string>
+    <string name="sos_mode">وضع SOS</string>
+    <string name="sound">صوت</string>
+    <string name="sound_effects">تأثيرات الصوت</string>
+    <string name="start_now">ابدأ الآن</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string msgid="2561197295334830845" name="switch_role">"تبديل"</string>
+    <string msgid="1672349317127674378" name="tab">"علامة تبويب"</string>
+    <string name="tab_text_1">تصفيق</string>
+    <string name="tab_text_2">صوت</string>
+    <string name="tab_text_4">جيب</string>
+    <string name="tab_text_5">لا تلمس</string>
+    <string name="tap_to_complete">انقر للإكمال</string>
+    <string name="tap_to_record">انقر للتسجيل</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> في المئة."</string>
+    <string name="text_create_by"><![CDATA[تم الإنشاء بواسطة Higher Studio]]></string>
+    <string name="text_intro1_msg"><![CDATA[اعثر على هاتفك بسهولة باستخدام المصباح، ووضع الاهتزاز، ونغمة الرنين]]></string>
+    <string name="text_intro1_title"><![CDATA[صفق للعثور على الهاتف]]></string>
+    <string name="text_intro2_msg"><![CDATA[تساعدك ميزة المصباح في العثور على هاتفك بسرعة وسهولة في الظلام.]]></string>
+    <string name="text_intro2_title"><![CDATA[المصباح يضيء في الظلام]]></string>
+    <string name="text_intro3_msg"><![CDATA[افتح التطبيق للعثور عليه الآن بسرعة وسهولة!!]]></string>
+    <string name="text_intro3_title"><![CDATA[لا يمكنك العثور على هاتفك؟]]></string>
+    <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
+    <string name="text_lang_de" translatable="false"><![CDATA[Deutsch]]></string>
+    <string name="text_lang_en" translatable="false"><![CDATA[English]]></string>
+    <string name="text_lang_es" translatable="false"><![CDATA[Español]]></string>
+    <string name="text_lang_hi" translatable="false"><![CDATA[हिन्दी]]></string>
+    <string name="text_lang_ja" translatable="false"><![CDATA[日本語]]></string>
+    <string name="text_lang_ko" translatable="false"><![CDATA[한국어]]></string>
+    <string name="text_lang_pt" translatable="false"><![CDATA[Português]]></string>
+    <string name="text_lang_ru" translatable="false"><![CDATA[Русский]]></string>
+    <string name="text_lang_tr" translatable="false"><![CDATA[Türkçe]]></string>
+    <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
+    <string name="text_lang_vi" translatable="false"><![CDATA[Tiếng Việt]]></string>
+    <string name="text_lang_zh" translatable="false"><![CDATA[简体中文]]></string>
+    <string name="text_next"><![CDATA[التالي]]></string>
+    <string name="text_to_voice">نص إلى صوت</string>
+    <string name="text_welcome"><![CDATA[مرحبا]]></string>
+    <string name="this_feature_is_not_supported_by_your_device">هذه الميزة غير مدعومة في جهازك</string>
+    <string name="thunder">رعد</string>
+    <string name="title_apply_change_language_dialog"><![CDATA[تطبيق تغيير اللغة]]></string>
+    <string name="title_rating_notification">هل تحب تطبيقنا؟</string>
+    <string name="title_save_sound_setting"><![CDATA[حفظ إعداد الصوت]]></string>
+    <string name="title_update_version"><![CDATA[تحديث إصدار جديد]]></string>
+    <string name="toy_dog_barking">نباح كلب لعبة</string>
+    <string name="tt_ad_close_text">الإعلان الذي تم إغلاقه</string>
+    <string name="tt_ad_is_closed">االإعلانات مغلقة</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_choose_language">ar</string>
+    <string name="tt_comment_num">%1$s مراجعات</string>
+    <string name="tt_count_down_view">تخطي</string>
+    <string name="tt_dislike_header_tv_back">رجوع</string>
+    <string name="tt_dislike_header_tv_title">تحديد</string>
+    <string name="tt_display_error">خطأ في العرض</string>
+    <string name="tt_feedback_experience_text">سنُواصل تحسين خدمتنا.</string>
+    <string name="tt_feedback_submit_text">لقد أرسلتَ الملاحظات! يُرجى عدم الإرسال مرّة أخرى.</string>
+    <string name="tt_feedback_thank_text">شكرًا على تقديم ملاحظاتك!</string>
+    <string name="tt_logo_en">إعلان</string>
+    <string name="tt_msgPlayable">قم بإستكمال التشغيل للحصول على المكافآت</string>
+    <string name="tt_multiple_ad_indicator">إعلان %1$d من %2$d</string>
+    <string name="tt_negtiveBtnBtnText">مغادرة</string>
+    <string name="tt_negtive_txt">إلغاء</string>
+    <string name="tt_no_network">لا يوجد اتصال بالشبكة، يرجى إعادة المحاولة لاحقًا.</string>
+    <string name="tt_postiveBtnText">استئناف</string>
+    <string name="tt_postiveBtnTextPlayable">متابعة التشغيل</string>
+    <string name="tt_postive_txt">حسنًا</string>
+    <string name="tt_privacy_title">سياسية الخصوصية</string>
+    <string name="tt_reward_feedback">الملاحظات</string>
+    <string name="tt_reward_full_skip">تخطِّي بعد %1$s ثوانٍ</string>
+    <string name="tt_reward_msg">شاهِد الفيديو بأكمله للحصول على مكافأتك</string>
+    <string name="tt_reward_screen_skip_tx">تخطي</string>
+    <string name="tt_skip_ad_time_text">تخطي بعد s%d ثانية</string>
+    <string name="tt_suggestion_commit">إرسال</string>
+    <string name="tt_suggestion_description">أدخِل وصفًا للخطأ في العرض، وانقر على الزر \u201Dإرسال\u201D. سيتمّ أيضًا إرسال التصميم الإبداعي للإعلان مرة أخرى إلى Pangle للمساعدة في استكشاف المشكلة وإصلاحها.</string>
+    <string name="tt_try_now">جرب الآن</string>
+    <string name="tt_video_bytesize">بيانات</string>
+    <string name="tt_video_dial_phone">اتصل الآن</string>
+    <string name="tt_video_download_apk">نزِّل الآن</string>
+    <string name="tt_video_mobile_go_detail">العرض الآن</string>
+    <string name="tt_video_retry_des_txt">تعذر التحميل. يرجى المحاولة مرة أخرى.</string>
+    <string name="tt_video_without_wifi_tips">سيؤدي تشغيل هذا المحتوى إلى استخدام بيانات بحجم %.2f ميجابايت</string>
+    <string name="tt_web_title_default">الإعلان</string>
+    <string name="turn_off">إيقاف التشغيل</string>
+    <string name="vibration">اهتزاز</string>
+    <string name="voice">صوت</string>
+    <string name="voice_detection_service">خدمة كشف الصوت</string>
+    <string name="voice_mode">وضع الصوت</string>
+    <string name="voice_mode_intro">سجل صوتك أو استخدم النص إلى الصوت لإعداد صوت العثور على الهاتف.</string>
+    <string name="voice_service_is_running">تحدث للعثور على الهاتف</string>
+    <string name="warning_rating"><![CDATA[يرجى اختيار تقييمك.]]></string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="whispered_oh_no">همس "أوه لا"</string>
+    <string name="whistle">صفارة</string>
+    <string name="whistle_noise">ضوضاء صفير</string>
+    <string name="winning_horn_sound">صوت البوق الفائز</string>
+    <string name="with_light">مع الضوء</string>
+    <string name="without_light">بدون إضاءة</string>
+    <string name="your_device_doesn_t_support_flash">جهازك لا يدعم الفلاش</string>
+    <string name="your_passcode">رمز المرور الخاص بك</string>
+</resources>

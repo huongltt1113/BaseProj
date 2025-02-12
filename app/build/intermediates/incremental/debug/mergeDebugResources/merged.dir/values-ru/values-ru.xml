@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="active">включить</string>
+    <string name="ad">Реклама</string>
+    <string name="advertiser">Рекламодатель</string>
+    <string name="aggressive_male_laugh">Агрессивный мужской смех</string>
+    <string name="alarm_clock_80s">Будильник 80-х годов</string>
+    <string name="allow">Разрешить</string>
+    <string name="allow_battery_optimization">Разрешить оптимизацию батареи</string>
+    <string name="allow_notification">Разрешить уведомления</string>
+    <string name="allow_record">Разрешить запись</string>
+    <string name="allowed">Разрешено</string>
+    <string name="app_name"><![CDATA[Найти телефон хлопком]]></string>
+    <string name="applause_and_standing_ovation">Аплодисменты и овации стоя</string>
+    <string name="army_trumpet">Армейская труба</string>
+    <string name="ballerina_music_label">Мелодия из музыкальной шкатулки с балериной</string>
+    <string name="battery_limit_free">Без ограничения батареи</string>
+    <string name="battery_optimization_label">Предотвратить завершение работы приложения системой</string>
+    <string name="battery_permission_exception">Невозможно запустить службу. Пожалуйста, предоставьте разрешение Без ограничений для батареи для наилучшего опыта.</string>
+    <string name="battery_permission_rationale">Невозможно запустить службу. Проверьте разрешения и предоставьте разрешение Без ограничений для батареи для использования этой функции.</string>
+    <string name="beast_roar">Рев зверя</string>
+    <string name="birds_chirping">Пение птиц</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string name="btn_later">Позже</string>
+    <string name="call_notification_answer_action">Ответить</string>
+    <string name="call_notification_answer_video_action">Видео</string>
+    <string name="call_notification_decline_action">Отклонить</string>
+    <string name="call_notification_hang_up_action">Завершить</string>
+    <string name="call_notification_incoming_text">Входящий звонок</string>
+    <string name="call_notification_ongoing_text">Текущий звонок</string>
+    <string name="call_notification_screening_text">Просмотр входящего звонка</string>
+    <string name="cancel">Отмена</string>
+    <string name="car_honk">Автомобильный гудок</string>
+    <string name="cartoon_run">Звук бега из мультфильма</string>
+    <string name="cartoon_steps">Шаги из мультфильма</string>
+    <string name="cat_meowing">Кошачье мяуканье</string>
+    <string name="cavelry">Кавалерия</string>
+    <string name="change_passcode">Изменить пароль</string>
+    <string name="channel_description">Хлопни, чтобы найти телефон</string>
+    <string name="channel_name">Найти телефон хлопком и голосом</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="choose_email">Выберите email:</string>
+    <string name="choose_language">Выбрать язык</string>
+    <string name="choose_mode">Выбрать режим</string>
+    <string name="choose_sound">Выбрать звук</string>
+    <string name="choose_sound_title">Выбрать звук</string>
+    <string name="christmas_themed">Рождественская тема</string>
+    <string name="clap_detection_service">Служба распознавания хлопков</string>
+    <string name="clap_mode">Режим хлопка</string>
+    <string name="clap_mode_intro">Похлопайте дважды подряд, чтобы найти телефон.</string>
+    <string name="clap_modes">Хлопок</string>
+    <string name="clap_service_is_running">Сервис "Найти телефон хлопком" работает</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="clock_ticking_fast">Быстрое тиканье часов</string>
+    <string name="close_and_continue_listening">Закрыть и продолжить</string>
+    <string name="close_and_stop_service">Закрыть и остановить</string>
+    <string msgid="406453423630273620" name="close_drawer">"Закрыть меню навигации"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Закрыть лист"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Включить</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Обновить</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="congratulations_nyou_have_found_your_phone">Поздравляем!\nВы нашли свой телефон</string>
+    <string name="connect_internet">Подключение к интернету</string>
+    <string name="content_feedback">Нам жаль, что вы остались недовольны приложением. Пожалуйста, отправьте ваши отзывы и предложения на нашу почту, чтобы мы могли улучшить сервис в будущем.</string>
+    <string name="content_save_sound_setting"><![CDATA[Вы уверены, что хотите сохранить изменения?]]></string>
+    <string name="copy_toast_msg">Ссылка скопирована в буфер обмена</string>
+    <string name="create_passcode">Создать пароль</string>
+    <string name="create_passcode_dialog_message">Используйте короткий, простой и легко произносимый код, чтобы телефон мог его точнее распознать. Избегайте сложных или длинных слов для достижения наилучшей производительности.</string>
+    <string name="create_passcode_dialog_title">Выберите распознаваемый голосовой код</string>
+    <string name="create_passcode_first">Пожалуйста, сначала создайте пароль для активации этой функции!</string>
+    <string name="custom">Пользовательский</string>
+    <string name="deactive">Отключить</string>
+    <string name="default1">По умолчанию</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Неправильный ввод"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Всплывающее окно"</string>
+    <string name="ding_dong_merrily_label">Веселый звон дверного звонка</string>
+    <string name="disable_voice_detection_service_first">Пожалуйста, сначала отключите сервис</string>
+    <string name="disco_mode">Диско режим</string>
+    <string name="dog_barking">Собачий лай</string>
+    <string name="don_t_have_passcode_yet">Пожалуйста, запишите свой пароль</string>
+    <string name="don_t_touch_mode">Режим "Не трогать"</string>
+    <string name="don_t_touch_mode_active">Режим "Не трогать" активируется через 10 секунд</string>
+    <string name="don_t_touch_my_phone">Не трогай мой телефон</string>
+    <string name="don_t_touch_my_phone_service_is_running">Сервис "Не трогай мой телефон" работает</string>
+    <string name="dont_touch_mode_intro">Приложение вызовет сигнал тревоги, если кто-то прикоснется к вашему телефону.</string>
+    <string name="donttouch">Не трогайте</string>
+    <string name="door_bell">Дверной звонок</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Раскрывающееся меню"</string>
+    <string name="duration">Продолжительность</string>
+    <string name="enable_at_least_one_method">Для поиска вашего телефона необходимо включить хотя бы один метод обнаружения. Пожалуйста, выберите один или несколько методов, чтобы продолжить.</string>
+    <string name="enable_at_least_one_method_title">Включите методы обнаружения</string>
+    <string name="enter_your_passcode_here">Введите ваш код доступа здесь</string>
+    <string name="error_a11y_label">Ошибка: недействительно</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="facebook">Facebook</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копировать ссылку"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Открыть в браузере"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Отправить ссылку"</string>
+    <string name="fast">Быстро</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="festival_cheers">Фестиваль, аплодисменты и восторг</string>
+    <string name="find_phone_running">"Найти телефон хлопком и голосом" работает</string>
+    <string name="first_check">Я понимаю, что распространение неподобающего контента не допускается.</string>
+    <string name="flashlight">Фонарик</string>
+    <string name="funny">Смешной</string>
+    <string name="funny_footstep">Забавные шаги</string>
+    <string name="funny_laugh">Забавный смех</string>
+    <string name="get_started">Начать</string>
+    <string name="ghost_of_christmas_past">Призрак прошлого Рождества</string>
+    <string name="glitch_button">Щелчок глюка</string>
+    <string name="glitching">Глюк</string>
+    <string name="glitchy">Глючный</string>
+    <string name="got_it">Понятно</string>
+    <string name="grant_permission">Предоставить разрешения</string>
+    <string name="greeting">Приветствие</string>
+    <string name="halloween_doorbell">Дверной звонок Хэллоуина</string>
+    <string name="hand_bell_chiming">Звон ручного колокольчика</string>
+    <string name="happy_birthday_doorbell">Дверной звонок с днем рождения</string>
+    <string name="headline">Заголовок</string>
+    <string name="how_to_use">Как использовать</string>
+    <string name="hurry_up_game_movement">Быстрое движение в игре</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string msgid="6827826412747255547" name="in_progress">"Выполняется"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Отмечено частично"</string>
+    <string name="intercom_doorbell">Домофонный звонок</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="label_grant_permission">Приложению нужны разрешения для функции поиска телефона по хлопку.</string>
+    <string name="label_htu_clap_1">Нажмите, чтобы активировать кнопку</string>
+    <string name="label_htu_clap_2">Хлопните, чтобы найти телефон</string>
+    <string name="label_htu_clap_3">Приложение определит звук хлопков и начнет звонить</string>
+    <string name="label_htu_clap_4">Перед активацией вы можете настроить фонарик, отрегулировать громкость и выбрать сигнал тревоги</string>
+    <string name="label_htu_pocket_2">Подождите около 10 секунд, чтобы установить сигнал тревоги</string>
+    <string name="label_htu_pocket_3">Если кто-то прикоснется к вашему телефону, приложение обнаружит это и вызовет сигнал тревоги</string>
+    <string name="label_htu_pocket_4">Если кто-то достанет телефон из вашего кармана, приложение обнаружит это и вызовет сигнал тревоги</string>
+    <string name="label_htu_voice_1">Создайте аудиопароль и сохраните его</string>
+    <string name="label_htu_voice_3">Произнесите аудиопароль вслух, если не можете найти телефон</string>
+    <string name="label_htu_voice_4">Приложение определит звук хлопков и начнет звонить</string>
+    <string name="label_htu_voice_5">Перед активацией вы можете настроить фонарик, отрегулировать громкость и выбрать сигнал тревоги</string>
+    <string name="label_notification_permission">Приложению нужны разрешения для функции поиска телефона по хлопку.</string>
+    <string name="label_rating_notification">Оцените нас на 5 звёзд, чтобы помочь нам стать лучше!</string>
+    <string name="label_record_permission">Приложение требует разрешение на запись для прослушивания сигнала. Без этого разрешения основная функция не будет работать.</string>
+    <string name="languages">Языки</string>
+    <string name="light">Свет</string>
+    <string name="listen">Слушать</string>
+    <string name="loading_sound">Звук загрузки</string>
+    <string name="loop">Повтор</string>
+    <string name="lost_network_connection">Соединение с сетью потеряно. Подключитесь к сети заново.</string>
+    <string name="mallet_notification">Уведомление молотком</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_24h_suffix">%1$s ч.</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="max_length_exceeded">Можно ввести не более 30 символов!</string>
+    <string name="melody">Мелодия</string>
+    <string name="message_connect_internet"><![CDATA[Для поддержания и улучшения приложения необходима сеть. Пожалуйста, подключитесь к сети.]]></string>
+    <string name="message_update_version">Новая версия приложения "Найти телефон по хлопку". Пожалуйста, обновитесь для лучшего опыта!</string>
+    <string name="mgs_cancel">Отмена</string>
+    <string name="mgs_ok">ОК</string>
+    <string name="more">Ещё</string>
+    <string name="more_info_light_pocket">Функция активируется при условиях %1$s. Пожалуйста, настройте режим в соответствии с условиями освещения в вашей среде.</string>
+    <string name="more_info_sensitivity_DT">Функция будет активирована, когда телефон движется %1$s. Рекомендуется использовать низкую скорость в среде с небольшим движением, чтобы избежать ложных срабатываний на другие действия.</string>
+    <string name="more_info_sensitivity_pocket">Функция активируется, когда телефон движется %1$s. Рекомендуется использовать низкую чувствительность в условиях с низкой активностью для достижения наибольшей точности.</string>
+    <string name="msg_apply_language_dialog"><![CDATA[Вы уверены, что хотите применить этот язык?]]></string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_checkbox_state_description_checked">Флажок установлен.</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Флажки установлены частично.</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Флажок не установлен.</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_range_selection">Выбранная дата начала: %1$s. Выбранная дата окончания: %2$s.</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">нет</string>
+    <string name="mtrl_picker_cancel">Отмена</string>
+    <string name="mtrl_picker_confirm">ОК</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Дата окончания: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Перейти к текущему году: %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$d году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_start_date_description">Дата начала: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_today_description">Сегодня: %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к Календарю</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы выбрать год</string>
+    <string name="mtrl_timepicker_cancel">Отмена</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
+    <string name="native_body">Текст</string>
+    <string name="native_headline">Заголовок</string>
+    <string name="native_media_view">Просмотр мультимедиа</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вверх"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Открыть панель навигации"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Меню навигации"</string>
+    <string name="need_allow_notification_to_show_notification">Необходимо разрешить уведомления для их отображения</string>
+    <string name="need_to_allow_audio_recording_to_use_this_feature">Необходимо разрешить запись звука для использования этой функции</string>
+    <string name="network_connect">Сеть подключена</string>
+    <string name="not_now">Не сейчас</string>
+    <string msgid="6610465462668679431" name="not_selected">"Не выбрано"</string>
+    <string name="notification_permission">Разрешение на уведомления</string>
+    <string name="notification_permission_label">Приложение требует разрешение на уведомления для отображения оповещений во время прослушивания хлопков. Без этого разрешения основная функция не будет работать.</string>
+    <string name="notifications_permission_confirm">Разрешить</string>
+    <string name="notifications_permission_decline">Не разрешать</string>
+    <string name="notifications_permission_title">Разрешить приложению отправлять уведомления?</string>
+    <string msgid="875452955155264703" name="off">"Отключено"</string>
+    <string name="offline_dialog_image_description">Значок</string>
+    <string name="offline_dialog_text">Благодарим за интерес к объявлению.\nМы отправим вам больше информации, как только вы снова подключитесь к интернету.</string>
+    <string name="offline_notification_title">Просмотреть рекламу, сохранённую в офлайне</string>
+    <string name="offline_notification_title_with_advertiser">Вы подключились к интернету. Узнайте больше о рекламодателе (%s)</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">Нет, спасибо</string>
+    <string name="offline_opt_in_message">Мы отправим вам уведомление с ссылкой на сайт рекламодателя.</string>
+    <string name="offline_opt_in_title">Откройте рекламу, когда вы снова будете в сети.</string>
+    <string name="oh_my_god">О, Боже</string>
+    <string msgid="8655164131929253426" name="on">"Включено"</string>
+    <string name="overview">Обзор</string>
+    <string name="party_horn">Гудок вечеринки</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="peaceful_piano_melody_label">Спокойная фортепианная мелодия</string>
+    <string name="permission_success_content">Хлопните дважды подряд или используйте установленные пароли, чтобы найти телефон!</string>
+    <string name="permission_success_title">Приложение "Найти телефон по хлопку и голосу" готово</string>
+    <string name="phone_found_clap_detected">Поздравляем! Вы нашли свой телефон по хлопку!</string>
+    <string name="phone_found_motion_detected">Не трогайте мой телефон!</string>
+    <string name="phone_found_pocket_detected">Верните мой телефон, пожалуйста. Не забирайте его!</string>
+    <string name="phone_found_voice_detected">Поздравляем! Вы нашли свой телефон с помощью голоса!</string>
+    <string name="please_record_something">Пожалуйста, запишите что-нибудь</string>
+    <string name="please_select_language">Пожалуйста, выберите язык отображения.</string>
+    <string name="pocket">Кармашек</string>
+    <string name="pocket_detection_service_started">Служба обнаружения кармана запущена</string>
+    <string name="pocket_mode">Карманный режим</string>
+    <string name="pocket_mode_active">Режим "Карман" активируется через 10 секунд</string>
+    <string name="pocket_mode_intro">Приложение вызовет сигнал тревоги, если кто-то попытается украсть ваш телефон из кармана.</string>
+    <string name="pocket_not_available">Режим кармана не поддерживается</string>
+    <string name="pocket_not_available_message">Ваше устройство не поддерживает режим кармана. Некоторые функции могут работать не так, как ожидалось. Проверьте конфигурацию устройства или обратитесь в службу поддержки для получения дополнительной информации.</string>
+    <string name="pocket_service_is_run">Не забирай мой телефон</string>
+    <string name="pocket_service_is_running">Сервис "Карман" работает</string>
+    <string name="police_siren_loop">Полицейская сирена</string>
+    <string name="police_whistle">Полицейский свисток</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string msgid="5941395253238309765" name="range_end">"Конец диапазона"</string>
+    <string msgid="7097486360902471446" name="range_start">"Начало диапазона"</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="reconnect"><![CDATA[Подключиться снова]]></string>
+    <string name="record_passcode">Записать пароль</string>
+    <string name="record_permission">Разрешение на запись</string>
+    <string name="record_permission_label">Приложение требует разрешение на запись для прослушивания сигнала. Без этого разрешения основная функция не будет работать.</string>
+    <string name="register_account">Зарегистрировать аккаунт</string>
+    <string name="relaxing_piano">Расслабляющее пианино</string>
+    <string name="rifle">Винтовка</string>
+    <string name="s1">Сохранить изображение</string>
+    <string name="s2">Разрешить объявлению сохранить изображение в галерее?</string>
+    <string name="s3">Разрешить</string>
+    <string name="s4">Отклонить</string>
+    <string name="s5">Создать мероприятие</string>
+    <string name="s6">Разрешить объявлению создать мероприятие в календаре?</string>
+    <string name="s7">Тестовое объявление</string>
+    <string name="sad_trumpet">Грустная труба</string>
+    <string name="save">Сохранить</string>
+    <string name="save_script">Сохранить</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="searchview_clear_text_content_description">Очистить текст</string>
+    <string name="searchview_navigation_content_description">Назад</string>
+    <string name="see_more">Показать ещё +%1$s</string>
+    <string name="select">Выбрать</string>
+    <string name="select_language">Выбрать языки</string>
+    <string msgid="6043586758067023" name="selected">"Выбрано"</string>
+    <string name="sensitivity">Чувствительность</string>
+    <string name="setting">Настройки</string>
+    <string name="side_sheet_accessibility_pane_title">Боковая панель</string>
+    <string name="single_cat_meow">Одинокое мяуканье кошки</string>
+    <string name="slow">Медленно</string>
+    <string name="solitude_ringtone_label">Идеальный рингтон для одиночества</string>
+    <string name="sos_mode">Режим SOS</string>
+    <string name="sound">Звук</string>
+    <string name="sound_effects">Звуковые эффекты</string>
+    <string name="start_now">Начать сейчас</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string msgid="2561197295334830845" name="switch_role">"Переключатель"</string>
+    <string msgid="1672349317127674378" name="tab">"Вкладка"</string>
+    <string name="tab_text_1">Хлопок</string>
+    <string name="tab_text_2">Голос</string>
+    <string name="tab_text_4">Кармашек</string>
+    <string name="tab_text_5">Не трогать</string>
+    <string name="tap_to_complete">Нажмите, чтобы завершить</string>
+    <string name="tap_to_record">Нажмите, чтобы записать</string>
+    <string msgid="5946805113151406391" name="template_percent">"Процентов: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+    <string name="text_create_by"><![CDATA[Создано Higher Studio]]></string>
+    <string name="text_intro1_msg"><![CDATA[Легко найдите телефон с помощью фонарика, режима вибрации и мелодии звонка]]></string>
+    <string name="text_intro1_title"><![CDATA[Хлопните, чтобы найти телефон]]></string>
+    <string name="text_intro2_msg"><![CDATA[Функция фонарика помогает быстро и легко найти телефон в темноте.]]></string>
+    <string name="text_intro2_title"><![CDATA[Фонарь включается в темноте]]></string>
+    <string name="text_intro3_msg"><![CDATA[Откройте приложение, чтобы найти его быстро и легко прямо сейчас!!]]></string>
+    <string name="text_intro3_title"><![CDATA[Не можете найти телефон?]]></string>
+    <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
+    <string name="text_lang_de" translatable="false"><![CDATA[Deutsch]]></string>
+    <string name="text_lang_en" translatable="false"><![CDATA[English]]></string>
+    <string name="text_lang_es" translatable="false"><![CDATA[Español]]></string>
+    <string name="text_lang_hi" translatable="false"><![CDATA[हिन्दी]]></string>
+    <string name="text_lang_ja" translatable="false"><![CDATA[日本語]]></string>
+    <string name="text_lang_ko" translatable="false"><![CDATA[한국어]]></string>
+    <string name="text_lang_pt" translatable="false"><![CDATA[Português]]></string>
+    <string name="text_lang_ru" translatable="false"><![CDATA[Русский]]></string>
+    <string name="text_lang_tr" translatable="false"><![CDATA[Türkçe]]></string>
+    <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
+    <string name="text_lang_vi" translatable="false"><![CDATA[Tiếng Việt]]></string>
+    <string name="text_lang_zh" translatable="false"><![CDATA[简体中文]]></string>
+    <string name="text_next">Далее</string>
+    <string name="text_to_voice">Текст в голос</string>
+    <string name="text_welcome"><![CDATA[Добро пожаловать]]></string>
+    <string name="this_feature_is_not_supported_by_your_device">Эта функция не поддерживается вашим устройством</string>
+    <string name="thunder">Гром</string>
+    <string name="title_apply_change_language_dialog"><![CDATA[Применить смену языка]]></string>
+    <string name="title_rating_notification">Вам нравится наше приложение?</string>
+    <string name="title_save_sound_setting"><![CDATA[Сохранить настройки звука]]></string>
+    <string name="title_update_version">Обновление версии</string>
+    <string name="toy_dog_barking">Лай игрушечной собаки</string>
+    <string name="tt_ad_close_text">Реклама закрыта</string>
+    <string name="tt_ad_is_closed">Объявления закрыты</string>
+    <string name="tt_ad_logo_txt">Рекламное объявление</string>
+    <string name="tt_choose_language">ru</string>
+    <string name="tt_comment_num">Отзывы: %1$s</string>
+    <string name="tt_count_down_view">Пропустить</string>
+    <string name="tt_dislike_header_tv_back">Назад</string>
+    <string name="tt_dislike_header_tv_title">Выбрать</string>
+    <string name="tt_display_error">Ошибка отображения</string>
+    <string name="tt_feedback_experience_text">Мы будем и дальше улучшать наши услуги.</string>
+    <string name="tt_feedback_submit_text">Вы уже оставили отзыв! Пожалуйста, не отправляйте его повторно.</string>
+    <string name="tt_feedback_thank_text">Спасибо за отзыв!</string>
+    <string name="tt_logo_en">Реклама</string>
+    <string name="tt_msgPlayable">Завершите просмотр, чтобы получить награду</string>
+    <string name="tt_multiple_ad_indicator">Реклама %1$d из %2$d</string>
+    <string name="tt_negtiveBtnBtnText">Покинуть</string>
+    <string name="tt_negtive_txt">Отмена</string>
+    <string name="tt_no_network">Нет соединения с сетью. Повторите позже.</string>
+    <string name="tt_postiveBtnText">Продолжить</string>
+    <string name="tt_postiveBtnTextPlayable">Продолжить просмотр</string>
+    <string name="tt_postive_txt">ОК</string>
+    <string name="tt_privacy_title">Политика конфиденциальности</string>
+    <string name="tt_reward_feedback">Отзыв</string>
+    <string name="tt_reward_full_skip">Пропустить через %1$s с.</string>
+    <string name="tt_reward_msg">Посмотрите видео целиком, чтобы получить награду</string>
+    <string name="tt_reward_screen_skip_tx">Пропустить</string>
+    <string name="tt_skip_ad_time_text">Можно пропустить через s %dс</string>
+    <string name="tt_suggestion_commit">Отправить</string>
+    <string name="tt_suggestion_description">Введите описание ошибки отображения и нажмите кнопку «Отправить». Рекламный креатив также будет отправлен в Pangle в целях диагностики проблемы.</string>
+    <string name="tt_try_now">Попробуй</string>
+    <string name="tt_video_bytesize">Трафик</string>
+    <string name="tt_video_dial_phone">Позвонить</string>
+    <string name="tt_video_download_apk">Загрузить</string>
+    <string name="tt_video_mobile_go_detail">Посмотреть</string>
+    <string name="tt_video_retry_des_txt">Ошибка загрузки. Попробуйте снова.</string>
+    <string name="tt_video_without_wifi_tips">На воспроизведение этого контента будет потрачено %.2f МБ трафика</string>
+    <string name="tt_web_title_default">Рекламное объявление</string>
+    <string name="turn_off">Выключить</string>
+    <string name="vibration">Вибрация</string>
+    <string name="voice">Голос</string>
+    <string name="voice_detection_service">Сервис распознавания голоса</string>
+    <string name="voice_mode">Режим голос</string>
+    <string name="voice_mode_intro">Запишите свой голос или используйте текст в речь, чтобы настроить звук для поиска телефона.</string>
+    <string name="voice_service_is_running">Голосовой поиск телефона работает</string>
+    <string name="warning_rating">Пожалуйста, выберите вашу оценку.</string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="whispered_oh_no">Шепотом "О нет"</string>
+    <string name="whistle">Свисток</string>
+    <string name="whistle_noise">Свист</string>
+    <string name="winning_horn_sound">Звук рога победителя</string>
+    <string name="with_light">Со светом</string>
+    <string name="without_light">Без света</string>
+    <string name="your_device_doesn_t_support_flash">Ваше устройство не поддерживает вспышку</string>
+    <string name="your_passcode">Ваш пароль</string>
+</resources>

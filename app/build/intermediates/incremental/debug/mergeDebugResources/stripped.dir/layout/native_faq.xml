@@ -1,0 +1,158 @@
+                                                                   
+
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/native_ad_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rating"
+        android:backgroundTint="@color/colorIcon" android:tag="layout/native_faq_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:paddingLeft="@dimen/common_20dp"
+                android:paddingTop="@dimen/common_10dp"
+                android:paddingRight="@dimen/common_20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_curved_2dp"
+                    android:paddingLeft="@dimen/common_3dp"
+                    android:paddingRight="@dimen/common_3dp"
+                    android:text="@string/ad"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/common_2dp"
+                android:paddingLeft="@dimen/common_20dp"
+                android:paddingRight="@dimen/common_20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="top"
+                        android:gravity="top">
+
+                        <com.google.android.gms.ads.nativead.MediaView
+                            android:id="@+id/ad_app_icon"
+                            android:layout_width="@dimen/common_45dp"
+                            android:layout_height="@dimen/common_45dp"
+                            android:adjustViewBounds="true"
+                            android:layout_marginEnd="@dimen/common_5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/ad_headline"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text="@string/register_account"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/text_size_12sp"
+                                    android:maxLines="2"
+                                    android:fontFamily="@font/poppinsmedium"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/ad_advertiser"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="bottom"
+                                android:text="@string/facebook"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/text_small"
+                                android:fontFamily="@font/poppinsregular"/>
+
+                            <TextView
+                                android:id="@+id/ad_body"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:gravity="left|top"
+                                android:maxLines="2"
+                                android:ellipsize="marquee"
+                                android:text="@string/register_account"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/text_small"
+                                android:fontFamily="@font/poppinsregular"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <com.google.android.gms.ads.nativead.MediaView
+                            android:id="@+id/ad_media"
+                            android:layout_width="@dimen/common_120dp"
+                            android:layout_height="@dimen/common_120dp"
+                            android:layout_gravity="top|center_horizontal"
+                            android:layout_marginRight="@dimen/common_6dp"
+                            android:visibility="gone"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/ad_call_to_action"
+                                style="@style/ButtonNextStyle"
+                                android:backgroundTint="@color/white"
+                                android:layout_width="match_parent"
+                                android:layout_gravity="right"
+                                android:gravity="center"
+                                android:text="@string/text_next"
+                                android:textStyle="normal"
+                                android:layout_marginTop="@dimen/common_8dp"
+                                android:textColor="@color/colorPrimary"
+                                android:fontFamily="@font/poppinsmedium"
+                                android:layout_marginBottom="@dimen/common_16dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+         

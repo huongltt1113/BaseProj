@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_56dp"
+            android:background="@drawable/bg_toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/common_20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_language"
+                    android:textSize="@dimen/text_size_16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+                <ImageView
+                    android:id="@+id/txtNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tick_circle"
+                    android:paddingVertical="@dimen/common_12dp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:id="@+id/scvLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toTopOf="@+id/btn_next"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            android:paddingVertical="@dimen/common_16dp"
+            android:clipToPadding="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:paddingHorizontal="@dimen/common_20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="top">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemHindi"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_hi"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemGerman"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_de"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemSpanish"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_es"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemPortuguase"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_pt"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemEnglish"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_en"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemVietNam"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_vi"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemTurkey"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:text="@string/text_lang_tr"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemRussian"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_ru"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemUkraian"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_uk"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemJapan"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_ja"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemKorean"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_ko"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemChina"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_zh"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/itemAbric"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="@dimen/common_12dp"
+                        android:background="@drawable/bg_item_language"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/common_10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:paddingHorizontal="@dimen/common_14dp"
+                            android:paddingTop="@dimen/common_3dp"
+                            android:text="@string/text_lang_ar"
+                            android:textSize="@dimen/text_size_13sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_vertical"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:paddingRight="@dimen/common_60dp"
+                    android:paddingLeft="@dimen/common_40dp">
+
+                    <RadioButton
+                        android:id="@+id/rbt_hindi"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl" />
+
+                    <RadioButton
+                        android:id="@+id/rbt_german"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_spanish"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_portuguase"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_english"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_vietnam"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_turkey"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_russian"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_ukraian"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_japan"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_korean"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_china"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="rtl"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbt_abric"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_56dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:button="@drawable/ic_radio_selector"
+                        android:buttonTint="@color/black"
+                        android:layoutDirection="ltr"
+                        android:layout_marginStart="@dimen/common_10dp"
+                        android:layout_marginTop="@dimen/common_10dp"/>
+                </RadioGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <include
+            android:id="@+id/nativeAskLanguge"
+            layout="@layout/native_ad_unified"
+            android:visibility="gone"/>
+    </LinearLayout>
+</layout>

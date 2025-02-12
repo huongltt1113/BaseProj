@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dev.baseproject.app-mergeDebugResources-117:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\luong\\.gradle\\caches\\8.9\\transforms\\8636941073497d03c68293ddffe036fa\\transformed\\same-16.8.61\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,158",
+                        "endLines": "2,5",
+                        "endColumns": "102,12",
+                        "endOffsets": "153,328"
+                    },
+                    "to": {
+                        "startLines": "17,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "934,1130",
+                        "endLines": "17,21",
+                        "endColumns": "102,12",
+                        "endOffsets": "1032,1300"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\luong\\.gradle\\caches\\8.9\\transforms\\dc77a5ca8ab205a603e4d61783e1d117\\transformed\\reward-16.8.61\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,193",
+                        "endLines": "2,14",
+                        "endColumns": "92,16",
+                        "endOffsets": "188,1070"
+                    },
+                    "to": {
+                        "startLines": "18,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "1037,1305",
+                        "endLines": "18,33",
+                        "endColumns": "92,16",
+                        "endOffsets": "1125,2182"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\luong\\.gradle\\caches\\8.9\\transforms\\158a5be03e69361377eb5570f811155a\\transformed\\appcompat-1.7.0\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "100,175,262,426,602,841",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "170,257,421,597,836,929"
+                    }
+                }
+            ]
+        }
+    ]
+}

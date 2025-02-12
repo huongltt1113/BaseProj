@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_record_pass_code_0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btm1">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_56dp"
+                android:background="@drawable/bg_toolbar"
+                app:layout_constraintBottom_toTopOf="@id/selectlanguage"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="@dimen/common_20dp"
+                    android:layout_marginVertical="@dimen/common_12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btnBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingVertical="@dimen/common_12dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_arrow_left"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/common_12dp"
+                        android:layout_marginTop="@dimen/common_2dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center_vertical"
+                        android:text="@string/record_passcode"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectlanguage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_0dp"
+                android:layout_marginHorizontal="@dimen/common_20dp"
+                android:layout_marginTop="@dimen/common_16dp"
+                android:background="@color/white"
+                android:elevation="@dimen/common_4dp"
+                app:cardCornerRadius="@dimen/common_16dp"
+                app:layout_constraintBottom_toTopOf="@id/tvpasscode"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintTop_toBottomOf="@+id/toolbarLayout">
+
+                <TextView
+                    android:id="@+id/tvselectedlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/common_15dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/common_5dp"
+                    android:text="@string/english"
+                    android:textColor="@color/maintextcolor"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="@dimen/common_20dp"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_arrow_circle_down" />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/tvpasscode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_0dp"
+                android:layout_marginHorizontal="@dimen/common_20dp"
+                android:layout_marginVertical="@dimen/common_16dp"
+                android:background="@drawable/bg_record_text"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/don_t_have_passcode_yet"
+                android:textColor="@color/maintextcolor"
+                android:textSize="@dimen/text_size_13sp"
+                app:layout_constraintDimensionRatio="181:94"
+                app:layout_constraintTop_toBottomOf="@+id/selectlanguage" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/soundanimationview"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/common_2dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/recordvoiceicon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvpasscode"
+                app:layout_constraintWidth_percent="0.33"
+                app:lottie_rawRes="@raw/lottiesound" />
+
+            <ImageView
+                android:id="@+id/recordvoiceicon"
+                android:layout_width="@dimen/common_60dp"
+                android:layout_height="@dimen/common_60dp"
+                android:layout_marginTop="@dimen/common_8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_record"
+                app:layout_constraintBottom_toTopOf="@id/tvrecordingstatus"
+                app:layout_constraintEnd_toEndOf="@+id/tvpasscode"
+                app:layout_constraintStart_toStartOf="@+id/tvpasscode"
+                app:layout_constraintTop_toBottomOf="@+id/tvpasscode" />
+
+            <TextView
+                android:id="@+id/tvrecordingstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/tap_to_record"
+                android:textColor="@color/maintextcolor"
+                android:textSize="@dimen/text_size_13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recordvoiceicon" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:id="@+id/btm1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_70dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:visibility="gone" android:tag="binding_1">
+
+            <include
+                android:id="@+id/reguler_banner_ad"
+                layout="@layout/ads_layout_banner"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="@dimen/common_16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnCancel"
+                style="@style/CancelButtonStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/common_20dp"
+                android:layout_marginRight="@dimen/common_8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancel" />
+
+            <TextView
+                android:id="@+id/btnSavePasscode"
+                style="@style/ButtonSaveStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/common_8dp"
+                android:layout_marginRight="@dimen/common_20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/save" />
+        </LinearLayout>
+    </RelativeLayout>
+         

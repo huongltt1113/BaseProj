@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d yeni bildirim</item>
+    <item quantity="other">%d yeni bildirim</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AÇ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="active">Aktif</string>
+    <string name="ad">Reklam</string>
+    <string name="advertiser">Reklam Veren</string>
+    <string name="aggressive_male_laugh">Saldırgan erkek kahkahası</string>
+    <string name="alarm_clock_80s">80\'lerin çalar saati</string>
+    <string name="allow">İzin Ver</string>
+    <string name="allow_battery_optimization">Pil Optimizasyonuna İzin Ver</string>
+    <string name="allow_notification">Bildirime İzin Ver</string>
+    <string name="allow_record">Kayda İzin Ver</string>
+    <string name="allowed">İzin Verildi</string>
+    <string name="app_name"><![CDATA[Alkışla Telefon Bul]]></string>
+    <string name="applause_and_standing_ovation">Alkışlar ve ayakta alkışlama</string>
+    <string name="army_trumpet">Ordu borusu</string>
+    <string name="ballerina_music_label">Balerin müzik kutusu şarkısı</string>
+    <string name="battery_limit_free">Pil Sınırı Ücretsiz</string>
+    <string name="battery_optimization_label">Uygulamanın sistem tarafından kapatılmasını önleyin</string>
+    <string name="battery_permission_exception">Hizmet başlatılamıyor. En iyi deneyim için Pil Sınırlaması Yok izni verin.</string>
+    <string name="battery_permission_rationale">Hizmet başlatılamıyor. İzinleri kontrol edin ve bu özelliği kullanmak için Pil Sınırlaması Yok iznini verin.</string>
+    <string name="beast_roar">Canavar Kükremesi</string>
+    <string name="birds_chirping">Kuş cıvıltıları</string>
+    <string name="bottomsheet_action_collapse">Alt sayfayı daralt</string>
+    <string name="bottomsheet_action_expand">Alt sayfayı genişlet</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="bottomsheet_drag_handle_clicked">Sürükleme tutamacına iki kez dokunuldu</string>
+    <string name="bottomsheet_drag_handle_content_description">Sürükleme tutamacı</string>
+    <string name="btn_later">Sonra</string>
+    <string name="call_notification_answer_action">Cevapla</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Reddet</string>
+    <string name="call_notification_hang_up_action">Kapat</string>
+    <string name="call_notification_incoming_text">Gelen arama</string>
+    <string name="call_notification_ongoing_text">Devam eden arama</string>
+    <string name="call_notification_screening_text">Gelen aramayı inceliyor</string>
+    <string name="cancel">İptal</string>
+    <string name="car_honk">Araba kornası</string>
+    <string name="cartoon_run">Çizgi film koşusu</string>
+    <string name="cartoon_steps">Çizgi film adımları</string>
+    <string name="cat_meowing">Kedi miyavlaması</string>
+    <string name="cavelry">Süvari</string>
+    <string name="change_passcode">Şifreyi Değiştir</string>
+    <string name="channel_description">Alkışla Telefon Bul</string>
+    <string name="channel_name">Alkış ve Ses ile Telefon Bul</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="choose_email">Bir E-posta Seçin:</string>
+    <string name="choose_language">Dili Seç</string>
+    <string name="choose_mode">Mod Seç</string>
+    <string name="choose_sound">Ses Seç</string>
+    <string name="choose_sound_title">Ses Seç</string>
+    <string name="christmas_themed">Noel Teması</string>
+    <string name="clap_detection_service">Alkış Algılama Servisi</string>
+    <string name="clap_mode">Alkış Modu</string>
+    <string name="clap_mode_intro">Telefonunuzu bulmak için ardışık olarak iki kez alkışlayın.</string>
+    <string name="clap_modes">Alkış</string>
+    <string name="clap_service_is_running">Alkışla Telefon Bul Hizmeti</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string name="clock_ticking_fast">Hızlı saat tik sesi</string>
+    <string name="close_and_continue_listening">Kapat ve dinlemeye devam et</string>
+    <string name="close_and_stop_service">Kapat ve durdur</string>
+    <string msgid="406453423630273620" name="close_drawer">"Gezinme menüsünü kapat"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Sayfayı kapat"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncelle</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">Google\'da oturum aç</string>
+    <string name="congratulations_nyou_have_found_your_phone">Tebrikler!\nTelefonunuzu buldunuz</string>
+    <string name="connect_internet">İnternet Bağlantısı</string>
+    <string name="content_feedback">Find Phone by Clap, Voice uygulamasından memnun olmadığınızı duyduğumuza üzüldük. Lütfen geri bildirimlerinizi ve önerilerinizi e-posta yoluyla bize iletin, böylece hizmetimizi geliştirebiliriz.</string>
+    <string name="content_save_sound_setting"><![CDATA[Bu değişikliği kaydetmek istediğinizden emin misiniz?]]></string>
+    <string name="copy_toast_msg">Bağlantı panoya kopyalandı</string>
+    <string name="create_passcode">Şifre Oluştur</string>
+    <string name="create_passcode_dialog_message">Telefonun kodu daha doğru bir şekilde tanıyabilmesi için kısa, basit ve kolay telaffuz edilebilen bir kod kullanın. En iyi performansı sağlamak için karmaşık veya uzun kelimelerden kaçının.</string>
+    <string name="create_passcode_dialog_title">Kolay Tanınabilir Bir Ses Kodu Seçin</string>
+    <string name="create_passcode_first">Bu özelliği etkinleştirmek için önce bir şifre oluşturun!</string>
+    <string name="custom">Özel</string>
+    <string name="deactive">Pasif</string>
+    <string name="default1">Varsayılan</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Geçersiz giriş"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-up Pencere"</string>
+    <string name="ding_dong_merrily_label">Neşeli kapı zili</string>
+    <string name="disable_voice_detection_service_first">Lütfen önce hizmeti devre dışı bırakın</string>
+    <string name="disco_mode">Disko modu</string>
+    <string name="dog_barking">Köpek havlaması</string>
+    <string name="don_t_have_passcode_yet">Lütfen şifrenizi kaydedin</string>
+    <string name="don_t_touch_mode">"Dokunma" Modu</string>
+    <string name="don_t_touch_mode_active">"Dokunma" modu 10 saniye içinde etkinleştirilecek</string>
+    <string name="don_t_touch_my_phone">Telefonuma Dokunma</string>
+    <string name="don_t_touch_my_phone_service_is_running">"Telefonuma Dokunma" hizmeti çalışıyor</string>
+    <string name="dont_touch_mode_intro">Biri telefonunuza dokunursa, uygulama bir uyarı verir.</string>
+    <string name="donttouch">Dokunma</string>
+    <string name="door_bell">Kapı zili</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Açılır menü"</string>
+    <string name="duration">Süre</string>
+    <string name="enable_at_least_one_method">Telefonunuzu bulmak için en az bir algılama yöntemini etkinleştirmeniz gerekir. Devam etmek için bir veya daha fazla yöntem seçin.</string>
+    <string name="enable_at_least_one_method_title">Algılama Yöntemlerini Etkinleştir</string>
+    <string name="enter_your_passcode_here">Şifrenizi buraya girin</string>
+    <string name="error_a11y_label">Hata: geçersiz</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string name="facebook">Facebook</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
+    <string name="fast">Hızlı</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="festival_cheers">Festival tezahüratları ve alkışlar</string>
+    <string name="find_phone_running">"Alkış ve Ses ile Telefon Bul" çalışıyor</string>
+    <string name="first_check">Uygunsuz içerik paylaşımının tolere edilmeyeceğini anlıyorum.</string>
+    <string name="flashlight">Fener</string>
+    <string name="funny">Komik</string>
+    <string name="funny_footstep">Komik adım sesleri</string>
+    <string name="funny_laugh">Komik kahkaha</string>
+    <string name="get_started">Başla</string>
+    <string name="ghost_of_christmas_past">Geçmiş Noel\'in Hayaleti</string>
+    <string name="glitch_button">Glitch buton sesi</string>
+    <string name="glitching">Glitch sesi</string>
+    <string name="glitchy">Hatalı</string>
+    <string name="got_it">Anladım</string>
+    <string name="grant_permission">İzinleri ver</string>
+    <string name="greeting">Selam</string>
+    <string name="halloween_doorbell">Cadılar Bayramı Zili</string>
+    <string name="hand_bell_chiming">El zili çalması</string>
+    <string name="happy_birthday_doorbell">Doğum Günü Zili</string>
+    <string name="headline">Başlık</string>
+    <string name="how_to_use">Nasıl kullanılır</string>
+    <string name="hurry_up_game_movement">Acele et oyun hareketi</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string msgid="6827826412747255547" name="in_progress">"Devam ediyor"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Kısmi olarak kontrol edildi"</string>
+    <string name="intercom_doorbell">İnterkom Zili</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="label_grant_permission">Alkışla telefon bulma özelliğini sağlamak için uygulamanın izne ihtiyacı var.</string>
+    <string name="label_htu_clap_1">Düğmeyi etkinleştirmek için tıklayın</string>
+    <string name="label_htu_clap_2">Telefonu bulmak için alkışlayın</string>
+    <string name="label_htu_clap_3">Uygulama alkış sesini algılar ve çalmaya başlar</string>
+    <string name="label_htu_clap_4">Etkinleştirmeden önce, el fenerini ayarlayabilir, sesi ayarlayabilir ve alarm sesini seçebilirsiniz</string>
+    <string name="label_htu_pocket_2">Alarmı ayarlamak için yaklaşık 10 saniye bekleyin</string>
+    <string name="label_htu_pocket_3">Biri telefonunuza dokunduğunda, uygulama bunu algılar ve bir uyarı verir</string>
+    <string name="label_htu_pocket_4">Biri telefonunuzu cebinizden çıkardığında, uygulama bunu algılar ve bir uyarı verir</string>
+    <string name="label_htu_voice_1">Bir sesli şifre oluşturun ve kaydedin</string>
+    <string name="label_htu_voice_3">Telefonunuzu bulamadığınızda sesli şifreyi yüksek sesle okuyun</string>
+    <string name="label_htu_voice_4">Uygulama alkış sesini algılar ve çalmaya başlar</string>
+    <string name="label_htu_voice_5">Etkinleştirmeden önce, el fenerini ayarlayabilir, sesi ayarlayabilir ve alarm sesini seçebilirsiniz</string>
+    <string name="label_notification_permission">Alkışla telefon bulma özelliğini sağlamak için uygulamanın izne ihtiyacı var.</string>
+    <string name="label_rating_notification">Bize daha iyi hizmet etmemiz için 5 yıldız verin!</string>
+    <string name="label_record_permission">Alkışla Telefon Bul, sinyalinizi dinlemek için kayıt izni gerektirir. Bu izin olmadan, ana özellik çalışmaz.</string>
+    <string name="languages">Diller</string>
+    <string name="light">Işık</string>
+    <string name="listen">Dinle</string>
+    <string name="loading_sound">Yükleme sesi</string>
+    <string name="loop">Döngü</string>
+    <string name="lost_network_connection">Ağ bağlantısı kesildi. Lütfen yeniden bağlanın.</string>
+    <string name="mallet_notification">Çekiç bildirim sesi</string>
+    <string name="material_clock_toggle_content_description">ÖÖ veya ÖS\'yi seçin</string>
+    <string name="material_hour_24h_suffix">%1$s saat</string>
+    <string name="material_hour_selection">Saat seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dakikayı seçin</string>
+    <string name="material_minute_suffix">%1$s dakika</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zaman girişi için saat moduna geçin.</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dakika</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Zamanı seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="max_length_exceeded">Sadece 30 karaktere kadar girebilirsiniz!</string>
+    <string name="melody">Melodi</string>
+    <string name="message_connect_internet"><![CDATA[Uygulamayı sürdürebilmek ve geliştirebilmek için bir ağ bağlantısı gereklidir. Lütfen devam etmek için ağınızı etkinleştirin.]]></string>
+    <string name="message_update_version">Find Phone by Clap, Voice uygulamasının yeni bir sürümü mevcut. En iyi deneyim için güncelleyin!</string>
+    <string name="mgs_cancel">İptal</string>
+    <string name="mgs_ok">Tamam</string>
+    <string name="more">Daha fazla</string>
+    <string name="more_info_light_pocket">Özellik, şu koşullar altında etkinleşir %1$s. Ortamınızdaki ışık koşullarına uygun bir şekilde modu ayarlayın.</string>
+    <string name="more_info_sensitivity_DT">Telefon hareket ettiğinde özellik etkinleşecektir %1$s. Diğer hareketlerle karışıklığı önlemek için az hareketli ortamlarda yavaş hız kullanmanız önerilir.</string>
+    <string name="more_info_sensitivity_pocket">Telefon hareket ettiğinde özellik etkinleşecektir %1$s. En doğru çalışma için düşük hareketli ortamlarda düşük hassasiyet kullanmanız önerilir.</string>
+    <string name="msg_apply_language_dialog"><![CDATA[Bu dili uygulamak istediğinizden emin misiniz?]]></string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_checkbox_state_description_checked">İşaretlendi</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Kısmi olarak işaretlendi</string>
+    <string name="mtrl_checkbox_state_description_unchecked">İşaretlenmedi</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_range_selection">Başlangıç tarihi seçimi: %1$s – Bitiş tarihi seçimi: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">yok</string>
+    <string name="mtrl_picker_cancel">İptal</string>
+    <string name="mtrl_picker_confirm">Tamam</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Bitiş tarihi: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
+    <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Geçerli yıla (%1$d) git</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d yılına git</string>
+    <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_start_date_description">Başlangıç tarihi: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarih</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">a</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Bugün, %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Takvim görünümüne geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl görünümüne geçmek için dokunun</string>
+    <string name="mtrl_timepicker_cancel">İptal</string>
+    <string name="mtrl_timepicker_confirm">Tamam</string>
+    <string name="native_body">Metin</string>
+    <string name="native_headline">Başlık</string>
+    <string name="native_media_view">Medya Görünümü</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Yukarı git"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Gezinme çekmecesini aç"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Gezinme menüsü"</string>
+    <string name="need_allow_notification_to_show_notification">Bildirimleri göstermek için izin vermelisiniz</string>
+    <string name="need_to_allow_audio_recording_to_use_this_feature">Bu özelliği kullanmak için ses kaydına izin vermelisiniz</string>
+    <string name="network_connect">Ağa Bağlandı</string>
+    <string name="not_now">Şimdi değil</string>
+    <string msgid="6610465462668679431" name="not_selected">"Seçili değil"</string>
+    <string name="notification_permission">Bildirim İzni</string>
+    <string name="notification_permission_label">Alkışla Telefon Bul, sinyalinizi dinlerken uyarıları göstermek için bildirim izni gerektirir. Bu izin olmadan, ana özellik çalışmaz.</string>
+    <string name="notifications_permission_confirm">İzin ver</string>
+    <string name="notifications_permission_decline">İzin verme</string>
+    <string name="notifications_permission_title">Uygulamanın bildirim göndermesine izin verilsin mi?</string>
+    <string msgid="875452955155264703" name="off">"Kapalı"</string>
+    <string name="offline_dialog_image_description">Simge</string>
+    <string name="offline_dialog_text">İlginiz için teşekkür ederiz.\nTekrar internete bağlandığınızda daha fazla bilgi paylaşacağız.</string>
+    <string name="offline_notification_title">Çevrimdışıyken kaydettiğiniz reklamı görüntüleyin</string>
+    <string name="offline_notification_title_with_advertiser">İnternete tekrar bağlandınız. %s hakkında bilgi edinmeye devam edin</string>
+    <string name="offline_opt_in_confirm">Tamam</string>
+    <string name="offline_opt_in_decline">Hayır, teşekkürler</string>
+    <string name="offline_opt_in_message">Reklamverenin sitesine yönlendiren bir bildirim göndereceğiz.</string>
+    <string name="offline_opt_in_title">Tekrar çevrimiçi olduğunuzda reklamı açın.</string>
+    <string name="oh_my_god">Aman Tanrım</string>
+    <string msgid="8655164131929253426" name="on">"Açık"</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="party_horn">Parti borusu</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="peaceful_piano_melody_label">Huzurlu piyano melodisi</string>
+    <string name="permission_success_content">Telefonunuzu bulmak için iki kez ardışık olarak alkışlayın veya ayarlanmış şifreyi kullanın!</string>
+    <string name="permission_success_title">Alkış ve Sesle Telefon Bul hazır</string>
+    <string name="phone_found_clap_detected">Tebrikler! Telefonunuzu alkışla buldunuz!</string>
+    <string name="phone_found_motion_detected">Telefonuma dokunma!</string>
+    <string name="phone_found_pocket_detected">Lütfen telefonumu geri verin. Lütfen götürmeyin!</string>
+    <string name="phone_found_voice_detected">Tebrikler! Telefonunuzu sesinizle buldunuz!</string>
+    <string name="please_record_something">Lütfen bir şey kaydedin</string>
+    <string name="please_select_language">Lütfen bir görüntüleme dili seçin.</string>
+    <string name="pocket">Cep</string>
+    <string name="pocket_detection_service_started">Cep Algılama Servisi Başlatıldı</string>
+    <string name="pocket_mode">Cep Modu</string>
+    <string name="pocket_mode_active">"Cep modu" 10 saniye içinde etkinleştirilecek</string>
+    <string name="pocket_mode_intro">Biri telefonunuzu cebinizden çalmaya çalışırsa, uygulama bir uyarı verir.</string>
+    <string name="pocket_not_available">Cep Modu Desteklenmiyor</string>
+    <string name="pocket_not_available_message">Cihazınız Cep Modunu desteklemiyor. Bazı özellikler beklendiği gibi çalışmayabilir. Lütfen cihaz yapılandırmanızı kontrol edin veya daha fazla bilgi için destekle iletişime geçin.</string>
+    <string name="pocket_service_is_run">Telefonumu almayın</string>
+    <string name="pocket_service_is_running">Cep servisi çalışıyor</string>
+    <string name="police_siren_loop">Polis Sireni</string>
+    <string name="police_whistle">Polis düdüğü</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string msgid="5941395253238309765" name="range_end">"Aralık sonu"</string>
+    <string msgid="7097486360902471446" name="range_start">"Aralık başlangıcı"</string>
+    <string name="rate_us">Bizi Oyla</string>
+    <string name="reconnect"><![CDATA[Bağlantıyı yeniden kur]]></string>
+    <string name="record_passcode">Şifre Kaydet</string>
+    <string name="record_permission">Kayıt İzni</string>
+    <string name="record_permission_label">Alkışla Telefon Bul, sinyalinizi dinlemek için kayıt izni gerektirir. Bu izin olmadan, ana özellik çalışmaz.</string>
+    <string name="register_account">Hesap Kaydı</string>
+    <string name="relaxing_piano">Rahatlatıcı Piyano</string>
+    <string name="rifle">Tüfek</string>
+    <string name="s1">Resmi kaydet</string>
+    <string name="s2">Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?</string>
+    <string name="s3">Kabul et</string>
+    <string name="s4">Reddet</string>
+    <string name="s5">Takvim etkinliği oluştur</string>
+    <string name="s6">Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?</string>
+    <string name="s7">Test Reklamı</string>
+    <string name="sad_trumpet">Hüzünlü Trompet</string>
+    <string name="save">Kaydet</string>
+    <string name="save_script">Kaydet</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="searchview_clear_text_content_description">Metni temizle</string>
+    <string name="searchview_navigation_content_description">Geri</string>
+    <string name="see_more">Daha fazla göster +%1$s</string>
+    <string name="select">Seç</string>
+    <string name="select_language">Dilleri Seç</string>
+    <string msgid="6043586758067023" name="selected">"Seçili"</string>
+    <string name="sensitivity">Hassasiyet</string>
+    <string name="setting">Ayarlar</string>
+    <string name="side_sheet_accessibility_pane_title">Yan Sayfa</string>
+    <string name="single_cat_meow">Tek Kedi Miyavlaması</string>
+    <string name="slow">Yavaş</string>
+    <string name="solitude_ringtone_label">Mükemmel yalnızlık müziği zil sesi</string>
+    <string name="sos_mode">SOS Modu</string>
+    <string name="sound">Ses</string>
+    <string name="sound_effects">Ses Efektleri</string>
+    <string name="start_now">Şimdi başla</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string msgid="2561197295334830845" name="switch_role">"Anahtar"</string>
+    <string msgid="1672349317127674378" name="tab">"Sekme"</string>
+    <string name="tab_text_1">Alkış</string>
+    <string name="tab_text_2">Ses</string>
+    <string name="tab_text_4">Cep</string>
+    <string name="tab_text_5">Dokunma</string>
+    <string name="tap_to_complete">Tamamlamak için dokunun</string>
+    <string name="tap_to_record">Kaydetmek için dokunun</string>
+    <string msgid="5946805113151406391" name="template_percent">"Yüzde <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+    <string name="text_create_by"><![CDATA[Higher Studio tarafından oluşturuldu]]></string>
+    <string name="text_intro1_msg"><![CDATA[Fener, titreşim modu ve zil sesi ile telefonunuzu kolayca bulun]]></string>
+    <string name="text_intro1_title"><![CDATA[Alkışla Telefonu Bul]]></string>
+    <string name="text_intro2_msg"><![CDATA[Fener özelliği, telefonunuzu karanlıkta hızlı ve kolay bir şekilde bulmanıza yardımcı olur.]]></string>
+    <string name="text_intro2_title"><![CDATA[Fener karanlıkta yanar]]></string>
+    <string name="text_intro3_msg"><![CDATA[Şimdi hemen bulmak için uygulamayı açın!!]]></string>
+    <string name="text_intro3_title"><![CDATA[Telefonunuzu bulamıyor musunuz?]]></string>
+    <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
+    <string name="text_lang_de" translatable="false"><![CDATA[Deutsch]]></string>
+    <string name="text_lang_en" translatable="false"><![CDATA[English]]></string>
+    <string name="text_lang_es" translatable="false"><![CDATA[Español]]></string>
+    <string name="text_lang_hi" translatable="false"><![CDATA[हिन्दी]]></string>
+    <string name="text_lang_ja" translatable="false"><![CDATA[日本語]]></string>
+    <string name="text_lang_ko" translatable="false"><![CDATA[한국어]]></string>
+    <string name="text_lang_pt" translatable="false"><![CDATA[Português]]></string>
+    <string name="text_lang_ru" translatable="false"><![CDATA[Русский]]></string>
+    <string name="text_lang_tr" translatable="false"><![CDATA[Türkçe]]></string>
+    <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
+    <string name="text_lang_vi" translatable="false"><![CDATA[Tiếng Việt]]></string>
+    <string name="text_lang_zh" translatable="false"><![CDATA[简体中文]]></string>
+    <string name="text_next">Sonraki</string>
+    <string name="text_to_voice">Metni sese dönüştür</string>
+    <string name="text_welcome"><![CDATA[Hoş geldiniz]]></string>
+    <string name="this_feature_is_not_supported_by_your_device">Bu özellik cihazınız tarafından desteklenmiyor</string>
+    <string name="thunder">Gök gürültüsü</string>
+    <string name="title_apply_change_language_dialog"><![CDATA[Dil Değişikliğini Uygula]]></string>
+    <string name="title_rating_notification">Uygulamamızı Beğendiniz mi?</string>
+    <string name="title_save_sound_setting"><![CDATA[Ses Ayarını Kaydet]]></string>
+    <string name="title_update_version">Yeni Sürümü Güncelle</string>
+    <string name="toy_dog_barking">Oyuncak Köpek Havlaması</string>
+    <string name="tt_choose_language">tr</string>
+    <string name="tt_comment_num">%1$s inceleme</string>
+    <string name="tt_count_down_view">Atla</string>
+    <string name="tt_dislike_header_tv_back">Geri</string>
+    <string name="tt_dislike_header_tv_title">Seç</string>
+    <string name="tt_display_error">Görüntü hatası</string>
+    <string name="tt_feedback_experience_text">Hizmetimizi iyileştirmeye devam edeceğiz.</string>
+    <string name="tt_feedback_submit_text">Geri bildirim gönderdiniz! Lütfen tekrar göndermeyin.</string>
+    <string name="tt_feedback_thank_text">Geri bildiriminiz için teşekkürler!</string>
+    <string name="tt_logo_en">Reklamlar</string>
+    <string name="tt_multiple_ad_indicator">reklam %1$d / %2$d</string>
+    <string name="tt_negtiveBtnBtnText">Ayrıl</string>
+    <string name="tt_postiveBtnText">Devam Et</string>
+    <string name="tt_privacy_title">Gizlilik Politikası</string>
+    <string name="tt_reward_feedback">Geri Bildirim</string>
+    <string name="tt_reward_full_skip">%1$s saniye sonra atla</string>
+    <string name="tt_reward_msg">Ödülünüzü talep etmek için videonun tamamını izleyin</string>
+    <string name="tt_reward_screen_skip_tx">Atla</string>
+    <string name="tt_suggestion_commit">Gönder</string>
+    <string name="tt_suggestion_description">Görüntü hatasının açıklamasını girin ve Gönder düğmesine tıklayın. Sorunun giderilmesine yardımcı olması için reklam kreatifi de Pangle\'a geri gönderilecektir.</string>
+    <string name="tt_video_download_apk">Hemen İndir</string>
+    <string name="tt_video_mobile_go_detail">Şimdi Görüntüle</string>
+    <string name="turn_off">Kapat</string>
+    <string name="vibration">Titreşim</string>
+    <string name="voice">Ses</string>
+    <string name="voice_detection_service">Ses Tanıma Servisi</string>
+    <string name="voice_mode">Ses Modu</string>
+    <string name="voice_mode_intro">Sesinizi kaydedin veya telefon bulma sesi ayarlamak için metinden sese kullanın.</string>
+    <string name="voice_service_is_running">Sesle Telefon Bul</string>
+    <string name="warning_rating">Lütfen bir puan seçin.</string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="whispered_oh_no">Fısıldanan "Ah hayır"</string>
+    <string name="whistle">Düdük</string>
+    <string name="whistle_noise">Islık sesi</string>
+    <string name="winning_horn_sound">Kazanan korna sesi</string>
+    <string name="with_light">Işıkla</string>
+    <string name="without_light">Işık olmadan</string>
+    <string name="your_device_doesn_t_support_flash">Cihazınız flaşı desteklemiyor</string>
+    <string name="your_passcode">Şifreniz</string>
+</resources>

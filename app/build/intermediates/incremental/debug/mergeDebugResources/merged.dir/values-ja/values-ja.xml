@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 件の新しい通知</item>
+    <item quantity="other">%d 件の新しい通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="active">アクティブ</string>
+    <string name="ad">広告</string>
+    <string name="advertiser">広告主</string>
+    <string name="aggressive_male_laugh">攻撃的な男性の笑い声</string>
+    <string name="alarm_clock_80s">80年代のアラーム時計</string>
+    <string name="allow">許可</string>
+    <string name="allow_battery_optimization">バッテリー最適化を許可</string>
+    <string name="allow_notification">通知を許可</string>
+    <string name="allow_record">録音を許可</string>
+    <string name="allowed">許可済み</string>
+    <string name="app_name"><![CDATA[拍手で電話を探す]]></string>
+    <string name="applause_and_standing_ovation">拍手とスタンディングオベーション</string>
+    <string name="applovin_agree_message">アプリを利用するために「次へ」をクリックしてください。</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">次へ</string>
+    <string name="applovin_pp_and_tos_title">%s を使用するためには利用規約への同意およびプライバシーポリシーの確認が必要です。</string>
+    <string name="applovin_pp_title">%sを使用するためにはプライバシーポリシーを慎重に確認し、承認する必要があります。</string>
+    <string name="applovin_privacy_policy_text">プライバシーポリシー</string>
+    <string name="applovin_terms_of_service_text">利用規約</string>
+    <string name="applovin_terms_of_use_text">利用規約</string>
+    <string name="army_trumpet">軍隊トランペット</string>
+    <string name="ballerina_music_label">バレリーナミュージックボックスの曲</string>
+    <string name="battery_limit_free">バッテリー制限解除</string>
+    <string name="battery_optimization_label">アプリがシステムによって終了されないようにする</string>
+    <string name="battery_permission_exception">サービスを開始できません。バッテリーの制限なしを許可して、最高の体験をしてください。</string>
+    <string name="battery_permission_rationale">サービスを開始できません。権限を確認し、この機能を使用するにはバッテリーの制限なしを許可してください。</string>
+    <string name="beast_roar">獣の咆哮</string>
+    <string name="birds_chirping">鳥のさえずり</string>
+    <string name="bottomsheet_action_collapse">ボトムシートを閉じる</string>
+    <string name="bottomsheet_action_expand">ボトムシートを開く</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="bottomsheet_drag_handle_clicked">ドラッグ ハンドルをダブルタップしました</string>
+    <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
+    <string name="btn_later"><![CDATA[後で]]></string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">切る</string>
+    <string name="call_notification_incoming_text">着信中</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信のスクリーニング</string>
+    <string name="cancel">キャンセル</string>
+    <string name="car_honk">車のクラクション</string>
+    <string name="cartoon_run">カートゥーンの走る音</string>
+    <string name="cartoon_steps">カートゥーンの足音</string>
+    <string name="cat_meowing">猫の鳴き声</string>
+    <string name="cavelry">騎兵</string>
+    <string name="change_passcode">パスコードを変更</string>
+    <string name="channel_description">拍手して電話を探す</string>
+    <string name="channel_name">拍手と声で電話を探す</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="choose_email"><![CDATA[メールを選択してください:]]></string>
+    <string name="choose_language"><![CDATA[言語を選択]]></string>
+    <string name="choose_mode">モードを選択</string>
+    <string name="choose_sound">音を選択</string>
+    <string name="choose_sound_title">音を選択</string>
+    <string name="christmas_themed">クリスマステーマ</string>
+    <string name="clap_detection_service">拍手検出サービス</string>
+    <string name="clap_mode">拍手モード</string>
+    <string name="clap_mode_intro">連続して2回手を叩いて電話を見つけます。</string>
+    <string name="clap_modes">拍手</string>
+    <string name="clap_service_is_running">拍手して電話を探すサービス</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string name="clock_ticking_fast">速い時計のチクタク音</string>
+    <string name="close_and_continue_listening">閉じて続ける</string>
+    <string name="close_and_stop_service">閉じて停止</string>
+    <string msgid="406453423630273620" name="close_drawer">"ナビゲーションメニューを閉じる"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"シートを閉じる"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">有効にする</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string name="congratulations_nyou_have_found_your_phone">おめでとうございます！\n電話が見つかりました</string>
+    <string name="connect_internet"><![CDATA[インターネット接続]]></string>
+    <string name="content_feedback"><![CDATA[「拍手や声で電話を見つける」に満足していないとのことで申し訳ありません。将来のサービス向上のため、フィードバックや提案をメールでお送りください。]]></string>
+    <string name="content_save_sound_setting"><![CDATA[この変更を保存しますか？]]></string>
+    <string name="copy_toast_msg">リンクがクリップボードにコピーされました</string>
+    <string name="create_passcode">パスコードを作成</string>
+    <string name="create_passcode_dialog_message">電話がより正確に認識できるように、短く、簡単で、発音しやすいコードを使用してください。最適なパフォーマンスを確保するために、複雑または長い言葉を避けてください。</string>
+    <string name="create_passcode_dialog_title">認識しやすい音声コードを選択してください</string>
+    <string name="create_passcode_first">この機能を有効にするには、まずパスコードを作成してください！</string>
+    <string name="custom">カスタム</string>
+    <string name="deactive">非アクティブ</string>
+    <string name="default1">デフォルト</string>
+    <string msgid="8038256446254964252" name="default_error_message">"入力値が無効です"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"ポップアップウィンドウ"</string>
+    <string name="ding_dong_merrily_label">ディンドン高らかに鳴るドアベル</string>
+    <string name="disable_voice_detection_service_first">まずサービスを無効にしてください</string>
+    <string name="disco_mode">ディスコモード</string>
+    <string name="dog_barking">犬の吠える声</string>
+    <string name="don_t_have_passcode_yet">パスコードを記録してください</string>
+    <string name="don_t_touch_mode">「触らないで」モード</string>
+    <string name="don_t_touch_mode_active">「触らないで」モードが10秒後に有効になります</string>
+    <string name="don_t_touch_my_phone">電話に触れないサービス</string>
+    <string name="don_t_touch_my_phone_service_is_running">「電話に触れない」サービスが実行中</string>
+    <string name="dont_touch_mode_intro">誰かがあなたの電話に触れると、アプリがアラートをトリガーします。</string>
+    <string name="donttouch">触らないで</string>
+    <string name="door_bell">ドアベル</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"プルダウン メニュー"</string>
+    <string name="duration">期間</string>
+    <string name="enable_at_least_one_method">携帯電話を見つけるには、少なくとも1つの検出方法を有効にする必要があります。続行するには、1つ以上の方法を選択してください。</string>
+    <string name="enable_at_least_one_method_title">検出方法を有効にする</string>
+    <string name="enter_your_passcode_here">ここにパスコードを入力してください</string>
+    <string name="error_a11y_label">エラー: 無効です</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string name="facebook">フェイスブック</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
+    <string name="fast">速い</string>
+    <string name="feedback">フィードバック</string>
+    <string name="festival_cheers">祭りの歓声と拍手</string>
+    <string name="find_phone_running">拍手と声で電話を探すが実行中</string>
+    <string name="first_check">不適切なコンテンツの共有は許容されないことを理解しました。</string>
+    <string name="flashlight">懐中電灯</string>
+    <string name="funny">面白い</string>
+    <string name="funny_footstep">面白い足音</string>
+    <string name="funny_laugh">面白い笑い声</string>
+    <string name="get_started">始める</string>
+    <string name="ghost_of_christmas_past">過去のクリスマスの幽霊</string>
+    <string name="glitch_button">グリッチボタンのクリック音</string>
+    <string name="glitching">グリッチ音</string>
+    <string name="glitchy">グリッチの多い</string>
+    <string name="got_it">了解しました</string>
+    <string name="grant_permission">権限を付与</string>
+    <string name="greeting">挨拶</string>
+    <string name="halloween_doorbell">ハロウィーンドアベル</string>
+    <string name="hand_bell_chiming">手鈴の音</string>
+    <string name="happy_birthday_doorbell">誕生日のドアベル</string>
+    <string name="headline">見出し</string>
+    <string name="how_to_use">使い方</string>
+    <string name="hurry_up_game_movement">急いでゲームを進める動き</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string msgid="6827826412747255547" name="in_progress">"処理しています"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"一部 ON"</string>
+    <string name="intercom_doorbell">インタコムドアベル</string>
+    <string name="item_view_role_description">タブ</string>
+    <string name="label_grant_permission">このアプリは、拍手で電話を探すための権限が必要です。</string>
+    <string name="label_htu_clap_1">ボタンを有効にするにはクリックしてください</string>
+    <string name="label_htu_clap_2">電話を探すために手を叩く</string>
+    <string name="label_htu_clap_3">アプリは手を叩く音を検出して鳴り始めます</string>
+    <string name="label_htu_clap_4">有効にする前に、懐中電灯を設定し、音量を調整し、アラーム音を選択できます</string>
+    <string name="label_htu_pocket_2">アラームを設定するのに約10秒待ちます</string>
+    <string name="label_htu_pocket_3">誰かがあなたの電話に触れると、アプリはそれを検出してアラートを鳴らします</string>
+    <string name="label_htu_pocket_4">誰かがポケットから電話を取り出すと、アプリはそれを検出してアラートを鳴らします</string>
+    <string name="label_htu_voice_1">オーディオパスコードを作成して保存</string>
+    <string name="label_htu_voice_3">電話が見つからないときに、オーディオパスコードを声に出して読み上げます</string>
+    <string name="label_htu_voice_4">アプリは手を叩く音を検出して鳴り始めます</string>
+    <string name="label_htu_voice_5">有効にする前に、懐中電灯を設定し、音量を調整し、アラーム音を選択できます</string>
+    <string name="label_notification_permission">このアプリは、拍手で電話を探すために通知権限が必要です。</string>
+    <string name="label_rating_notification">より良いサービスを提供するために5つ星評価をお願いします！</string>
+    <string name="label_record_permission">「拍手して電話を見つける」は、録音権限が必要です。この権限がない場合、主な機能は動作しません。</string>
+    <string name="languages">言語</string>
+    <string name="light">光</string>
+    <string name="listen">聞く</string>
+    <string name="loading_sound">読み込み音</string>
+    <string name="loop">ループ</string>
+    <string name="lost_network_connection"><![CDATA[ネットワーク接続が失われました。ネットワークに再接続してください。]]></string>
+    <string name="mallet_notification">木槌の通知音</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_24h_suffix">%1$s 時間</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="max_length_exceeded">30文字までしか入力できません！</string>
+    <string name="melody">メロディー</string>
+    <string name="message_connect_internet"><![CDATA[アプリを維持し改善するために、ネットワーク接続が必要です。ネットワークを有効にしてアプリを続けてご利用ください。]]></string>
+    <string name="message_update_version"><![CDATA[「拍手や声で電話を見つける」の新しいバージョンがあります。最高の体験を得るために更新してください！]]></string>
+    <string name="mgs_cancel"><![CDATA[キャンセル]]></string>
+    <string name="mgs_ok"><![CDATA[OK]]></string>
+    <string name="more">もっと</string>
+    <string name="more_info_light_pocket">機能は条件下で有効になります %1$s。周囲の照明条件に合わせてモードを調整してください。</string>
+    <string name="more_info_sensitivity_DT">電話が動いたときに機能が有効になります %1$s。ほかの動作と誤認されないよう、動きの少ない環境では低速を使用することをお勧めします。</string>
+    <string name="more_info_sensitivity_pocket">電話が動いたときに機能が有効になります %1$s。最も正確に動作させるには、動きの少ない環境で低感度を使用することをお勧めします。</string>
+    <string name="msg_apply_language_dialog"><![CDATA[この言語を適用しますか？]]></string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_checkbox_state_description_checked">オン</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">一部オン</string>
+    <string name="mtrl_checkbox_state_description_unchecked">オフ</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_range_selection">開始日の選択: %1$s – 終了日の選択: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">なし</string>
+    <string name="mtrl_picker_cancel">キャンセル</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">終了日 %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">現在の年（%1$d）に移動</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_start_date_description">開始日 %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">今日（%1$s）</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップするとカレンダー表示に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると年表示に切り替わります</string>
+    <string name="mtrl_timepicker_cancel">キャンセル</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="native_body">本文</string>
+    <string name="native_headline">見出し</string>
+    <string name="native_media_view">メディアビュー</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"上へ移動"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ナビゲーション ドロワーを開く"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"ナビゲーションメニュー"</string>
+    <string name="need_allow_notification_to_show_notification">通知を表示するには許可が必要です</string>
+    <string name="need_to_allow_audio_recording_to_use_this_feature">この機能を使用するには音声録音を許可してください</string>
+    <string name="network_connect"><![CDATA[ネットワークに接続されました]]></string>
+    <string name="not_now">今はしない</string>
+    <string msgid="6610465462668679431" name="not_selected">"未選択"</string>
+    <string name="notification_permission">通知権限</string>
+    <string name="notification_permission_label">「拍手して電話を見つける」は、通知を表示するために通知権限が必要です。この権限がない場合、主な機能は動作しません。</string>
+    <string name="notifications_permission_confirm">許可する</string>
+    <string name="notifications_permission_decline">許可しない</string>
+    <string name="notifications_permission_title">アプリに通知を送信する許可を与えますか？</string>
+    <string msgid="875452955155264703" name="off">"オフ"</string>
+    <string name="offline_dialog_image_description">アイコン</string>
+    <string name="offline_dialog_text">関心をお寄せいただきありがとうございます。\n再度オンラインになりましたら、追加情報をご案内します。</string>
+    <string name="offline_notification_title">オフラインで保存した広告を表示</string>
+    <string name="offline_notification_title_with_advertiser">オンラインになりました: %sについて続きをご確認ください</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">いいえ、結構です</string>
+    <string name="offline_opt_in_message">広告主のサイトへのリンク付き通知をお送りします。</string>
+    <string name="offline_opt_in_title">オンラインになったら広告を開いてください。</string>
+    <string name="oh_my_god">オーマイゴッド</string>
+    <string msgid="8655164131929253426" name="on">"オン"</string>
+    <string name="overview">概要</string>
+    <string name="party_horn">パーティーホーン</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string name="peaceful_piano_melody_label">穏やかなピアノメロディ</string>
+    <string name="permission_success_content">設定したパスコードを使用するか、連続して2回拍手して電話を探してください！</string>
+    <string name="permission_success_title">「Clap and Voice」で電話を見つける準備ができました</string>
+    <string name="phone_found_clap_detected">おめでとうございます！拍手で電話が見つかりました！</string>
+    <string name="phone_found_motion_detected">私の電話に触らないでください！</string>
+    <string name="phone_found_pocket_detected">私の電話を返してください。持ち去らないでください！</string>
+    <string name="phone_found_voice_detected">おめでとうございます！声で電話が見つかりました！</string>
+    <string name="please_record_something">何かを録音してください</string>
+    <string name="please_select_language"><![CDATA[表示言語を選択してください。]]></string>
+    <string name="pocket">ポケット</string>
+    <string name="pocket_detection_service_started">ポケット検出サービスが開始されました</string>
+    <string name="pocket_mode">ポケットモード</string>
+    <string name="pocket_mode_active">「ポケットモード」が10秒後に有効になります</string>
+    <string name="pocket_mode_intro">誰かがポケットからあなたの電話を盗もうとすると、アプリがアラートをトリガーします。</string>
+    <string name="pocket_not_available">ポケットモードはサポートされていません</string>
+    <string name="pocket_not_available_message">お使いのデバイスはポケットモードをサポートしていません。一部の機能が期待通りに動作しない場合があります。デバイス設定を確認するか、詳細についてはサポートにお問い合わせください。</string>
+    <string name="pocket_service_is_run">電話を取らないでください</string>
+    <string name="pocket_service_is_running">ポケットサービスが実行中です</string>
+    <string name="police_siren_loop">警察のサイレンループ</string>
+    <string name="police_whistle">警察のホイッスル</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string msgid="5941395253238309765" name="range_end">"範囲の末尾"</string>
+    <string msgid="7097486360902471446" name="range_start">"範囲の先頭"</string>
+    <string name="rate_us">評価してください</string>
+    <string name="reconnect"><![CDATA[再接続]]></string>
+    <string name="record_passcode">パスコードを録音する</string>
+    <string name="record_permission">録音権限</string>
+    <string name="record_permission_label">「拍手して電話を見つける」は、電話探しの信号を聞くために録音権限が必要です。この権限がない場合、主な機能は動作しません。</string>
+    <string name="register_account">アカウント登録</string>
+    <string name="relaxing_piano">リラックスピアノ</string>
+    <string name="rifle">ライフル</string>
+    <string name="s1">画像の保存</string>
+    <string name="s2">広告が画像ギャラリーに画像を保存することを許可しますか？</string>
+    <string name="s3">許可する</string>
+    <string name="s4">許可しない</string>
+    <string name="s5">カレンダーの予定の作成</string>
+    <string name="s6">広告がカレンダーの予定を作成することを許可しますか？</string>
+    <string name="s7">テスト広告</string>
+    <string name="sad_trumpet">悲しいトランペット</string>
+    <string name="save">保存</string>
+    <string name="save_script"><![CDATA[保存]]></string>
+    <string name="search_menu_title">検索</string>
+    <string name="searchview_clear_text_content_description">テキストをクリア</string>
+    <string name="searchview_navigation_content_description">戻る</string>
+    <string name="see_more">さらに表示 +%1$s</string>
+    <string name="select">選択</string>
+    <string name="select_language">言語を選択</string>
+    <string msgid="6043586758067023" name="selected">"選択済み"</string>
+    <string name="sensitivity">感度</string>
+    <string name="setting">設定</string>
+    <string name="side_sheet_accessibility_pane_title">サイドシート</string>
+    <string name="single_cat_meow">猫の一声の鳴き声</string>
+    <string name="slow">遅い</string>
+    <string name="solitude_ringtone_label">完璧な孤独の音楽着信音</string>
+    <string name="sos_mode">SOSモード</string>
+    <string name="sound">サウンド</string>
+    <string name="sound_effects">音響効果</string>
+    <string name="start_now">今すぐ開始</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string msgid="2561197295334830845" name="switch_role">"切り替える"</string>
+    <string msgid="1672349317127674378" name="tab">"タブ"</string>
+    <string name="tab_text_1">拍手</string>
+    <string name="tab_text_2">声</string>
+    <string name="tab_text_4">ポケット</string>
+    <string name="tab_text_5">触らないで</string>
+    <string name="tap_to_complete">完了するにはタップ</string>
+    <string name="tap_to_record">録音するにはタップ</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>パーセント。"</string>
+    <string name="text_create_by"><![CDATA[Higher Studioによって作成されました]]></string>
+    <string name="text_intro1_msg"><![CDATA[懐中電灯、バイブレーションモード、着信音で簡単に電話を見つける]]></string>
+    <string name="text_intro1_title"><![CDATA[拍手で電話を見つける]]></string>
+    <string name="text_intro2_msg"><![CDATA[懐中電灯機能は、暗闇で電話をすばやく簡単に見つけるのに役立ちます。]]></string>
+    <string name="text_intro2_title"><![CDATA[暗闇で懐中電灯が点灯]]></string>
+    <string name="text_intro3_msg"><![CDATA[今すぐ簡単に見つけるためにアプリを開きましょう!!]]></string>
+    <string name="text_intro3_title"><![CDATA[電話が見つかりませんか？]]></string>
+    <string name="text_lang_ar" translatable="false"><![CDATA[العربية]]></string>
+    <string name="text_lang_de" translatable="false"><![CDATA[Deutsch]]></string>
+    <string name="text_lang_en" translatable="false"><![CDATA[English]]></string>
+    <string name="text_lang_es" translatable="false"><![CDATA[Español]]></string>
+    <string name="text_lang_hi" translatable="false"><![CDATA[हिन्दी]]></string>
+    <string name="text_lang_ja" translatable="false"><![CDATA[日本語]]></string>
+    <string name="text_lang_ko" translatable="false"><![CDATA[한국어]]></string>
+    <string name="text_lang_pt" translatable="false"><![CDATA[Português]]></string>
+    <string name="text_lang_ru" translatable="false"><![CDATA[Русский]]></string>
+    <string name="text_lang_tr" translatable="false"><![CDATA[Türkçe]]></string>
+    <string name="text_lang_uk" translatable="false"><![CDATA[Українська]]></string>
+    <string name="text_lang_vi" translatable="false"><![CDATA[Tiếng Việt]]></string>
+    <string name="text_lang_zh" translatable="false"><![CDATA[简体中文]]></string>
+    <string name="text_next"><![CDATA[次へ]]></string>
+    <string name="text_to_voice">テキストから音声へ</string>
+    <string name="text_welcome"><![CDATA[ようこそ]]></string>
+    <string name="this_feature_is_not_supported_by_your_device">この機能はお使いのデバイスではサポートされていません</string>
+    <string name="thunder">雷</string>
+    <string name="title_apply_change_language_dialog"><![CDATA[言語変更を適用]]></string>
+    <string name="title_rating_notification">このアプリは気に入りましたか？</string>
+    <string name="title_save_sound_setting"><![CDATA[サウンド設定を保存]]></string>
+    <string name="title_update_version"><![CDATA[新しいバージョンに更新]]></string>
+    <string name="toy_dog_barking">おもちゃの犬の吠え声</string>
+    <string name="tt_ad_close_text">広告を閉じる</string>
+    <string name="tt_ad_is_closed">広告は終了しました</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_choose_language">ja</string>
+    <string name="tt_comment_num">%1$s 件のレビュー</string>
+    <string name="tt_count_down_view">スキップ</string>
+    <string name="tt_dislike_header_tv_back">戻る</string>
+    <string name="tt_dislike_header_tv_title">選択する</string>
+    <string name="tt_display_error">表示エラーが発生しました</string>
+    <string name="tt_feedback_experience_text">今後もサービスの向上に努めていきます。</string>
+    <string name="tt_feedback_submit_text">フィードバックを送信しました！ 再送信はできません。</string>
+    <string name="tt_feedback_thank_text">ご意見ありがとうございます！</string>
+    <string name="tt_logo_en">広告</string>
+    <string name="tt_msgPlayable">遊んで報酬をゲット!</string>
+    <string name="tt_multiple_ad_indicator">広告 %1$d / %2$d</string>
+    <string name="tt_negtiveBtnBtnText">やめる</string>
+    <string name="tt_negtive_txt">キャンセル</string>
+    <string name="tt_no_network">"ネットワークがありません。暫くしてから再度お試しください"</string>
+    <string name="tt_postiveBtnText">再開</string>
+    <string name="tt_postiveBtnTextPlayable">つづける</string>
+    <string name="tt_postive_txt">確認</string>
+    <string name="tt_privacy_title">プライバシーポリシー</string>
+    <string name="tt_reward_feedback">フィードバック</string>
+    <string name="tt_reward_full_skip">%1$s秒後にスキップ</string>
+    <string name="tt_reward_msg">動画を最後まで見て報酬を受け取りましょう</string>
+    <string name="tt_reward_screen_skip_tx">スキップ</string>
+    <string name="tt_skip_ad_time_text">%ds後にスキップ</string>
+    <string name="tt_suggestion_commit">送信</string>
+    <string name="tt_suggestion_description">表示エラーの詳細を入力し、送信ボタンをクリックしてください。広告クリエイティブは、問題のトラブルシューティングのためにPangleに送り返されます。</string>
+    <string name="tt_try_now">今すぐやってみて下さい</string>
+    <string name="tt_video_bytesize">データ通信量</string>
+    <string name="tt_video_dial_phone">今すぐ電話をかける</string>
+    <string name="tt_video_download_apk">今すぐダウンロード</string>
+    <string name="tt_video_mobile_go_detail">今すぐ確認</string>
+    <string name="tt_video_retry_des_txt">ロード失敗、再試行してください</string>
+    <string name="tt_video_without_wifi_tips">再生すると%.2fMBの通信量が消費されます</string>
+    <string name="tt_web_title_default">広告</string>
+    <string name="turn_off">電源を切る</string>
+    <string name="vibration">振動</string>
+    <string name="voice">声</string>
+    <string name="voice_detection_service">音声検出サービス</string>
+    <string name="voice_mode">音声モード</string>
+    <string name="voice_mode_intro">音声を録音するか、テキストから音声を使用して電話を探すための音を設定します。</string>
+    <string name="voice_service_is_running">声で電話を探す</string>
+    <string name="warning_rating"><![CDATA[評価を選択してください。]]></string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="whispered_oh_no">ささやき声「おっと」</string>
+    <string name="whistle">ホイッスル</string>
+    <string name="whistle_noise">笛の音</string>
+    <string name="winning_horn_sound">勝利のホーン音</string>
+    <string name="with_light">光あり</string>
+    <string name="without_light">ライトなし</string>
+    <string name="your_device_doesn_t_support_flash">お使いのデバイスはフラッシュをサポートしていません</string>
+    <string name="your_passcode">あなたのパスコード</string>
+</resources>
