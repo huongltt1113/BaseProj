@@ -1,20 +1,14 @@
 package com.dev.baseproject.ui.component.setting
 
 import android.content.Context
-import android.content.Intent
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.os.Build
 import android.view.ViewTreeObserver
 import androidx.core.content.ContextCompat
-import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.dev.baseproject.App
 import com.dev.baseproject.R
 import com.dev.baseproject.databinding.FragmentSettingLanguageBinding
-import com.dev.baseproject.services.ClapDetectionService
-import com.dev.baseproject.services.MotionDetectionService
-import com.dev.baseproject.services.PocketDetectionService
-import com.dev.baseproject.services.VoiceDetectionService
 import com.dev.baseproject.ui.base.BaseViewModelFragmentBinding
 import com.dev.baseproject.ui.component.splash.dialog.ConfirmApplyLanguageBottomSheet
 import com.dev.baseproject.ui.component.splash.view.AskLanguageFragment2
@@ -29,10 +23,11 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 
 @AndroidEntryPoint
-class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLanguageBinding, SettingViewModel>() {
+class SettingLanguageFragment :
+    BaseViewModelFragmentBinding<FragmentSettingLanguageBinding, SettingViewModel>() {
 
     private var isChangeLanguage = true
-    private var confirmApplyLanguageBottomSheet : ConfirmApplyLanguageBottomSheet? = null
+    private var confirmApplyLanguageBottomSheet: ConfirmApplyLanguageBottomSheet? = null
     private var langCode = App.instance.localStorage.langCode
     private var scrollPosition: Int? = 0
 
@@ -49,18 +44,15 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
         }
     }
 
-    override fun onPause() {
-        super.onPause()
-    }
-
     override fun initializeViews() {
         if (Build.VERSION.SDK_INT >= 31) {
             dataBinding.root.layoutDirection = resources.configuration.layoutDirection
         }
-        if(localStorage.languageScrollPosition != 0){
+        if (localStorage.languageScrollPosition != 0) {
             scrollPosition = localStorage.languageScrollPosition
         }
-        dataBinding.scvLanguage.viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
+        dataBinding.scvLanguage.viewTreeObserver.addOnGlobalLayoutListener(object :
+            ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
                 // Cuộn đến vị trí mong muốn
                 scrollPosition?.let { dataBinding.scvLanguage.smoothScrollTo(0, it) }
@@ -135,10 +127,6 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
         }
     }
 
-    override fun onBackPressed(): Boolean {
-        return super.onBackPressed()
-    }
-
     override fun initializeData() {
     }
 
@@ -147,10 +135,11 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
         AppConfig.updateResources(context, localStorage.langCode)
         confirmApplyLanguageBottomSheet?.clickConfirmYes = {
             if (languageCode.isNotBlank()) {
-                val needRecreate = if((languageCode == "ar" && localStorage.langCode != "ar") || (languageCode != "ar" && localStorage.langCode == "ar")) true else false
+                val needRecreate =
+                    (languageCode == "ar" && localStorage.langCode != "ar") || (languageCode != "ar" && localStorage.langCode == "ar")
                 localStorage.langCode = languageCode
                 localStorage.languageScrollPosition = dataBinding.scvLanguage.scrollY
-                if(needRecreate){
+                if (needRecreate) {
                     updateLanguageLocale(needRecreate)
                 } else {
                     updateLanguageLocale(false)
@@ -164,7 +153,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
 //                        val id =  findNavControllerSafety()?.currentDestination?.id
 //                        findNavControllerSafety()?.popBackStack(id!!,true)
 //                        findNavControllerSafety()?.navigate(id!!)
-                    } catch (e: Exception){
+                    } catch (e: Exception) {
                         Logger.e(e.message)
                         Firebase.crashlytics.recordException(e)
                     }
@@ -176,8 +165,9 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
         }
         if (activity?.isFinishing == false) {
             activity?.supportFragmentManager?.let {
-                confirmApplyLanguageBottomSheet?.show(it,
-                    ConfirmApplyLanguageBottomSheet.TAG)
+                confirmApplyLanguageBottomSheet?.show(
+                    it, ConfirmApplyLanguageBottomSheet.TAG
+                )
             }
         }
     }
@@ -189,20 +179,11 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
             Locale.setDefault(locale)
             val config = Configuration()
             config.locale = locale
-            resources?.updateConfiguration(config, resources?.displayMetrics)
-            if (MotionDetectionService.isServiceRunning) {
-                LocalBroadcastManager.getInstance(requireContext()).sendBroadcast(Intent(Constants.SERVICE_DONT_TOUCH_UPDATE_LOCALE))
-            } else if (ClapDetectionService.isservicerunning) {
-                LocalBroadcastManager.getInstance(requireContext()).sendBroadcast(Intent(Constants.SERVICE_CLAP_UPDATE_LOCALE))
-            } else if (VoiceDetectionService.isservicerunning) {
-                LocalBroadcastManager.getInstance(requireContext()).sendBroadcast(Intent(Constants.SERVICE_VOICE_UPDATE_LOCALE))
-            } else if (PocketDetectionService.isServiceRunning) {
-                LocalBroadcastManager.getInstance(requireContext()).sendBroadcast(Intent(Constants.SERVICE_POCKET_UPDATE_LOCALE))
-            }
-            if(needRecreate){
+            resources?.updateConfiguration(config, resources.displayMetrics)
+            if (needRecreate) {
                 try {
                     requireActivity().recreate()
-                } catch (e : Exception){
+                } catch (e: Exception) {
                     Logger.e(e.message)
                 }
             }
@@ -227,80 +208,67 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
         context?.let {
             dataBinding.itemEnglish.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemJapan.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemKorean.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemHindi.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemChina.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemVietNam.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemPortuguase.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemSpanish.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemRussian.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemGerman.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemUkraian.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemAbric.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
             dataBinding.itemTurkey.setTextColor(
                 ContextCompat.getColor(
-                    it,
-                    R.color.black
+                    it, R.color.black
                 )
             )
         }
@@ -316,8 +284,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemEnglish.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -328,8 +295,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemJapan.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -340,8 +306,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemKorean.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -352,8 +317,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemHindi.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -364,8 +328,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemChina.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -376,8 +339,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemVietNam.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -388,8 +350,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemPortuguase.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -400,8 +361,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemSpanish.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -412,8 +372,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemGerman.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -424,8 +383,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemRussian.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -436,8 +394,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemUkraian.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -448,8 +405,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemAbric.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -460,8 +416,7 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
                 context?.let {
                     dataBinding.itemTurkey.setTextColor(
                         ContextCompat.getColor(
-                            it,
-                            R.color.black
+                            it, R.color.black
                         )
                     )
                 }
@@ -486,7 +441,6 @@ class SettingLanguageFragment : BaseViewModelFragmentBinding<FragmentSettingLang
             Firebase.crashlytics.recordException(e)
         }
     }
-    companion object {
 
-    }
+    companion object
 }

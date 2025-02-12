@@ -5,9 +5,7 @@ import android.os.Build
 import android.os.Bundle
 import com.dev.baseproject.R
 import com.dev.baseproject.databinding.FragmentIntroBinding
-import com.dev.baseproject.ui.MainActivity
 import com.dev.baseproject.ui.base.BaseViewModelFragmentBinding
-import com.dev.baseproject.ui.component.permission.PermissionFragment.Companion.KEY_RECORD_PERMISSION
 import com.dev.baseproject.ui.component.splash.viewmodel.TopicViewModel
 import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.Constants
@@ -20,11 +18,6 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
     private var isIntro2 = false
     private var isIntro3 = false
     override fun getContentViewId() = R.layout.fragment_intro
-
-    override fun onResume() {
-        super.onResume()
-        (activity as MainActivity).checkShowRequestInternet()
-    }
 
     override fun initializeViews() {
         isIntro2 = arguments?.containsKey(KEY_INTRO2) ?: false
@@ -66,33 +59,36 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
 
     @SuppressLint("ClickableViewAccessibility")
     override fun registerListeners() {
-        dataBinding.rootLayout.setOnTouchListener(object: OnSwipeTouchListener(requireContext()){
+        dataBinding.rootLayout.setOnTouchListener(object : OnSwipeTouchListener(requireContext()) {
             override fun onSwipeRight() {
                 findNavControllerSafety()?.navigateUp()
             }
 
             override fun onSwipeLeft() {
-                if(isIntro2){
+                if (isIntro2) {
                     val bundle = Bundle()
                     bundle.putBoolean(KEY_INTRO3, true)
                     try {
                         findNavControllerSafety()?.navigate(R.id.atcOpenNext, bundle)
-                    } catch (ex : Exception) {
+                    } catch (ex: Exception) {
 
                     }
-                } else if(isIntro3){
-                    if(Build.VERSION.SDK_INT >= 33){
+                } else if (isIntro3) {
+                    if (Build.VERSION.SDK_INT >= 33) {
                         findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_permissionFragment)
                     } else {
                         val bundle = Bundle()
-                        bundle.putBoolean(KEY_RECORD_PERMISSION, true)
-                        findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_recordPermissionFragment, bundle)
-                    }                } else {
+                        findNavControllerSafety()?.navigate(
+                            R.id.action_introFragment3_to_recordPermissionFragment,
+                            bundle
+                        )
+                    }
+                } else {
                     val bundle = Bundle()
                     bundle.putBoolean(KEY_INTRO2, true)
                     try {
                         findNavControllerSafety()?.navigate(R.id.actOpenIntro2, bundle)
-                    } catch (ex : Exception) {
+                    } catch (ex: Exception) {
 
                     }
                 }
@@ -104,19 +100,21 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
                 bundle.putBoolean(KEY_INTRO3, true)
                 try {
                     findNavControllerSafety()?.navigate(R.id.atcOpenNext, bundle)
-                } catch (ex : Exception) {
+                } catch (ex: Exception) {
 
                 }
-            } else if (isIntro3){
+            } else if (isIntro3) {
                 try {
-                    if(Build.VERSION.SDK_INT >= 33){
+                    if (Build.VERSION.SDK_INT >= 33) {
                         findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_permissionFragment)
                     } else {
                         val bundle = Bundle()
-                        bundle.putBoolean(KEY_RECORD_PERMISSION, true)
-                        findNavControllerSafety()?.navigate(R.id.action_introFragment3_to_recordPermissionFragment, bundle)
+                        findNavControllerSafety()?.navigate(
+                            R.id.action_introFragment3_to_recordPermissionFragment,
+                            bundle
+                        )
                     }
-                } catch (ex : Exception) {
+                } catch (ex: Exception) {
 
                 }
             } else {
@@ -124,7 +122,7 @@ class IntroFragment : BaseViewModelFragmentBinding<FragmentIntroBinding, TopicVi
                 bundle.putBoolean(KEY_INTRO2, true)
                 try {
                     findNavControllerSafety()?.navigate(R.id.actOpenIntro2, bundle)
-                } catch (ex : Exception) {
+                } catch (ex: Exception) {
 
                 }
             }
