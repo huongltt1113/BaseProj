@@ -5,9 +5,6 @@ import android.app.Application
 import android.content.Context
 import android.content.res.Configuration
 import androidx.lifecycle.MutableLiveData
-import com.dev.baseproject.ads.GoogleMobileAdsConsentManager
-import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.dev.baseproject.local.LocalStorage
 import com.dev.baseproject.local.MobileIdInfo
 import com.dev.baseproject.remote.RemoteConfig
@@ -15,6 +12,8 @@ import com.dev.baseproject.server.Network
 import com.dev.baseproject.utils.AppConfig
 import com.dev.baseproject.utils.LocaleHelper
 import com.google.firebase.remoteconfig.BuildConfig
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -23,8 +22,6 @@ import javax.inject.Inject
 
 @HiltAndroidApp
 class App : Application() {
-    @Inject
-    lateinit var googleMobileAdsConsentManager: GoogleMobileAdsConsentManager
     @Inject
     lateinit var localStorage: LocalStorage
 
@@ -48,17 +45,13 @@ class App : Application() {
 
             FirebaseRemoteConfig.getInstance().setConfigSettingsAsync(
                 FirebaseRemoteConfigSettings.Builder()
-                    .setMinimumFetchIntervalInSeconds(if (BuildConfig.DEBUG) 60L else 3600L)
-                    .build()
+                    .setMinimumFetchIntervalInSeconds(if (BuildConfig.DEBUG) 60L else 3600L).build()
             )
         }
     }
 
     companion object {
         lateinit var instance: App
-    }
-
-    private fun setupRemoteConfig() {
     }
 
     override fun attachBaseContext(base: Context?) {
